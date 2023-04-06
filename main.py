@@ -36,9 +36,9 @@ def command_two():
 # this is the download command it gets the required inputs from the user and passes those on to the playlist management
 # which calls the main function of the download_convert script. That downloads the song and converts it to mp3. 
 @main.command()
-@click.option('-i', '--input', help='The url to the youtube video')
-@click.option('-p', '--playlist', help='Set this to False if you dont want to download the complete playlist', default=True)
-@click.option('-t', '--tag', help='Set this to False if you want to disable automatic metadata fetching', default=True)
+@click.argument('input')
+@click.option('--playlist/--no-playlist', help='Use this flag if you want to download the complete playlist', default=True)
+@click.option('--tag/--no-tag', help='Use this flag if you want to disable automatic metadata fetching', default=True)
 @click.option('-m', '--manual-tag', help='Set this to True if you want to manually set the metadata', default=False, is_flag=True)
 def download(input, playlist, tag, manual_tag):
     # enable or disable metadata fetching
@@ -84,3 +84,8 @@ def download(input, playlist, tag, manual_tag):
 # this gets run every time we want to do something with the script
 if(__name__ == "__main__"):
     main()
+
+
+# todo: generate pydl.conf command
+# todo: create a bash script that can be used to run the script from anywhere
+# todo: enable path changing
