@@ -51,13 +51,16 @@ try:
     @click.option('--experimental/--no-experimental', help='Use this flag if you want to enable experimental tagging', default=flags['experimental'])
     @click.option('-m', '--manual-tag', help='Set this to True if you want to manually set the metadata', default=flags['manual-tag'], is_flag=True)
     def download(input, path, playlist, tag, experimental, manual_tag):
-        # we want the relative path
-        path = os.path.join(os.getcwd(), path)
+        # we want the relative path, path out is the output path after modifications
+        path_out = os.path.join(os.getcwd(), path)
+
         # we need to check if the path is valid
-        print(os.path.abspath(path))
-        if not os.path.isdir(path):
+        if not os.path.isdir(path_out):
             console.print('[bold red]Invalid path![/bold red] Please enter a valid path to a directory!')
             quit()
+        else:
+            # if the path is valid, set the path in the download_convert script
+            download_convert.set_path(path_out)
 
         # run the manual tagging function if the manual tag flag is set to true we extracted this code to make it more readabledis
         if manual_tag:
@@ -66,17 +69,16 @@ try:
         # if tagging and experimental tagging are both enabled, set the tagging to experimental
         if tag and experimental:
             download_convert.set_tagging('experimental')
-            # if only tagging is enabled, set the tagging to normal
+        # if only tagging is enabled, set the tagging to normal
         elif tag:
             download_convert.set_tagging('normal')
-            # if only experimental tagging is enabled, set the tagging to experimental
+        # if only experimental tagging is enabled, set the tagging to experimental
         elif experimental:
             download_convert.set_tagging('experimental')
-            # if neither tagging nor experimental tagging are enabled, set the tagging to off
+        # if neither tagging nor experimental tagging are enabled, set the tagging to off
         else:
             download_convert.set_tagging('off')
 
-        
 
         # run the playlist management script which then downloads the song/songs
         manage_playlist.main(input, playlist, tags)

@@ -11,9 +11,13 @@ import get_metadata
 # 3 options for tagging: normal, experimental, off
 tagging = 'normal'
 
+# the path where the songs are downloaded to
+dl_path = os.getcwd()
+
 def download(url):
     yt=pyt.YouTube(url)
-    song=yt.streams.filter(only_audio=True)[-1].download(output_path=os.getcwd())
+    stream=yt.streams.filter(only_audio=True)
+    song=yt.streams.filter(only_audio=True)[-1].download(output_path=dl_path)
     return song
 
 def convert(song):
@@ -31,10 +35,15 @@ def convert(song):
 
 def cleanup(song):
     os.remove(song)
-    
+
+# these functions get called by the main script. only needed to make the code easier to understand
 def set_tagging(tagging_mode):
     global tagging
     tagging = tagging_mode
+
+def set_path(path):
+    global dl_path
+    dl_path = path
 
 def main(url, tags, song_nr, playlist_title):
     # download the song in the highest quality available
@@ -87,7 +96,6 @@ def main(url, tags, song_nr, playlist_title):
         # delete the cover image
         cleanup(img)
 
-    
 
 # get the uploader of the video and set as artist additionally remove any unnecessary text
 def get_artist(url):

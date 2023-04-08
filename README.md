@@ -9,13 +9,25 @@ Functions: \
     - Download playlists easily with setting the tag `--playlist` or disable downloading playlists (and only download the current song) with the `--no-playlist` tag \
     - Fetch and apply metadata (mp3 tags) automatically with the `--tag` flag, or disable metadata fetching with the `--no-tag` flag. \
     - You can also manually set the metadata tags using the `-m` or `--manual-tag` flags.
+    - You can enable experimental tagging (more advanced but sometimes slow) using the `--experimental` flag. The `--no-experimental` disables it. \
+    - Save the files to a specific **relative** path using the `-p` or `--path` flag.
 
-Automatic fething is supported for following tags: \
+Commands: \
+    - `download` downloads song/playlist \
+    - `generate-config` generates the pydl.conf file
+
+Automatic fetching is supported for following tags: \
     - Artist (Channel name formatted) \
     - Album (Name of the Playlist) \
     - Title (Name of the video/song) \
     - Song Number (Only when downloading a playlist) \
     - Album Cover (Thumbnail cropped to the middle square)
+
+Experimental tagging supports following tags: \
+    - Artist \
+    - Album \
+    - Title \
+    - Genre
 
 Manual Setting is supported for following tags: \
     - Artist \
@@ -29,14 +41,17 @@ This project was written entirely in python using following libraries: \
     - pytube (Video downloading) \
     - ffmpeg-python (Converting audio track to mp3) \
     - Pillow (Cover Cropping) \
-    - urllib (Downloadign the Thumbnail) \
-    - mutagen (Setting the mp3 tags)
-    - os (File management)
+    - urllib (Downloading the Thumbnail) \
+    - shazamio (Experimental tagging) \
+    - mutagen (Setting the mp3 tags) \
+    - os (File management) \
     - pyinstaller (File compilation)
 
 
 Example command could look like this: `pydl download {url} --tag --playlist -m`
 
 Feel free to fork this project and modify it to make it work just the way you like it.
+
+Downloading top songs from any channel is currently not possible due to a glitch in the pytube library. I will add this function as soon as the problem is resolved from by the pytube developers.
 
 ###### DISCLAIMER: This project is for demonstration purposes only.
