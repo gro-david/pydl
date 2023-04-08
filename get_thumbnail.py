@@ -3,6 +3,6 @@ import os
 import urllib.request
 
 def main(url):
-    path = os.path.join(os.getcwd(), 'tmp', 'album_art.png')
+    path = os.path.join(os.getcwd(), 'album_art.png')
     urllib.request.urlretrieve(url, path)
     return path

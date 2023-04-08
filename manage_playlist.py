@@ -1,32 +1,29 @@
 import download_convert
 from pytube import Playlist
-"""
-url = str(input('Enter the url:   '))
+import read_conf
 
-while True:
-    global playlist
-    playlist_input = input('Do you want to download the complete playlist (Y/n):   ')
-
-    if(playlist_input.lower() == 'y' or playlist_input == ''):
-        playlist = True
-        break
-    elif(playlist_input.lower() == 'n'):
-        playlist = False
-        break
-    else:
-        print('Invalid input')
-""" 
-
+# we only need the general values but we left the option for other parameters open in case we want to add more later
+conf = read_conf.main()
+general = conf['General']
 
 def main(url, playlist, tags):
     # if the url contains '&list=' then its a playlist and if the playlist bool is true we want to loop over the playlist and download each song
     if 'list=' in url and playlist:
         # create a playlist object
         playlist = Playlist(url)
-        # loop over the playlist
-        for i in range(len(playlist.video_urls)):
-            # download the video
-            download_convert.main(playlist.video_urls[i], tags, i + 1, playlist.title)
+
+        # if the limit is greater than the amount of songs in the playlist then just download all the songs
+        if general['dl-limit'] > len(playlist.video_urls):
+            # loop over the playlist
+            for i in range(len(playlist.video_urls)):
+                # download the video
+                download_convert.main(playlist.video_urls[i], tags, i + 1, playlist.title)
+
+        # otherwise just download the amount of songs specified in the limit
+        else:
+            for i in range(general['dl-limit']):
+                # download the video
+                download_convert.main(playlist.video_urls[i], tags, i + 1, playlist.title)    
     else:
         # if its not a playlist then just download the video
         url = url.split('&list=')[0]
