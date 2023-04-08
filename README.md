@@ -54,4 +54,8 @@ Feel free to fork this project and modify it to make it work just the way you li
 
 Downloading top songs from any channel is currently not possible due to a glitch in the pytube library. I will add this function as soon as the problem is resolved from by the pytube developers.
 
+Future functions:
+    - GUI
+    - Downloading top songs from a channel
+
 ###### DISCLAIMER: This project is for demonstration purposes only.

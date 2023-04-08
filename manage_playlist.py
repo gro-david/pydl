@@ -1,6 +1,7 @@
 import download_convert
 from pytube import Playlist
 import read_conf
+from threading import Thread
 
 # we only need the general values but we left the option for other parameters open in case we want to add more later
 conf = read_conf.main()
@@ -12,22 +13,23 @@ def main(url, playlist, tags):
         # create a playlist object
         playlist_object = Playlist(url)
 
-
-        print('playlist')
-
         # if the limit is greater than the amount of songs in the playlist then just download all the songs
         if general['dl-limit'] > len(playlist_object.video_urls):
             # loop over the playlist
             for i in range(len(playlist_object.video_urls)):
                 # download the video
-                download_convert.main(playlist_object.video_urls[i], tags, i + 1, playlist_object.title)
+                thread = Thread(download_convert.main(playlist_object.video_urls[i], tags, i + 1, playlist_object.title))
+                thread.start()
 
         # otherwise just download the amount of songs specified in the limit
         else:
             for i in range(general['dl-limit']):
                 # download the video
-                download_convert.main(playlist_object.video_urls[i], tags, i + 1, playlist_object.title)    
+                thread = Thread(target=download_convert.main(playlist_object.video_urls[i], tags, i + 1, playlist_object.title))
+                thread.start()
+
     else:
         # if its not a playlist then just download the video
         url = url.split('&list=')[0]
-        download_convert.main(url, tags, None, None)
+        thread = Thread(download_convert.main(url, tags, None, None))
+        thread.start()

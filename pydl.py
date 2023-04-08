@@ -45,7 +45,7 @@ def generate_config():
 try:
     @main.command()
     @click.argument('input')
-    @click.option('-p', '--path', help='The path where you want to save the song/songs', default='.')
+    @click.option('-p', '--path', help='The path where you want to save the song/songs', default='')
     @click.option('--playlist/--no-playlist', help='Use this flag if you want to download the complete playlist', default=flags['playlist'])
     @click.option('--tag/--no-tag', help='Use this flag if you want to disable automatic metadata fetching', default=flags['tag'])
     @click.option('--experimental/--no-experimental', help='Use this flag if you want to enable experimental tagging', default=flags['experimental'])

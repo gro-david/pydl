@@ -1,12 +1,20 @@
 import ffmpeg
+import os
+from rich.console import Console
+
+# pytube
 import pytube as pyt
 from pytube import YouTube as YT
 from pytube import Channel as CH
-import os
+
+# Custom modules
 import setmetadata
 import get_thumbnail
 import crop_image
 import get_metadata
+
+# create a console object to use for styling
+console = Console()
 
 # 3 options for tagging: normal, experimental, off
 tagging = 'normal'
@@ -30,6 +38,8 @@ def convert(song):
     # perform the conversion
     ffmpeg.run(stream)
 
+    print('Converted song: '+filename)
+
     # return the new filename so we can work with it later
     return filename
 
@@ -46,11 +56,17 @@ def set_path(path):
     dl_path = path
 
 def main(url, tags, song_nr, playlist_title):
+    print(tags)
+    title = pyt.YouTube(url).title
     # download the song in the highest quality available
-    downloaded_song = download(url)
+    with console.status(f"[bold green]Downloading {title}...[/bold green]", spinner="dots"):
+        downloaded_song = download(url)
     
-    # convert the song to mp3 and remove the webm file
-    converted_song = convert(downloaded_song)
+    # convert the song to mp3
+    with console.status(f"[bold green]Converting {title}...[/bold green]", spinner="dots"):
+        converted_song = convert(downloaded_song)
+    
+    # remove the webm file
     cleanup(downloaded_song)
 
     if tagging != 'off':
@@ -59,42 +75,44 @@ def main(url, tags, song_nr, playlist_title):
         tags['album'] = playlist_title
 
     # use the appropriate tagging method
-    if tagging == 'normal':
-        # set the different tags if they are not overwritten by the user
-        if tags['artist'] == None:
-            tags['artist'] = get_artist(url)
-        if tags['title'] == None:
-            tags['title'] = pyt.YouTube(url).title
-        
-        # get the url to the thumbnail image
-        thumbnail_url = pyt.YouTube(url).thumbnail_url
+    with console.status(f"[bold green]Fetching tags for {title}...[/bold green]", spinner="dots"):
+        if tagging == 'normal':
+            # set the different tags if they are not overwritten by the user
+            if tags['artist'] == None:
+                tags['artist'] = get_artist(url)
+            if tags['title'] == None:
+                tags['title'] = title
+            
+            # get the url to the thumbnail image
+            thumbnail_url = pyt.YouTube(url).thumbnail_url
 
-    elif tagging == 'experimental':
-        # set the different tags if they are not overwritten by the user
-        if tags['artist'] == None:
-            tags['artist'] = get_metadata.main(converted_song)['artist']
-        if tags['title'] == None:
-            tags['title'] = get_metadata.main(converted_song)['title']
-        if tags['genre'] == None:
-            tags['genre'] = get_metadata.main(converted_song)['genre']
-        # get the cover url
-        thumbnail_url = get_metadata.main(converted_song)['cover']
+        elif tagging == 'experimental':
+            # set the different tags if they are not overwritten by the user
+            if tags['artist'] == None:
+                tags['artist'] = get_metadata.main(converted_song)['artist']
+            if tags['title'] == None:
+                tags['title'] = get_metadata.main(converted_song)['title']
+            if tags['genre'] == None:
+                tags['genre'] = get_metadata.main(converted_song)['genre']
+            # get the cover url
+            thumbnail_url = get_metadata.main(converted_song)['cover']
     
     # fetch the thumbnail url and apply it to the song if tagging is enabled
-    if tagging != 'off':
-        # fetch and download the thumbnail image
-        img = get_thumbnail.main(thumbnail_url)
+    with console.status(f"[bold green]Applying tags to {title}...[/bold green]", spinner="dots"):
+        if tagging != 'off':
+            # fetch and download the thumbnail image
+            img = get_thumbnail.main(thumbnail_url)
 
-        # crop cover
-        crop_image.crop(img)
+            # crop cover
+            crop_image.crop(img)
 
-        # set the cover
-        setmetadata.set_cover(converted_song, img)
-        # set the tags
-        setmetadata.main(converted_song, tags)
-        
-        # delete the cover image
-        cleanup(img)
+            # set the cover
+            setmetadata.set_cover(converted_song, img)
+            # set the tags
+            setmetadata.main(converted_song, tags)
+            
+            # delete the cover image
+            cleanup(img)
 
 
 # get the uploader of the video and set as artist additionally remove any unnecessary text
@@ -108,3 +126,4 @@ def get_artist(url):
     
     return _artist
 
+# todo: experimental metadata fetching saves the old metadata and doesent apply the new one 
