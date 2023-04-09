@@ -10,7 +10,8 @@ Functions: \
     - Fetch and apply metadata (mp3 tags) automatically with the `--tag` flag, or disable metadata fetching with the `--no-tag` flag. \
     - You can also manually set the metadata tags using the `-m` or `--manual-tag` flags.
     - You can enable experimental tagging (more advanced but sometimes slow) using the `--experimental` flag. The `--no-experimental` disables it. \
-    - Save the files to a specific **relative** path using the `-p` or `--path` flag.
+    - Save the files to a specific **relative** path using the `-p` or `--path` flag. \
+    - Limit the amount of songs downloaded using the `-l` or `--limit` flag. 
 
 Commands: \
     - `download` downloads song/playlist \

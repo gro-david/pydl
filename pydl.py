@@ -12,12 +12,15 @@ import read_conf
 import generate_conf
 import write_conf
 
-# we only need the flag values but we left the option for other parameters open in case we want to add more later
+# the config file is read and the values are stored in the conf dictionary
 conf = read_conf.main()
+
+# different sections are seperated to make it easier to work withs
 flags = conf['Flags']
+general = conf['General']
 
 # the empty tags dictionary will be filled with the metadata of the song if manual tagging is enabled
-tags = {
+tags_in = {
     'artist': None,
     'album': None,
     'title': None,
@@ -50,7 +53,11 @@ try:
     @click.option('--tag/--no-tag', help='Use this flag if you want to disable automatic metadata fetching', default=flags['tag'])
     @click.option('--experimental/--no-experimental', help='Use this flag if you want to enable experimental tagging', default=flags['experimental'])
     @click.option('-m', '--manual-tag', help='Set this to True if you want to manually set the metadata', default=flags['manual-tag'], is_flag=True)
-    def download(input, path, playlist, tag, experimental, manual_tag):
+    @click.option('-l', '--limit', help='The amount of songs you want to download from the playlist', default=general['dl-limit'])
+    def download(input, path, playlist, tag, experimental, manual_tag, limit):
+        # this was added so there is a free line between the command and the status
+        click.echo('\n')
+        
         # we want the relative path, path out is the output path after modifications
         path_out = os.path.join(os.getcwd(), path)
 
@@ -81,23 +88,23 @@ try:
 
 
         # run the playlist management script which then downloads the song/songs
-        manage_playlist.main(input, playlist, tags)
+        manage_playlist.main(input, playlist, tags_in, limit)
 except KeyError:
-    console.print('[bold red]Invalid config file![/bold red] Please generate a new config file!\ndisc')
+    console.print('[bold red]Invalid config file![/bold red] Please generate a new config file!')
 
 def manual_tagging():
-    global tags
+    global tags_in
 
-    tags['artist'] = Prompt.ask("Enter the [bold cyan]ARTIST[/bold cyan] name. [italic][Leave empty to skip][/italic]")
-    tags['album'] =  Prompt.ask("Enter the [bold cyan]ALBUM[/bold cyan] name. [italic][Leave empty to skip][/italic]")
-    tags['title'] = Prompt.ask("Enter the [bold cyan]TITLE[/bold cyan] of the song. [italic][Leave empty to skip][/italic]")
-    tags['genre'] = Prompt.ask("Enter the [bold cyan]GENRE[/bold cyan] of the song. [italic][Leave empty to skip][/italic]")
+    tags_in['artist'] = Prompt.ask("Enter the [bold cyan]ARTIST[/bold cyan] name. [italic][Leave empty to skip][/italic]")
+    tags_in['album'] =  Prompt.ask("Enter the [bold cyan]ALBUM[/bold cyan] name. [italic][Leave empty to skip][/italic]")
+    tags_in['title'] = Prompt.ask("Enter the [bold cyan]TITLE[/bold cyan] of the song. [italic][Leave empty to skip][/italic]")
+    tags_in['genre'] = Prompt.ask("Enter the [bold cyan]GENRE[/bold cyan] of the song. [italic][Leave empty to skip][/italic]")
     
 
     # loop over each value in the dictionary and add it to the topop list if empty
     topop=[]
-    for key in tags.keys():
-        if tags[key] == '':
+    for key in tags_in.keys():
+        if tags_in[key] == '':
             topop.append(key)
 
     # we only want to prompt the user if there is something to complete
@@ -108,13 +115,13 @@ def manual_tagging():
 
             if complete.lower() == 'y' or complete == '':
                 for key in topop:
-                    tags[key] = None
+                    tags_in[key] = None
                 break
             
             elif complete.lower() == 'n':
                 # pop empty items
                 for key in topop:
-                    tags.pop(key)
+                    tags_in.pop(key)
                 break  
             
             else:
@@ -123,7 +130,3 @@ def manual_tagging():
 # this gets run every time we want to do something with the script
 if(__name__ == "__main__"):
     main()
-
-
-# todo: create a bash script that can be used to run the script from anywhere
-# todo: add option for path

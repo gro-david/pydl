@@ -6,6 +6,7 @@ from rich.console import Console
 import pytube as pyt
 from pytube import YouTube as YT
 from pytube import Channel as CH
+from pytube.exceptions import PytubeError
 
 # Custom modules
 import setmetadata
@@ -38,8 +39,6 @@ def convert(song):
     # perform the conversion
     ffmpeg.run(stream)
 
-    print('Converted song: '+filename)
-
     # return the new filename so we can work with it later
     return filename
 
@@ -55,9 +54,23 @@ def set_path(path):
     global dl_path
     dl_path = path
 
-def main(url, tags, song_nr, playlist_title):
-    print(tags)
-    title = pyt.YouTube(url).title
+def main(url, tags_in, song_nr, playlist_title):
+    tags_out = {
+        'artist': None,
+        'album': None,
+        'title': None,
+        'genre': None,
+        'song_nr': None,
+    }
+
+    # we only need the inputs when we are tagging manually
+    if tagging == 'manual':
+        tags_out = tags_in
+
+    # get the title of the song, this is done in a seperate function beacuse pytube throws random errors sometimes.
+    # to avoid this we use a try except block and a loop. so we just try again if the fetch fails
+    title = get_title(url)
+
     # download the song in the highest quality available
     with console.status(f"[bold green]Downloading {title}...[/bold green]", spinner="dots"):
         downloaded_song = download(url)
@@ -71,31 +84,34 @@ def main(url, tags, song_nr, playlist_title):
 
     if tagging != 'off':
         # add the song number to the tags dictionary
-        tags['song_nr'] = song_nr
-        tags['album'] = playlist_title
+        tags_out['song_nr'] = song_nr
+        tags_out['album'] = playlist_title
 
     # use the appropriate tagging method
     with console.status(f"[bold green]Fetching tags for {title}...[/bold green]", spinner="dots"):
         if tagging == 'normal':
             # set the different tags if they are not overwritten by the user
-            if tags['artist'] == None:
-                tags['artist'] = get_artist(url)
-            if tags['title'] == None:
-                tags['title'] = title
+            if tags_out['artist'] == None:
+                tags_out['artist'] = get_artist(url)
+            if tags_out['title'] == None:
+                tags_out['title'] = title
             
             # get the url to the thumbnail image
             thumbnail_url = pyt.YouTube(url).thumbnail_url
 
         elif tagging == 'experimental':
+            # tags which we get from the get_metadata script
+            got_tags = get_metadata.main(converted_song)
+
             # set the different tags if they are not overwritten by the user
-            if tags['artist'] == None:
-                tags['artist'] = get_metadata.main(converted_song)['artist']
-            if tags['title'] == None:
-                tags['title'] = get_metadata.main(converted_song)['title']
-            if tags['genre'] == None:
-                tags['genre'] = get_metadata.main(converted_song)['genre']
+            if tags_out['artist'] == None:
+                tags_out['artist'] = got_tags['artist']
+            if tags_out['title'] == None:
+                tags_out['title'] = got_tags['title']
+            if tags_out['genre'] == None:
+                tags_out['genre'] = got_tags['genre']
             # get the cover url
-            thumbnail_url = get_metadata.main(converted_song)['cover']
+            thumbnail_url = got_tags['cover']
     
     # fetch the thumbnail url and apply it to the song if tagging is enabled
     with console.status(f"[bold green]Applying tags to {title}...[/bold green]", spinner="dots"):
@@ -109,11 +125,10 @@ def main(url, tags, song_nr, playlist_title):
             # set the cover
             setmetadata.set_cover(converted_song, img)
             # set the tags
-            setmetadata.main(converted_song, tags)
+            setmetadata.main(converted_song, tags_out)
             
             # delete the cover image
             cleanup(img)
-
 
 # get the uploader of the video and set as artist additionally remove any unnecessary text
 def get_artist(url):
@@ -126,4 +141,14 @@ def get_artist(url):
     
     return _artist
 
-# todo: experimental metadata fetching saves the old metadata and doesent apply the new one 
+def get_title(url):
+    error = True
+    while error == True:
+        # get the title of the song
+        try:
+            title = pyt.YouTube(url).title
+            error = False
+        except PytubeError:
+            pass
+
+    return title

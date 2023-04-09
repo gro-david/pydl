@@ -20,4 +20,5 @@ async def recognize(song):
 def main(song):
     return asyncio.run(recognize(song))
 
-print(main('/mnt/32942089942051A1/6 - David/Python Projects/pydl/tmp/Hero.mp3'))
+if __name__ == '__main__':
+    print(main('tmp/Hero.mp3'))
