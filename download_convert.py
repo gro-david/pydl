@@ -15,9 +15,7 @@ import crop_image
 import get_metadata
 import read_conf
 
-# read the config file, but only save if we want to use thumbnail as the cover
-conf = read_conf.main()
-tn_as_cover = conf['Flags']['tn_as_cover']
+tn_as_cover = None
 
 # create a console object to use for styling
 console = Console()

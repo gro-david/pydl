@@ -54,7 +54,8 @@ try:
     @click.option('--experimental/--no-experimental', help='Use this flag if you want to enable experimental tagging', default=flags['experimental'])
     @click.option('-m', '--manual-tag', help='Set this to True if you want to manually set the metadata', default=flags['manual-tag'], is_flag=True)
     @click.option('-l', '--limit', help='The amount of songs you want to download from the playlist', default=general['dl-limit'])
-    def download(input, path, playlist, tag, experimental, manual_tag, limit):
+    @click.option('--tn/--no-tn', help='Use the thumbnail as the cover or not', default=flags['tn-as-cover'])
+    def download(input, path, playlist, tag, experimental, manual_tag, limit, tn):
         # this was added so there is a free line between the command and the status
         click.echo('\n')
         # we want the relative path, path out is the output path after modifications
@@ -67,6 +68,9 @@ try:
         else:
             # if the path is valid, set the path in the download_convert script
             download_convert.set_path(path_out)
+
+        # set the thumbnail as cover flag in the download_convert script
+        download_convert.tn_as_cover = tn
 
         # run the manual tagging function if the manual tag flag is set to true we extracted this code to make it more readabledis
         if manual_tag:

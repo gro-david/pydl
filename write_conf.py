@@ -7,8 +7,8 @@ def main(conf):
     to_write.append(f'tag = {conf["tag"]}\n')
     to_write.append(f'experimental = {conf["experimental"]}\n')
     to_write.append(f'manual-tag = {conf["manual-tag"]}\n')
-    to_write.append(f'tn_as_cover = {conf["tn_as_cover"]}\n')
-    
+    to_write.append(f'tn-as-cover = {conf["tn_as_cover"]}\n')
+    to_write.append('\n')
     to_write.append('[General]\n')
     to_write.append(f'dl-limit = {conf["dl-limit"]}\n')
 
