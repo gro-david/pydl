@@ -1,4 +1,4 @@
-import os
+import get_app_path
 
 def main(conf):
     to_write = []
@@ -11,11 +11,8 @@ def main(conf):
     to_write.append('[General]\n')
     to_write.append(f'dl-limit = {conf["dl-limit"]}\n')
 
-    # directory of the running file
-    dirname = os.path.dirname(__file__)
-
     # full path to the config file. works because the config file is in the same directory as the running file
-    full_path = os.path.join(dirname, 'pydl.conf')
+    full_path = get_app_path.main()
     
     # open the config file and prepare for translation
     conf_file = open(full_path, 'w')

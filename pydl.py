@@ -57,7 +57,6 @@ try:
     def download(input, path, playlist, tag, experimental, manual_tag, limit):
         # this was added so there is a free line between the command and the status
         click.echo('\n')
-        
         # we want the relative path, path out is the output path after modifications
         path_out = os.path.join(os.getcwd(), path)
 

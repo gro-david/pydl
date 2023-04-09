@@ -113,6 +113,10 @@ def main(url, tags_in, song_nr, playlist_title):
             # get the cover url
             thumbnail_url = got_tags['cover']
     
+        # if we are downloading songs from an artist channel we want to set the album name to the artist name + songs
+        if tagging != 'off' and tags_out['album'] == 'Songs':
+            tags_out['album'] = tags_out['artist'] + ' Songs'
+
     # fetch the thumbnail url and apply it to the song if tagging is enabled
     with console.status(f"[bold green]Applying tags to {title}...[/bold green]", spinner="dots"):
         if tagging != 'off':
