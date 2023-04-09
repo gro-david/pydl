@@ -13,6 +13,11 @@ import setmetadata
 import get_thumbnail
 import crop_image
 import get_metadata
+import read_conf
+
+# read the config file, but only save if we want to use thumbnail as the cover
+conf = read_conf.main()
+tn_as_cover = conf['Flags']['tn_as_cover']
 
 # create a console object to use for styling
 console = Console()
@@ -110,8 +115,14 @@ def main(url, tags_in, song_nr, playlist_title):
                 tags_out['title'] = got_tags['title']
             if tags_out['genre'] == None:
                 tags_out['genre'] = got_tags['genre']
-            # get the cover url
-            thumbnail_url = got_tags['cover']
+            
+            # decide which cover to use
+            if tn_as_cover == True:
+                # get the url to the thumbnail image
+                thumbnail_url = pyt.YouTube(url).thumbnail_url
+            else:
+                # get the cover url
+                thumbnail_url = got_tags['cover']
     
         # if we are downloading songs from an artist channel we want to set the album name to the artist name + songs
         if tagging != 'off' and tags_out['album'] == 'Songs':
