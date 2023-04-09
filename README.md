@@ -1,5 +1,7 @@
 # pydl - YouTube Downloader Project
-### by Dávid Gro.
+## by Dávid Gro.
+\
+### Description
 \
 This is version 2 of my python YouTube Downloader. I didn't make v1 available because the code looked awful, the quality was low, and the download speed was slow.
 
@@ -58,5 +60,19 @@ Downloading top songs from any channel is currently not possible due to a glitch
 Future functions:
     - GUI
     - Downloading top songs from a channel
+
+### Installation Instructions
+
+#### Linux
+    - Download the latest Linux release from the releases page
+    - Extract the archive
+    - Open a terminal in the extracted folder
+    - Run the following command: `sudo ./install.sh`
+    - You can now use the pydl command in your terminal
+
+
+### Docs
+    - `download`: Downloads a song or a playlist
+    - `generate-config`: Generates the pydl.conf file
 
 ###### DISCLAIMER: This project is for demonstration purposes only.
