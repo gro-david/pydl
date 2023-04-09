@@ -9,8 +9,6 @@ async def recognize(song):
     # recognize the song and all of the infos
     out = await shazam.recognize_song(song)
 
-    print(out)
-
     # find the results we are looking for and return them
     genre = out['track']['genres']['primary']
     title = out['track']['title']
@@ -21,6 +19,3 @@ async def recognize(song):
 
 def main(song):
     return asyncio.run(recognize(song))
-
-if __name__ == '__main__':
-    print(main('/home/grdavid/music-test/Hero.mp3'))
