@@ -14,6 +14,8 @@ import generate_conf
 import write_conf
 import notifier
 
+ran = []
+
 # the config file is read and the values are stored in the conf dictionary
 conf = read_conf.main()
 
@@ -136,5 +138,3 @@ def manual_tagging():
 # this gets run every time we want to do something with the script
 if(__name__ == "__main__"):
     main()
-
-# todo: rework empty lines

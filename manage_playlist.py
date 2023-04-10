@@ -22,7 +22,7 @@ def main(url, playlist, tags, limit):
                 download_convert.main(playlist_object.video_urls[i], tags, i + 1, playlist_object.title)
         
         # return the title so we can send a notification
-        return(playlist_object.title)
+        return download_convert.album_name
 
     else:
         # if its not a playlist then just download the video

@@ -29,6 +29,9 @@ tagging = 'normal'
 # the path where the songs are downloaded to
 dl_path = os.getcwd()
 
+# album name is needed by manage playlist for notifying the user correctly
+album_name = None 
+
 def download(url):
     yt=pyt.YouTube(url)
     stream=yt.streams.filter(only_audio=True)
@@ -77,6 +80,8 @@ def set_path(path):
     dl_path = path
 
 def main(url, tags_in, song_nr, playlist_title):
+    global album_name
+    
     tags_out = {
         'artist': None,
         'album': None,
@@ -144,6 +149,9 @@ def main(url, tags_in, song_nr, playlist_title):
         if tagging != 'off' and tags_out['album'] == 'Songs':
             tags_out['album'] = tags_out['artist'] + ' Songs'
 
+        # set the album name for the manage playlist script
+        album_name = tags_out['album']
+
     # fetch the thumbnail url and apply it to the song if tagging is enabled
     with console.status(f"[bold green]Applying tags to {title}...[/bold green]", spinner="dots"):
         if tagging != 'off':
@@ -160,6 +168,8 @@ def main(url, tags_in, song_nr, playlist_title):
             
             # delete the cover image
             cleanup(img)
+
+    
 
 # get the uploader of the video and set as artist additionally remove any unnecessary text
 def get_artist(url):
