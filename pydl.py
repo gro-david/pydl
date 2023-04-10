@@ -1,5 +1,6 @@
 import os
 import click
+from click_shell import shell
 
 # Rich modules for console styling
 from rich.console import Console
@@ -11,6 +12,7 @@ import download_convert
 import read_conf
 import generate_conf
 import write_conf
+import notifier
 
 # the config file is read and the values are stored in the conf dictionary
 conf = read_conf.main()
@@ -32,7 +34,7 @@ tags_in = {
 console = Console()
 
 # when running the script one function needs to be specified which gets run, when making a group of the commands you can have multiple commands in one script
-@click.group()
+@shell(prompt='pydl >> ', intro='Welcome to pydl! Type `help` to get a list of commands.')
 def main():
     pass
 
@@ -56,8 +58,6 @@ try:
     @click.option('-l', '--limit', help='The amount of songs you want to download from the playlist', default=general['dl-limit'])
     @click.option('--tn/--no-tn', help='Use the thumbnail as the cover or not', default=flags['tn-as-cover'])
     def download(input, path, playlist, tag, experimental, manual_tag, limit, tn):
-        # this was added so there is a free line between the command and the status
-        click.echo('\n')
         # we want the relative path, path out is the output path after modifications
         path_out = os.path.join(os.getcwd(), path)
 
@@ -90,8 +90,11 @@ try:
             download_convert.set_tagging('off')
 
 
-        # run the playlist management script which then downloads the song/songs
-        manage_playlist.main(input, playlist, tags_in, limit)
+        # run the playlist management script which then downloads the song/songs. the title of the playlist will get saved
+        pl_title = manage_playlist.main(input, playlist, tags_in, limit)
+
+        # send a finished notification
+        notifier.finished(pl_title)
 except KeyError:
     console.print('[bold red]Invalid config file![/bold red] Please generate a new config file!')
 
@@ -133,3 +136,5 @@ def manual_tagging():
 # this gets run every time we want to do something with the script
 if(__name__ == "__main__"):
     main()
+
+# todo: rework empty lines

@@ -57,22 +57,30 @@ Feel free to fork this project and modify it to make it work just the way you li
 
 Downloading top songs from any channel is currently not possible due to a glitch in the pytube library. I will add this function as soon as the problem is resolved from by the pytube developers.
 
-Future functions:
-    - GUI
+Future functions: \
+    - GUI \
     - Downloading top songs from a channel
 
-### Installation Instructions
 
-#### Linux
-    - Download the latest Linux release from the releases page
-    - Extract the archive
-    - Open a terminal in the extracted folder
-    - Run the following command: `sudo ./install.sh`
-    - You can now use the pydl command in your terminal
+### Installation Instructions:
 
+Linux:
+    - Download the latest Linux release from the releases page \
+    - Extract the archive \
+    - Open a terminal in the extracted folder \
+    - Run the following command: `sudo ./linux-install.sh` \
+    - You can now use the pydl command in your terminal \
+\
+Windows:
+    - Download the latest Windows release from the releases page \
+    - Extract the archive \
+    - Open the command prompt as administrator \
+    - Navigate to the extracted archive \ 
+    - run the `./win-install.bat` command \
+    - You can now use the pydl command in your terminal \
 
-### Docs
-    - `download`: Downloads a song or a playlist
+ Docs: \
+    - `download`: Downloads a song or a playlist \
     - `generate-config`: Generates the pydl.conf file
 
 ###### DISCLAIMER: This project is for demonstration purposes only.

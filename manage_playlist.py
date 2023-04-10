@@ -1,7 +1,6 @@
 import download_convert
 from pytube import Playlist
-import read_conf
-from threading import Thread
+
 
 def main(url, playlist, tags, limit):
     # if the url contains '&list=' then its a playlist and if the playlist bool is true we want to loop over the playlist and download songs
@@ -21,8 +20,12 @@ def main(url, playlist, tags, limit):
             for i in range(limit):
                 # download the video
                 download_convert.main(playlist_object.video_urls[i], tags, i + 1, playlist_object.title)
+        
+        # return the title so we can send a notification
+        return(playlist_object.title)
 
     else:
         # if its not a playlist then just download the video
         url = url.split('&list=')[0]
         download_convert.main(url, tags, None, None)
+        return download_convert.get_title(url)

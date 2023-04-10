@@ -1,5 +1,8 @@
 import ffmpeg
 import os
+
+# rich
+from rich.prompt import Confirm
 from rich.console import Console
 
 # pytube
@@ -13,7 +16,7 @@ import setmetadata
 import get_thumbnail
 import crop_image
 import get_metadata
-import read_conf
+import notifier
 
 tn_as_cover = None
 
@@ -32,16 +35,32 @@ def download(url):
     song=yt.streams.filter(only_audio=True)[-1].download(output_path=dl_path)
     return song
 
-def convert(song):
+def convert(song, title):
     # set the new filename with the mp3 extension
     filename=song.split('.')[0]+'.mp3'
 
-    # add the parameters to the ffmpeg command
-    stream = ffmpeg.output(ffmpeg.input(song), filename, loglevel="quiet")
+    # if we would not check this ffmpeg would hast ot itself. That would mess up the status
+    if os.path.isfile(filename):
+        # send a notification to the user that input is required
+        notifier.error(title)
+        if Confirm.ask(f"[bold red]File {filename} already exists, overwrite?[/bold red]"):
+            os.remove(filename)
+            with console.status(f"[bold green]Converting {title}...[/bold green]", spinner="dots"):
+                # add the parameters to the ffmpeg command
+                stream = ffmpeg.output(ffmpeg.input(song), filename, loglevel="quiet")
 
-    # perform the conversion
-    ffmpeg.run(stream)
+                # perform the conversion
+                ffmpeg.run(stream)
+        else:
+            console.print(f"[bold red]Skipping {title}...[/bold red]")
+    else:
+        with console.status(f"[bold green]Converting {title}...[/bold green]", spinner="dots"):
+                # add the parameters to the ffmpeg command
+                stream = ffmpeg.output(ffmpeg.input(song), filename, loglevel="quiet")
 
+                # perform the conversion
+                ffmpeg.run(stream)
+                
     # return the new filename so we can work with it later
     return filename
 
@@ -79,8 +98,7 @@ def main(url, tags_in, song_nr, playlist_title):
         downloaded_song = download(url)
     
     # convert the song to mp3
-    with console.status(f"[bold green]Converting {title}...[/bold green]", spinner="dots"):
-        converted_song = convert(downloaded_song)
+    converted_song = convert(downloaded_song, title)
     
     # remove the webm file
     cleanup(downloaded_song)
