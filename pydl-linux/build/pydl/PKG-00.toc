@@ -169,9 +169,6 @@
   ('lib-dynload/readline.cpython-311-x86_64-linux-gnu.so',
    '/usr/lib/python3.11/lib-dynload/readline.cpython-311-x86_64-linux-gnu.so',
    'EXTENSION'),
-  ('lib-dynload/_heapq.cpython-311-x86_64-linux-gnu.so',
-   '/usr/lib/python3.11/lib-dynload/_heapq.cpython-311-x86_64-linux-gnu.so',
-   'EXTENSION'),
   ('lib-dynload/_multibytecodec.cpython-311-x86_64-linux-gnu.so',
    '/usr/lib/python3.11/lib-dynload/_multibytecodec.cpython-311-x86_64-linux-gnu.so',
    'EXTENSION'),
@@ -195,6 +192,9 @@
    'EXTENSION'),
   ('lib-dynload/_codecs_hk.cpython-311-x86_64-linux-gnu.so',
    '/usr/lib/python3.11/lib-dynload/_codecs_hk.cpython-311-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('lib-dynload/_heapq.cpython-311-x86_64-linux-gnu.so',
+   '/usr/lib/python3.11/lib-dynload/_heapq.cpython-311-x86_64-linux-gnu.so',
    'EXTENSION'),
   ('lib-dynload/_uuid.cpython-311-x86_64-linux-gnu.so',
    '/usr/lib/python3.11/lib-dynload/_uuid.cpython-311-x86_64-linux-gnu.so',
@@ -431,24 +431,24 @@
   ('libssl.so.3', '/usr/lib/libssl.so.3', 'BINARY'),
   ('libmpdec.so.3', '/usr/lib/libmpdec.so.3', 'BINARY'),
   ('libffi.so.8', '/usr/lib/libffi.so.8', 'BINARY'),
-  ('libreadline.so.8', '/usr/lib/libreadline.so.8', 'BINARY'),
   ('libncursesw.so.6', '/usr/lib/libncursesw.so.6', 'BINARY'),
+  ('libreadline.so.8', '/usr/lib/libreadline.so.8', 'BINARY'),
   ('libuuid.so.1', '/usr/lib/libuuid.so.1', 'BINARY'),
   ('libbrotlidec-922c819b.so.1',
    '/mnt/docs/6 - '
    'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/PIL/../Pillow.libs/libbrotlidec-922c819b.so.1',
    'BINARY'),
-  ('libharfbuzz-a8a034ff.so.0.60820.0',
+  ('libbrotlicommon-3ecfe81c.so.1',
    '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/PIL/../Pillow.libs/libharfbuzz-a8a034ff.so.0.60820.0',
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/PIL/../Pillow.libs/libbrotlicommon-3ecfe81c.so.1',
    'BINARY'),
   ('libpng16-78d422d5.so.16.40.0',
    '/mnt/docs/6 - '
    'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/PIL/../Pillow.libs/libpng16-78d422d5.so.16.40.0',
    'BINARY'),
-  ('libbrotlicommon-3ecfe81c.so.1',
+  ('libharfbuzz-a8a034ff.so.0.60820.0',
    '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/PIL/../Pillow.libs/libbrotlicommon-3ecfe81c.so.1',
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/PIL/../Pillow.libs/libharfbuzz-a8a034ff.so.0.60820.0',
    'BINARY'),
   ('libfreetype-82733d78.so.6.20.1',
    '/mnt/docs/6 - '
@@ -474,15 +474,15 @@
    '/mnt/docs/6 - '
    'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/PIL/../Pillow.libs/liblcms2-0821774a.so.2.0.15',
    'BINARY'),
-  ('libstdc++.so.6', '/usr/lib/libstdc++.so.6', 'BINARY'),
   ('libgcc_s.so.1', '/usr/lib/libgcc_s.so.1', 'BINARY'),
-  ('libopenblas64_p-r0-5007b62f.3.23.dev.so',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/numpy/core/../../numpy.libs/libopenblas64_p-r0-5007b62f.3.23.dev.so',
-   'BINARY'),
+  ('libstdc++.so.6', '/usr/lib/libstdc++.so.6', 'BINARY'),
   ('libgfortran-040039e1.so.5.0.0',
    '/mnt/docs/6 - '
    'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/numpy/core/../../numpy.libs/libgfortran-040039e1.so.5.0.0',
+   'BINARY'),
+  ('libopenblas64_p-r0-5007b62f.3.23.dev.so',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/numpy/core/../../numpy.libs/libopenblas64_p-r0-5007b62f.3.23.dev.so',
    'BINARY'),
   ('libquadmath-96973f99.so.0.0.0',
    '/mnt/docs/6 - '
@@ -492,25 +492,25 @@
    '/mnt/docs/6 - '
    'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/PIL/../Pillow.libs/libXau-154567c4.so.6.0.0',
    'BINARY'),
-  ('libopenjp2-20e347f0.so.2.5.0',
+  ('libtiff-5bd7527b.so.6.0.1',
    '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/PIL/../Pillow.libs/libopenjp2-20e347f0.so.2.5.0',
-   'BINARY'),
-  ('liblzma-1e44b93d.so.5.4.4',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/PIL/../Pillow.libs/liblzma-1e44b93d.so.5.4.4',
-   'BINARY'),
-  ('libxcb-f0538cc0.so.1.1.0',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/PIL/../Pillow.libs/libxcb-f0538cc0.so.1.1.0',
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/PIL/../Pillow.libs/libtiff-5bd7527b.so.6.0.1',
    'BINARY'),
   ('libjpeg-58afefff.so.62.4.0',
    '/mnt/docs/6 - '
    'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/PIL/../Pillow.libs/libjpeg-58afefff.so.62.4.0',
    'BINARY'),
-  ('libtiff-5bd7527b.so.6.0.1',
+  ('liblzma-1e44b93d.so.5.4.4',
    '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/PIL/../Pillow.libs/libtiff-5bd7527b.so.6.0.1',
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/PIL/../Pillow.libs/liblzma-1e44b93d.so.5.4.4',
+   'BINARY'),
+  ('libopenjp2-20e347f0.so.2.5.0',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/PIL/../Pillow.libs/libopenjp2-20e347f0.so.2.5.0',
+   'BINARY'),
+  ('libxcb-f0538cc0.so.1.1.0',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/PIL/../Pillow.libs/libxcb-f0538cc0.so.1.1.0',
    'BINARY'),
   ('pyfiglet-1.0.2.dist-info/INSTALLER',
    '/mnt/docs/6 - '
@@ -2800,25 +2800,25 @@
    '/mnt/docs/6 - '
    'David/python-projects/pydl-repo/pydl-linux/build/pydl/base_library.zip',
    'DATA'),
+  ('attrs-23.1.0.dist-info/METADATA',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/attrs-23.1.0.dist-info/METADATA',
+   'DATA'),
   ('attrs-23.1.0.dist-info/INSTALLER',
    '/mnt/docs/6 - '
    'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/attrs-23.1.0.dist-info/INSTALLER',
    'DATA'),
-  ('attrs-23.1.0.dist-info/RECORD',
+  ('attrs-23.1.0.dist-info/WHEEL',
    '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/attrs-23.1.0.dist-info/RECORD',
-   'DATA'),
-  ('attrs-23.1.0.dist-info/METADATA',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/attrs-23.1.0.dist-info/METADATA',
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/attrs-23.1.0.dist-info/WHEEL',
    'DATA'),
   ('attrs-23.1.0.dist-info/licenses/LICENSE',
    '/mnt/docs/6 - '
    'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/attrs-23.1.0.dist-info/licenses/LICENSE',
    'DATA'),
-  ('attrs-23.1.0.dist-info/WHEEL',
+  ('attrs-23.1.0.dist-info/RECORD',
    '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/attrs-23.1.0.dist-info/WHEEL',
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/attrs-23.1.0.dist-info/RECORD',
    'DATA')],
  False,
  False,
