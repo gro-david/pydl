@@ -1,0 +1,12 @@
+pytube
+rich
+click
+rich-click
+shazamio
+pyfiglet
+pyinstaller
+mutagen
+notify-py 
+pillow
+python-ffmpeg
+platformdirs

@@ -1,0 +1,2650 @@
+('D:\\6 - David\\python-projects\\pydl-repo\\pydl-win\\build\\pydl\\pydl.pkg',
+ {'BINARY': True,
+  'DATA': True,
+  'EXECUTABLE': True,
+  'EXTENSION': True,
+  'PYMODULE': True,
+  'PYSOURCE': True,
+  'PYZ': False,
+  'SPLASH': True},
+ [('PYZ-00.pyz',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\build\\pydl\\PYZ-00.pyz',
+   'PYZ'),
+  ('struct',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\build\\pydl\\localpycs\\struct.pyc',
+   'PYMODULE'),
+  ('pyimod01_archive',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\build\\pydl\\localpycs\\pyimod01_archive.pyc',
+   'PYMODULE'),
+  ('pyimod02_importers',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\build\\pydl\\localpycs\\pyimod02_importers.pyc',
+   'PYMODULE'),
+  ('pyimod03_ctypes',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\build\\pydl\\localpycs\\pyimod03_ctypes.pyc',
+   'PYMODULE'),
+  ('pyimod04_pywin32',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\build\\pydl\\localpycs\\pyimod04_pywin32.pyc',
+   'PYMODULE'),
+  ('pyiboot01_bootstrap',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\PyInstaller\\loader\\pyiboot01_bootstrap.py',
+   'PYSOURCE'),
+  ('pyi_rth_inspect',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgres',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgres.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgutil',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgutil.py',
+   'PYSOURCE'),
+  ('pyi_rth_multiprocessing',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_multiprocessing.py',
+   'PYSOURCE'),
+  ('pydl',
+   'D:\\6 - David\\python-projects\\pydl-repo\\pydl-win\\pydl\\pydl.py',
+   'PYSOURCE'),
+  ('python311.dll',
+   'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\python311.dll',
+   'BINARY'),
+  ('VCRUNTIME140.dll',
+   'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('libopenblas64__v0.3.23-246-g3d31191b-gcc_10_3_0.dll',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\numpy\\.libs\\libopenblas64__v0.3.23-246-g3d31191b-gcc_10_3_0.dll',
+   'BINARY'),
+  ('select.pyd',
+   'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\select.pyd',
+   'EXTENSION'),
+  ('_hashlib.pyd',
+   'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_hashlib.pyd',
+   'EXTENSION'),
+  ('_lzma.pyd',
+   'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_lzma.pyd',
+   'EXTENSION'),
+  ('_bz2.pyd',
+   'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_bz2.pyd',
+   'EXTENSION'),
+  ('pyexpat.pyd',
+   'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\pyexpat.pyd',
+   'EXTENSION'),
+  ('_ssl.pyd',
+   'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_ssl.pyd',
+   'EXTENSION'),
+  ('_decimal.pyd',
+   'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_decimal.pyd',
+   'EXTENSION'),
+  ('_multiprocessing.pyd',
+   'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_multiprocessing.pyd',
+   'EXTENSION'),
+  ('_socket.pyd',
+   'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_socket.pyd',
+   'EXTENSION'),
+  ('_ctypes.pyd',
+   'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_ctypes.pyd',
+   'EXTENSION'),
+  ('_queue.pyd',
+   'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_queue.pyd',
+   'EXTENSION'),
+  ('unicodedata.pyd',
+   'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\unicodedata.pyd',
+   'EXTENSION'),
+  ('_uuid.pyd',
+   'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_uuid.pyd',
+   'EXTENSION'),
+  ('PIL\\_imagingft.cp311-win_amd64.pyd',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\PIL\\_imagingft.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('PIL\\_webp.cp311-win_amd64.pyd',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\PIL\\_webp.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('PIL\\_imagingtk.cp311-win_amd64.pyd',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\PIL\\_imagingtk.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('PIL\\_imagingcms.cp311-win_amd64.pyd',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\PIL\\_imagingcms.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy\\core\\_multiarray_tests.cp311-win_amd64.pyd',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\numpy\\core\\_multiarray_tests.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy\\core\\_multiarray_umath.cp311-win_amd64.pyd',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\numpy\\core\\_multiarray_umath.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy\\linalg\\lapack_lite.cp311-win_amd64.pyd',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\numpy\\linalg\\lapack_lite.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('_overlapped.pyd',
+   'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_overlapped.pyd',
+   'EXTENSION'),
+  ('_asyncio.pyd',
+   'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_asyncio.pyd',
+   'EXTENSION'),
+  ('numpy\\random\\mtrand.cp311-win_amd64.pyd',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\numpy\\random\\mtrand.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy\\random\\_sfc64.cp311-win_amd64.pyd',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\numpy\\random\\_sfc64.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy\\random\\_philox.cp311-win_amd64.pyd',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\numpy\\random\\_philox.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy\\random\\_pcg64.cp311-win_amd64.pyd',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\numpy\\random\\_pcg64.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy\\random\\_mt19937.cp311-win_amd64.pyd',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\numpy\\random\\_mt19937.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy\\random\\bit_generator.cp311-win_amd64.pyd',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\numpy\\random\\bit_generator.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy\\random\\_generator.cp311-win_amd64.pyd',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\numpy\\random\\_generator.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy\\random\\_bounded_integers.cp311-win_amd64.pyd',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\numpy\\random\\_bounded_integers.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy\\random\\_common.cp311-win_amd64.pyd',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\numpy\\random\\_common.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy\\fft\\_pocketfft_internal.cp311-win_amd64.pyd',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\numpy\\fft\\_pocketfft_internal.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy\\linalg\\_umath_linalg.cp311-win_amd64.pyd',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\numpy\\linalg\\_umath_linalg.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('PIL\\_imaging.cp311-win_amd64.pyd',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\PIL\\_imaging.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('_elementtree.pyd',
+   'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_elementtree.pyd',
+   'EXTENSION'),
+  ('pydantic\\utils.cp311-win_amd64.pyd',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pydantic\\utils.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pydantic\\typing.cp311-win_amd64.pyd',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pydantic\\typing.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pydantic\\types.cp311-win_amd64.pyd',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pydantic\\types.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pydantic\\main.cp311-win_amd64.pyd',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pydantic\\main.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pydantic\\fields.cp311-win_amd64.pyd',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pydantic\\fields.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pydantic\\class_validators.cp311-win_amd64.pyd',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pydantic\\class_validators.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pydantic\\__init__.cp311-win_amd64.pyd',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pydantic\\__init__.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pydantic\\version.cp311-win_amd64.pyd',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pydantic\\version.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pydantic\\validators.cp311-win_amd64.pyd',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pydantic\\validators.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pydantic\\tools.cp311-win_amd64.pyd',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pydantic\\tools.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pydantic\\schema.cp311-win_amd64.pyd',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pydantic\\schema.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pydantic\\parse.cp311-win_amd64.pyd',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pydantic\\parse.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pydantic\\networks.cp311-win_amd64.pyd',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pydantic\\networks.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pydantic\\mypy.cp311-win_amd64.pyd',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pydantic\\mypy.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pydantic\\json.cp311-win_amd64.pyd',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pydantic\\json.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pydantic\\errors.cp311-win_amd64.pyd',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pydantic\\errors.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pydantic\\error_wrappers.cp311-win_amd64.pyd',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pydantic\\error_wrappers.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pydantic\\env_settings.cp311-win_amd64.pyd',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pydantic\\env_settings.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pydantic\\decorator.cp311-win_amd64.pyd',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pydantic\\decorator.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pydantic\\datetime_parse.cp311-win_amd64.pyd',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pydantic\\datetime_parse.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pydantic\\dataclasses.cp311-win_amd64.pyd',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pydantic\\dataclasses.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pydantic\\config.cp311-win_amd64.pyd',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pydantic\\config.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pydantic\\color.cp311-win_amd64.pyd',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pydantic\\color.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pydantic\\annotated_types.cp311-win_amd64.pyd',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pydantic\\annotated_types.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pydantic\\_hypothesis_plugin.cp311-win_amd64.pyd',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pydantic\\_hypothesis_plugin.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('yarl\\_quoting_c.cp311-win_amd64.pyd',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\yarl\\_quoting_c.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('multidict\\_multidict.cp311-win_amd64.pyd',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\multidict\\_multidict.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('aiohttp\\_http_writer.cp311-win_amd64.pyd',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\aiohttp\\_http_writer.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('aiohttp\\_http_parser.cp311-win_amd64.pyd',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\aiohttp\\_http_parser.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('frozenlist\\_frozenlist.cp311-win_amd64.pyd',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\frozenlist\\_frozenlist.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('charset_normalizer\\md__mypyc.cp311-win_amd64.pyd',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\charset_normalizer\\md__mypyc.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('charset_normalizer\\md.cp311-win_amd64.pyd',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\charset_normalizer\\md.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('aiohttp\\_helpers.cp311-win_amd64.pyd',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\aiohttp\\_helpers.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('aiohttp\\_websocket.cp311-win_amd64.pyd',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\aiohttp\\_websocket.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('libcrypto-1_1.dll',
+   'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\libcrypto-1_1.dll',
+   'BINARY'),
+  ('libssl-1_1.dll',
+   'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\libssl-1_1.dll',
+   'BINARY'),
+  ('libffi-8.dll',
+   'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\libffi-8.dll',
+   'BINARY'),
+  ('pyfiglet-1.0.2.dist-info\\INSTALLER',
+   'd:\\6 - '
+   'david\\python-projects\\pydl-repo\\pydl-win\\lib\\site-packages\\pyfiglet-1.0.2.dist-info\\INSTALLER',
+   'DATA'),
+  ('pyfiglet-1.0.2.dist-info\\LICENSE',
+   'd:\\6 - '
+   'david\\python-projects\\pydl-repo\\pydl-win\\lib\\site-packages\\pyfiglet-1.0.2.dist-info\\LICENSE',
+   'DATA'),
+  ('pyfiglet-1.0.2.dist-info\\METADATA',
+   'd:\\6 - '
+   'david\\python-projects\\pydl-repo\\pydl-win\\lib\\site-packages\\pyfiglet-1.0.2.dist-info\\METADATA',
+   'DATA'),
+  ('pyfiglet-1.0.2.dist-info\\RECORD',
+   'd:\\6 - '
+   'david\\python-projects\\pydl-repo\\pydl-win\\lib\\site-packages\\pyfiglet-1.0.2.dist-info\\RECORD',
+   'DATA'),
+  ('pyfiglet-1.0.2.dist-info\\REQUESTED',
+   'd:\\6 - '
+   'david\\python-projects\\pydl-repo\\pydl-win\\lib\\site-packages\\pyfiglet-1.0.2.dist-info\\REQUESTED',
+   'DATA'),
+  ('pyfiglet-1.0.2.dist-info\\WHEEL',
+   'd:\\6 - '
+   'david\\python-projects\\pydl-repo\\pydl-win\\lib\\site-packages\\pyfiglet-1.0.2.dist-info\\WHEEL',
+   'DATA'),
+  ('pyfiglet-1.0.2.dist-info\\entry_points.txt',
+   'd:\\6 - '
+   'david\\python-projects\\pydl-repo\\pydl-win\\lib\\site-packages\\pyfiglet-1.0.2.dist-info\\entry_points.txt',
+   'DATA'),
+  ('pyfiglet-1.0.2.dist-info\\top_level.txt',
+   'd:\\6 - '
+   'david\\python-projects\\pydl-repo\\pydl-win\\lib\\site-packages\\pyfiglet-1.0.2.dist-info\\top_level.txt',
+   'DATA'),
+  ('pyfiglet\\__init__.py',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\__init__.py',
+   'DATA'),
+  ('pyfiglet\\__main__.py',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\__main__.py',
+   'DATA'),
+  ('pyfiglet\\__pycache__\\__init__.cpython-311.pyc',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\__pycache__\\__init__.cpython-311.pyc',
+   'DATA'),
+  ('pyfiglet\\__pycache__\\__main__.cpython-311.pyc',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\__pycache__\\__main__.cpython-311.pyc',
+   'DATA'),
+  ('pyfiglet\\__pycache__\\test.cpython-311.pyc',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\__pycache__\\test.cpython-311.pyc',
+   'DATA'),
+  ('pyfiglet\\__pycache__\\version.cpython-311.pyc',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\__pycache__\\version.cpython-311.pyc',
+   'DATA'),
+  ('pyfiglet\\fonts\\1943____.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\1943____.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\1row.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\1row.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\3-d.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\3-d.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\3d-ascii.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\3d-ascii.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\3d_diagonal.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\3d_diagonal.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\3x5.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\3x5.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\4max.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\4max.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\4x4_offr.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\4x4_offr.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\5lineoblique.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\5lineoblique.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\5x7.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\5x7.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\5x8.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\5x8.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\64f1____.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\64f1____.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\6x10.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\6x10.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\6x9.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\6x9.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\__init__.py',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\__init__.py',
+   'DATA'),
+  ('pyfiglet\\fonts\\__pycache__\\__init__.cpython-311.pyc',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\__pycache__\\__init__.cpython-311.pyc',
+   'DATA'),
+  ('pyfiglet\\fonts\\a_zooloo.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\a_zooloo.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\acrobatic.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\acrobatic.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\advenger.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\advenger.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\alligator.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\alligator.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\alligator2.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\alligator2.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\alpha.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\alpha.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\alphabet.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\alphabet.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\amc_3_line.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\amc_3_line.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\amc_3_liv1.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\amc_3_liv1.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\amc_aaa01.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\amc_aaa01.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\amc_neko.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\amc_neko.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\amc_razor.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\amc_razor.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\amc_razor2.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\amc_razor2.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\amc_slash.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\amc_slash.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\amc_slider.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\amc_slider.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\amc_thin.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\amc_thin.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\amc_tubes.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\amc_tubes.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\amc_untitled.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\amc_untitled.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\ansi_regular.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\ansi_regular.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\ansi_shadow.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\ansi_shadow.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\aquaplan.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\aquaplan.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\arrows.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\arrows.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\asc_____.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\asc_____.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\ascii___.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\ascii___.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\ascii_new_roman.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\ascii_new_roman.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\assalt_m.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\assalt_m.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\asslt__m.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\asslt__m.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\atc_____.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\atc_____.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\atc_gran.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\atc_gran.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\avatar.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\avatar.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\b1ff.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\b1ff.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\b_m__200.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\b_m__200.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\banner.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\banner.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\banner3-D.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\banner3-D.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\banner3.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\banner3.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\banner4.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\banner4.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\barbwire.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\barbwire.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\basic.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\basic.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\battle_s.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\battle_s.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\battlesh.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\battlesh.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\baz__bil.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\baz__bil.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\bear.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\bear.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\beer_pub.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\beer_pub.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\bell.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\bell.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\benjamin.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\benjamin.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\big.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\big.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\big_money-ne.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\big_money-ne.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\big_money-nw.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\big_money-nw.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\big_money-se.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\big_money-se.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\big_money-sw.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\big_money-sw.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\bigchief.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\bigchief.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\bigfig.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\bigfig.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\binary.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\binary.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\block.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\block.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\blocks.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\blocks.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\blocky.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\blocky.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\bloody.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\bloody.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\bolger.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\bolger.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\braced.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\braced.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\bright.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\bright.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\brite.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\brite.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\briteb.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\briteb.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\britebi.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\britebi.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\britei.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\britei.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\broadway.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\broadway.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\broadway_kb.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\broadway_kb.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\bubble.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\bubble.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\bubble__.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\bubble__.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\bubble_b.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\bubble_b.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\bulbhead.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\bulbhead.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\c1______.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\c1______.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\c2______.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\c2______.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\c_ascii_.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\c_ascii_.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\c_consen.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\c_consen.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\calgphy2.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\calgphy2.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\caligraphy.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\caligraphy.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\calvin_s.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\calvin_s.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\cards.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\cards.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\catwalk.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\catwalk.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\caus_in_.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\caus_in_.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\char1___.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\char1___.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\char2___.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\char2___.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\char3___.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\char3___.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\char4___.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\char4___.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\charact1.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\charact1.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\charact2.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\charact2.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\charact3.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\charact3.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\charact4.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\charact4.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\charact5.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\charact5.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\charact6.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\charact6.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\characte.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\characte.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\charset_.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\charset_.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\chartr.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\chartr.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\chartri.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\chartri.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\chiseled.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\chiseled.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\chunky.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\chunky.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\clb6x10.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\clb6x10.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\clb8x10.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\clb8x10.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\clb8x8.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\clb8x8.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\cli8x8.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\cli8x8.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\clr4x6.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\clr4x6.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\clr5x10.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\clr5x10.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\clr5x6.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\clr5x6.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\clr5x8.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\clr5x8.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\clr6x10.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\clr6x10.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\clr6x6.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\clr6x6.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\clr6x8.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\clr6x8.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\clr7x10.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\clr7x10.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\clr7x8.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\clr7x8.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\clr8x10.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\clr8x10.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\clr8x8.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\clr8x8.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\coil_cop.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\coil_cop.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\coinstak.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\coinstak.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\cola.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\cola.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\colossal.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\colossal.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\com_sen_.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\com_sen_.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\computer.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\computer.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\contessa.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\contessa.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\contrast.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\contrast.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\convoy__.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\convoy__.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\cosmic.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\cosmic.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\cosmike.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\cosmike.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\cour.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\cour.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\courb.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\courb.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\courbi.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\courbi.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\couri.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\couri.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\crawford.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\crawford.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\crawford2.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\crawford2.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\crazy.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\crazy.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\cricket.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\cricket.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\cursive.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\cursive.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\cyberlarge.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\cyberlarge.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\cybermedium.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\cybermedium.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\cybersmall.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\cybersmall.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\cygnet.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\cygnet.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\d_dragon.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\d_dragon.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\danc4.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\danc4.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\dancing_font.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\dancing_font.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\dcs_bfmo.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\dcs_bfmo.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\decimal.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\decimal.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\deep_str.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\deep_str.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\def_leppard.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\def_leppard.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\defleppard.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\defleppard.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\delta_corps_priest_1.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\delta_corps_priest_1.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\demo_1__.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\demo_1__.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\demo_2__.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\demo_2__.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\demo_m__.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\demo_m__.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\devilish.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\devilish.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\diamond.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\diamond.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\diet_cola.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\diet_cola.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\digital.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\digital.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\doh.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\doh.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\doom.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\doom.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\dos_rebel.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\dos_rebel.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\dotmatrix.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\dotmatrix.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\double.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\double.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\double_shorts.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\double_shorts.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\drpepper.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\drpepper.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\druid___.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\druid___.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\dwhistled.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\dwhistled.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\e__fist_.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\e__fist_.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\ebbs_1__.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\ebbs_1__.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\ebbs_2__.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\ebbs_2__.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\eca_____.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\eca_____.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\efti_robot.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\efti_robot.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\eftichess.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\eftichess.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\eftifont.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\eftifont.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\eftipiti.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\eftipiti.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\eftirobot.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\eftirobot.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\eftitalic.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\eftitalic.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\eftiwall.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\eftiwall.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\eftiwater.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\eftiwater.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\electronic.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\electronic.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\elite.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\elite.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\epic.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\epic.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\etcrvs__.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\etcrvs__.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\f15_____.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\f15_____.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\faces_of.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\faces_of.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\fair_mea.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\fair_mea.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\fairligh.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\fairligh.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\fantasy_.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\fantasy_.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\fbr12___.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\fbr12___.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\fbr1____.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\fbr1____.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\fbr2____.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\fbr2____.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\fbr_stri.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\fbr_stri.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\fbr_tilt.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\fbr_tilt.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\fender.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\fender.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\filter.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\filter.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\finalass.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\finalass.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\fire_font-k.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\fire_font-k.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\fire_font-s.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\fire_font-s.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\fireing_.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\fireing_.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\flipped.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\flipped.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\flower_power.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\flower_power.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\flyn_sh.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\flyn_sh.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\fourtops.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\fourtops.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\fp1_____.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\fp1_____.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\fp2_____.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\fp2_____.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\fraktur.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\fraktur.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\fun_face.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\fun_face.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\fun_faces.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\fun_faces.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\funky_dr.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\funky_dr.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\future_1.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\future_1.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\future_2.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\future_2.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\future_3.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\future_3.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\future_4.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\future_4.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\future_5.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\future_5.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\future_6.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\future_6.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\future_7.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\future_7.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\future_8.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\future_8.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\fuzzy.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\fuzzy.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\gauntlet.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\gauntlet.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\georgi16.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\georgi16.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\georgia11.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\georgia11.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\ghost.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\ghost.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\ghost_bo.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\ghost_bo.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\ghoulish.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\ghoulish.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\glenyn.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\glenyn.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\goofy.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\goofy.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\gothic.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\gothic.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\gothic__.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\gothic__.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\graceful.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\graceful.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\gradient.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\gradient.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\graffiti.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\graffiti.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\grand_pr.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\grand_pr.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\greek.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\greek.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\green_be.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\green_be.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\hades___.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\hades___.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\heart_left.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\heart_left.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\heart_right.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\heart_right.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\heavy_me.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\heavy_me.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\helv.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\helv.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\helvb.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\helvb.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\helvbi.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\helvbi.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\helvi.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\helvi.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\henry_3d.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\henry_3d.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\heroboti.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\heroboti.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\hex.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\hex.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\hieroglyphs.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\hieroglyphs.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\high_noo.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\high_noo.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\hills___.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\hills___.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\hollywood.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\hollywood.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\home_pak.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\home_pak.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\horizontal_left.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\horizontal_left.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\horizontal_right.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\horizontal_right.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\house_of.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\house_of.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\hypa_bal.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\hypa_bal.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\hyper___.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\hyper___.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\icl-1900.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\icl-1900.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\impossible.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\impossible.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\inc_raw_.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\inc_raw_.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\invita.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\invita.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\isometric1.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\isometric1.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\isometric2.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\isometric2.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\isometric3.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\isometric3.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\isometric4.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\isometric4.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\italic.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\italic.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\italics_.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\italics_.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\ivrit.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\ivrit.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\jacky.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\jacky.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\jazmine.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\jazmine.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\jerusalem.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\jerusalem.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\joust___.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\joust___.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\js_block_letters.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\js_block_letters.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\js_bracket_letters.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\js_bracket_letters.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\js_capital_curves.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\js_capital_curves.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\js_cursive.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\js_cursive.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\js_stick_letters.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\js_stick_letters.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\katakana.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\katakana.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\kban.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\kban.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\keyboard.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\keyboard.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\kgames_i.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\kgames_i.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\kik_star.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\kik_star.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\knob.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\knob.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\konto.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\konto.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\konto_slant.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\konto_slant.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\krak_out.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\krak_out.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\larry3d.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\larry3d.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\lazy_jon.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\lazy_jon.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\lcd.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\lcd.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\lean.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\lean.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\letter_w.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\letter_w.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\letters.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\letters.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\letterw3.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\letterw3.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\lexible_.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\lexible_.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\lil_devil.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\lil_devil.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\line_blocks.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\line_blocks.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\linux.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\linux.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\lockergnome.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\lockergnome.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\lower.flc',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\lower.flc',
+   'DATA'),
+  ('pyfiglet\\fonts\\mad_nurs.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\mad_nurs.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\madrid.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\madrid.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\magic_ma.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\magic_ma.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\marquee.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\marquee.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\master_o.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\master_o.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\maxfour.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\maxfour.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\mayhem_d.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\mayhem_d.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\mcg_____.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\mcg_____.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\merlin1.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\merlin1.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\merlin2.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\merlin2.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\mig_ally.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\mig_ally.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\mike.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\mike.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\mini.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\mini.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\mirror.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\mirror.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\mnemonic.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\mnemonic.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\modern__.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\modern__.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\modular.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\modular.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\morse.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\morse.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\morse2.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\morse2.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\moscow.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\moscow.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\mshebrew210.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\mshebrew210.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\muzzle.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\muzzle.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\nancyj-fancy.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\nancyj-fancy.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\nancyj-improved.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\nancyj-improved.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\nancyj-underlined.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\nancyj-underlined.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\nancyj.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\nancyj.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\new_asci.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\new_asci.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\nfi1____.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\nfi1____.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\nipples.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\nipples.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\notie_ca.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\notie_ca.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\npn_____.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\npn_____.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\nscript.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\nscript.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\ntgreek.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\ntgreek.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\null.flc',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\null.flc',
+   'DATA'),
+  ('pyfiglet\\fonts\\nvscript.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\nvscript.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\o8.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\o8.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\octal.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\octal.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\odel_lak.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\odel_lak.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\ogre.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\ogre.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\ok_beer_.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\ok_beer_.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\old_banner.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\old_banner.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\os2.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\os2.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\outrun__.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\outrun__.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\p_s_h_m_.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\p_s_h_m_.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\p_skateb.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\p_skateb.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\pacos_pe.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\pacos_pe.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\panther_.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\panther_.flf',
+   'DATA'),
+  ("pyfiglet\\fonts\\patorjk's_cheese.flf",
+   'D:\\6 - '
+   "David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\patorjk's_cheese.flf",
+   'DATA'),
+  ('pyfiglet\\fonts\\patorjk-hex.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\patorjk-hex.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\pawn_ins.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\pawn_ins.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\pawp.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\pawp.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\peaks.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\peaks.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\pebbles.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\pebbles.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\pepper.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\pepper.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\phonix__.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\phonix__.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\platoon2.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\platoon2.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\platoon_.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\platoon_.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\pod_____.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\pod_____.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\poison.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\poison.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\puffy.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\puffy.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\puzzle.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\puzzle.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\pyramid.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\pyramid.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\r2-d2___.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\r2-d2___.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\rad_____.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\rad_____.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\rad_phan.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\rad_phan.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\radical_.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\radical_.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\rainbow_.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\rainbow_.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\rally_s2.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\rally_s2.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\rally_sp.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\rally_sp.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\rammstein.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\rammstein.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\rampage_.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\rampage_.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\rastan__.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\rastan__.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\raw_recu.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\raw_recu.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\rci_____.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\rci_____.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\rectangles.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\rectangles.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\red_phoenix.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\red_phoenix.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\relief.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\relief.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\relief2.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\relief2.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\rev.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\rev.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\ripper!_.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\ripper!_.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\road_rai.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\road_rai.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\rockbox_.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\rockbox_.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\rok_____.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\rok_____.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\roman.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\roman.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\roman___.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\roman___.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\rot13.flc',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\rot13.flc',
+   'DATA'),
+  ('pyfiglet\\fonts\\rot13.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\rot13.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\rotated.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\rotated.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\rounded.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\rounded.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\rowancap.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\rowancap.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\rozzo.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\rozzo.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\runic.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\runic.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\runyc.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\runyc.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\sans.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\sans.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\sansb.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\sansb.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\sansbi.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\sansbi.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\sansi.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\sansi.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\santa_clara.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\santa_clara.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\sblood.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\sblood.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\sbook.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\sbook.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\sbookb.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\sbookb.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\sbookbi.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\sbookbi.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\sbooki.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\sbooki.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\script.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\script.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\script__.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\script__.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\serifcap.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\serifcap.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\shadow.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\shadow.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\shimrod.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\shimrod.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\short.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\short.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\skate_ro.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\skate_ro.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\skateord.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\skateord.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\skateroc.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\skateroc.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\sketch_s.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\sketch_s.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\sl_script.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\sl_script.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\slant.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\slant.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\slant_relief.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\slant_relief.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\slide.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\slide.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\slscript.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\slscript.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\sm______.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\sm______.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\small.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\small.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\small_caps.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\small_caps.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\small_poison.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\small_poison.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\small_shadow.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\small_shadow.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\small_slant.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\small_slant.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\smisome1.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\smisome1.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\smkeyboard.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\smkeyboard.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\smscript.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\smscript.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\smshadow.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\smshadow.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\smslant.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\smslant.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\smtengwar.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\smtengwar.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\soft.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\soft.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\space_op.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\space_op.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\spc_demo.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\spc_demo.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\speed.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\speed.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\spliff.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\spliff.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\stacey.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\stacey.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\stampate.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\stampate.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\stampatello.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\stampatello.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\standard.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\standard.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\star_strips.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\star_strips.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\star_war.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\star_war.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\starwars.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\starwars.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\stealth_.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\stealth_.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\stellar.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\stellar.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\stencil1.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\stencil1.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\stencil2.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\stencil2.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\stforek.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\stforek.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\stick_letters.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\stick_letters.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\stop.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\stop.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\straight.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\straight.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\street_s.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\street_s.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\stronger_than_all.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\stronger_than_all.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\sub-zero.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\sub-zero.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\subteran.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\subteran.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\super_te.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\super_te.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\swamp_land.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\swamp_land.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\swan.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\swan.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\sweet.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\sweet.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\t__of_ap.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\t__of_ap.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\tanja.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\tanja.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\tav1____.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\tav1____.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\taxi____.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\taxi____.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\tec1____.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\tec1____.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\tec_7000.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\tec_7000.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\tecrvs__.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\tecrvs__.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\tengwar.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\tengwar.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\term.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\term.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\test1.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\test1.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\the_edge.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\the_edge.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\thick.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\thick.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\thin.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\thin.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\this.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\this.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\thorned.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\thorned.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\threepoint.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\threepoint.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\ti_pan__.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\ti_pan__.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\ticks.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\ticks.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\ticksslant.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\ticksslant.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\tiles.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\tiles.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\times.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\times.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\timesofl.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\timesofl.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\tinker-toy.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\tinker-toy.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\tomahawk.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\tomahawk.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\tombstone.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\tombstone.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\top_duck.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\top_duck.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\train.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\train.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\trashman.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\trashman.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\trek.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\trek.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\triad_st.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\triad_st.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\ts1_____.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\ts1_____.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\tsalagi.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\tsalagi.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\tsm_____.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\tsm_____.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\tsn_base.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\tsn_base.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\tty.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\tty.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\ttyb.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\ttyb.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\tubular.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\tubular.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\twin_cob.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\twin_cob.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\twisted.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\twisted.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\twopoint.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\twopoint.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\type_set.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\type_set.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\ucf_fan_.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\ucf_fan_.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\ugalympi.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\ugalympi.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\unarmed_.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\unarmed_.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\univers.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\univers.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\upper.flc',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\upper.flc',
+   'DATA'),
+  ('pyfiglet\\fonts\\usa_____.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\usa_____.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\usa_pq__.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\usa_pq__.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\usaflag.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\usaflag.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\utopia.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\utopia.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\utopiab.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\utopiab.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\utopiabi.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\utopiabi.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\utopiai.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\utopiai.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\varsity.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\varsity.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\vortron_.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\vortron_.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\war_of_w.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\war_of_w.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\wavy.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\wavy.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\weird.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\weird.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\wet_letter.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\wet_letter.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\whimsy.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\whimsy.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\wow.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\wow.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\xbrite.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\xbrite.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\xbriteb.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\xbriteb.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\xbritebi.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\xbritebi.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\xbritei.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\xbritei.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\xchartr.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\xchartr.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\xchartri.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\xchartri.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\xcour.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\xcour.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\xcourb.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\xcourb.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\xcourbi.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\xcourbi.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\xcouri.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\xcouri.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\xhelv.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\xhelv.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\xhelvb.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\xhelvb.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\xhelvbi.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\xhelvbi.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\xhelvi.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\xhelvi.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\xsans.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\xsans.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\xsansb.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\xsansb.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\xsansbi.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\xsansbi.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\xsansi.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\xsansi.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\xsbook.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\xsbook.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\xsbookb.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\xsbookb.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\xsbookbi.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\xsbookbi.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\xsbooki.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\xsbooki.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\xtimes.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\xtimes.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\xtty.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\xtty.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\xttyb.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\xttyb.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\yie-ar__.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\yie-ar__.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\yie_ar_k.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\yie_ar_k.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\z-pilot_.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\z-pilot_.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\zig_zag_.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\zig_zag_.flf',
+   'DATA'),
+  ('pyfiglet\\fonts\\zone7___.flf',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\zone7___.flf',
+   'DATA'),
+  ('pyfiglet\\test.py',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\test.py',
+   'DATA'),
+  ('pyfiglet\\version.py',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\version.py',
+   'DATA'),
+  ('base_library.zip',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\build\\pydl\\base_library.zip',
+   'DATA'),
+  ('attrs-23.1.0.dist-info\\licenses\\LICENSE',
+   'd:\\6 - '
+   'david\\python-projects\\pydl-repo\\pydl-win\\lib\\site-packages\\attrs-23.1.0.dist-info\\licenses\\LICENSE',
+   'DATA'),
+  ('attrs-23.1.0.dist-info\\WHEEL',
+   'd:\\6 - '
+   'david\\python-projects\\pydl-repo\\pydl-win\\lib\\site-packages\\attrs-23.1.0.dist-info\\WHEEL',
+   'DATA'),
+  ('attrs-23.1.0.dist-info\\RECORD',
+   'd:\\6 - '
+   'david\\python-projects\\pydl-repo\\pydl-win\\lib\\site-packages\\attrs-23.1.0.dist-info\\RECORD',
+   'DATA'),
+  ('attrs-23.1.0.dist-info\\INSTALLER',
+   'd:\\6 - '
+   'david\\python-projects\\pydl-repo\\pydl-win\\lib\\site-packages\\attrs-23.1.0.dist-info\\INSTALLER',
+   'DATA'),
+  ('attrs-23.1.0.dist-info\\METADATA',
+   'd:\\6 - '
+   'david\\python-projects\\pydl-repo\\pydl-win\\lib\\site-packages\\attrs-23.1.0.dist-info\\METADATA',
+   'DATA')],
+ False,
+ False,
+ False,
+ [],
+ None,
+ None,
+ None)

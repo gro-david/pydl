@@ -1,4 +1,0 @@
-import os
-
-for file in os.listdir('tmp'):
-    os.remove(os.path.join('tmp', file))
