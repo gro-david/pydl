@@ -146,8 +146,8 @@ try:
         help="Use the thumbnail as the cover or not",
         default=flags["tn-as-cover"],
     )
-    def download(input, path, playlist, tag, experimental, manual_tag, limit, tn):
-        download_logic(input, path, playlist, tag, experimental, manual_tag, limit, tn)
+    def download(url, path, playlist, tag, experimental, manual_tag, limit, tn):
+        download_logic(url, path, playlist, tag, experimental, manual_tag, limit, tn)
 
 except KeyError:
     console.print(

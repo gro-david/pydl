@@ -4,6 +4,7 @@ from notifypy import Notify
 
 # to get the paths to the audio files
 from libraries import get_app_path
+import os
 
 
 notification = Notify(default_notification_application_name="pydl")

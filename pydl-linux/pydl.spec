@@ -13,9 +13,9 @@ block_cipher = None
 
 a = Analysis(
     ['pydl/pydl.py'],
-    pathex=['/mnt/docs/6 - David/python-projects/pydl/dist/lib64/python3.11/site-packages'],
+    pathex=['/mnt/docs/6 - David/python-projects/pydl-repo/pydl-linux/lib64/python3.11/site-packages'],
     binaries=binaries,
-    datas=datas,
+    datas=[('/mnt/docs/6 - David/python-projects/pydl-repo/pydl-linux/pydl/sounds/*.wav', './sounds')],
     hiddenimports=hiddenimports,
     hookspath=[],
     hooksconfig={},
