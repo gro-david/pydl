@@ -37,11 +37,33 @@ def add_to_queue(
     playlist,
     limit,
     index,
+    upload=read_conf.main()["Flags"]["upload"],
+    complex_filetree=read_conf.main()["Flags"]["complex-filetree"],
 ):
+    global queue
     if index == None:
-        queue.append(QueueItem(url, path, playlist, limit))
+        queue.append(
+            QueueItem(
+                url,
+                path,
+                playlist,
+                limit,
+                complex_filetree,
+                upload,
+            )
+        )
     else:
-        queue.insert(int(index), QueueItem(url, path, playlist, limit))
+        queue.insert(
+            int(index),
+            QueueItem(
+                url,
+                path,
+                playlist,
+                limit,
+                complex_filetree,
+                upload,
+            ),
+        )
 
 
 def get_queue():
@@ -124,6 +146,8 @@ def start_queue():
                 playlist=item.playlist,
                 limit=item.limit,
                 status=False,
+                upload=item.upload,
+                complex_filetree=item.complex_filetree,
             )
     live_running = False
 
@@ -192,10 +216,14 @@ class QueueItem:
         path,
         playlist=read_conf.main()["Flags"]["playlist"],
         limit=read_conf.main()["General"]["dl-limit"],
+        complex_filetree=read_conf.main()["Flags"]["complex-filetree"],
+        upload=read_conf.main()["Flags"]["upload"],
     ):
         self.url = url
         self.path = path
-        self.title = YT(url).title if not "playlist?" in url else Playlist(url).title
+        self.title = YT(url).title if not "?list" in url else Playlist(url).title
         self.is_playlist = True if "list=" in url and playlist else False
         self.playlist = playlist
         self.limit = limit
+        self.complex_filetree = complex_filetree
+        self.upload = upload

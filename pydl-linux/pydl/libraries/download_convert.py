@@ -1,7 +1,7 @@
 # type: ignore
 from ffmpeg import FFmpeg
 import os
-import sys
+from pathlib import Path
 from time import sleep
 
 # rich
@@ -21,6 +21,7 @@ from libraries import get_metadata
 from libraries import notifier
 from libraries import find_stream
 from libraries import queue_management
+from libraries import read_conf
 
 from pydl import console
 
@@ -29,10 +30,13 @@ tn_as_cover = None
 # 3 options for tagging: normal, experimental, off
 tagging = "normal"
 
+# complex file structure is if we place the song in the artist/album/ directory
+complex_file_structure = True
+
 # the path where the songs are downloaded to
 dl_path = os.getcwd()
 
-# album name is needed by manage playlist for notifying the user correctly
+# album name is needed by manfage playlist for notifying the user correctly
 album_name = None
 
 status = True
@@ -46,15 +50,19 @@ def download(url):
     return song
 
 
-def convert(song, title):
+def convert(song, output_dir, title):
     # set the new filename with the mp3 extension
-    filename = song.split(".")[0] + ".mp3"
+    filename = Path(song).stem + ".mp3"
+    filename = os.path.join(output_dir, filename)
 
     # if we would not check this ffmpeg would hast ot itself. That would mess up the status
     if os.path.isfile(filename):
-        # send a notification to the user that input is required
-        notifier.error(title)
+        if not read_conf.main()["Flags"]["skip-existing"]:
+            # send a notification to the user that input is required
+            notifier.error(title)
         if not status:
+            if read_conf.main()["Flags"]["skip-existing"]:
+                return filename
             queue_management.error()
             console.print(
                 f"[bold red]File {filename} already exists, remove or rename the file!"
@@ -70,21 +78,15 @@ def convert(song, title):
                     f"[bold green]Converting {title}...[/bold green]", spinner="dots"
                 ):
                     # add the parameters to the ffmpeg command
-                    ffmpeg = (FFmpeg()
-                          .option("y")
-                          .input(song)
-                          .output(filename))
-               
+                    ffmpeg = FFmpeg().option("y").input(song).output(filename)
+
                     # perform the conversion
                     ffmpeg.execute()
             else:
                 queue_management.set_status_text(f"Converting {title}...")
                 # add the parameters to the ffmpeg command
-                ffmpeg = (FFmpeg()
-                          .option("y")
-                          .input(song)
-                          .output(filename))
-               
+                ffmpeg = FFmpeg().option("y").input(song).output(filename)
+
                 # perform the conversion
                 ffmpeg.execute()
                 queue_management.set_status_text("")
@@ -96,20 +98,14 @@ def convert(song, title):
                 f"[bold green]Converting {title}...[/bold green]", spinner="dots"
             ):
                 # add the parameters to the ffmpeg command
-                ffmpeg = (FFmpeg()
-                          .option("y")
-                          .input(song)
-                          .output(filename))
-               
+                ffmpeg = FFmpeg().option("y").input(song).output(filename)
+
                 # perform the conversion
                 ffmpeg.execute()
         else:
             queue_management.set_status_text(f"Converting {title}...")
-            ffmpeg = (FFmpeg()
-                          .option("y")
-                          .input(song)
-                          .output(filename))
-               
+            ffmpeg = FFmpeg().option("y").input(song).output(filename)
+
             # perform the conversion
             ffmpeg.execute()
             queue_management.set_status_text("")
@@ -126,6 +122,11 @@ def cleanup(song):
 def set_tagging(tagging_mode):
     global tagging
     tagging = tagging_mode
+
+
+def set_complex_structure(complex_structure):
+    global complex_file_structure
+    complex_file_structure = complex_structure
 
 
 def set_path(path):
@@ -163,8 +164,9 @@ def main(url, tags_in, song_nr, playlist_title):
         downloaded_song = download(url)
         queue_management.set_status_text("")
 
+    output_dir = create_folder_structure(downloaded_song, playlist_title)
     # convert the song to mp3
-    converted_song = convert(downloaded_song, title)
+    converted_song = convert(downloaded_song, output_dir, title)
 
     # remove the webm file
     cleanup(downloaded_song)
@@ -321,3 +323,17 @@ def get_title(url):
 def set_status(_status):
     global status
     status = _status
+
+
+def create_folder_structure(song, album_name):
+    parent_dir = os.path.abspath(os.path.join(song, os.pardir))
+    if complex_file_structure:
+        artist = get_metadata.main(song)["artist"]
+        if not os.path.exists(os.path.join(parent_dir, artist)):
+            os.mkdir(os.path.join(parent_dir, artist))
+        if not os.path.exists(os.path.join(parent_dir, artist, album_name)):
+            os.mkdir(os.path.join(parent_dir, artist, album_name))
+        out_directory = os.path.join(parent_dir, artist, album_name)
+        return out_directory
+    else:
+        return parent_dir

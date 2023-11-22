@@ -23,6 +23,7 @@ from libraries import notifier
 from libraries import manual_tagging
 from libraries import queue_management
 from libraries import rich_click_shell
+from libraries import upload as uploader
 
 # the config file is read and the values are stored in the conf dictionary
 try:
@@ -33,7 +34,7 @@ except FileNotFoundError:
     )
     write_conf.main(generate_conf.main())
     sys.exit()
-    
+
 # different sections are seperated to make it easier to work withs
 flags = conf["Flags"]
 general = conf["General"]
@@ -146,13 +147,48 @@ try:
         help="Use the thumbnail as the cover or not",
         default=flags["tn-as-cover"],
     )
-    def download(url, path, playlist, tag, experimental, manual_tag, limit, tn):
-        download_logic(url, path, playlist, tag, experimental, manual_tag, limit, tn)
+    @rclick.option(
+        "--upload/--no-upload",
+        help="Upload the files to YT Music or not",
+        default=flags["upload"],
+        is_flag=True,
+    )
+    @rclick.option(
+        "--complex-filetree/--no-complex-filetree",
+        help="Place the downloaded files in the artist/album directory or not",
+        default=flags["complex-filetree"],
+        is_flag=True,
+    )
+    def download(
+        url,
+        path,
+        playlist,
+        tag,
+        experimental,
+        manual_tag,
+        limit,
+        tn,
+        upload,
+        complex_filetree,
+    ):
+        download_logic(
+            input=url,
+            path=path,
+            playlist=playlist,
+            tag=tag,
+            experimental=experimental,
+            manual_tag=manual_tag,
+            limit=limit,
+            tn=tn,
+            upload=upload,
+            complex_filetree=complex_filetree,
+        )
 
 except KeyError:
     console.print(
         "[bold red]Invalid config file![/bold red] Please generate a new config file!"
     )
+    generate_config()
 # endregion
 
 
@@ -167,6 +203,8 @@ def download_logic(
     limit=general["dl-limit"],
     tn=flags["tn-as-cover"],
     status=True,
+    upload=flags["upload"],
+    complex_filetree=flags["complex-filetree"],
 ):
     # we want the relative path, path out is the output path after modifications
     path_out = os.path.join(os.getcwd(), path)
@@ -202,8 +240,29 @@ def download_logic(
         download_convert.set_tagging("off")
     # set if we want a status message
     download_convert.set_status(status)
+    # set if we want to use the complex filetree
+    download_convert.set_complex_structure(complex_filetree)
     # run the playlist management script which then downloads the song/songs. the title of the playlist will get saved
     pl_title = manage_playlist.main(input, playlist, tags_in, limit)
+
+    # upload the files if the upload flag is set to true
+    if upload:
+        try:
+            with console.status("[bold green]Uploading songs to YT Music..."):
+                uploader.upload_dir(
+                    path_out
+                    if not complex_filetree
+                    else os.path.join(path_out, pl_title),
+                    complex_filetree,
+                )
+        except Exception:
+            queue_management.set_status_text(
+                f"[bold green]Uploading songs to YT Music..."
+            )
+            uploader.upload_dir(
+                path_out if not complex_filetree else os.path.join(path_out, pl_title),
+                complex_filetree,
+            )
 
     # send a finished notification
     notifier.finished(pl_title)
@@ -217,9 +276,27 @@ def download_logic(
 @rclick.option("--playlist/--no-playlist", is_flag=True, default=flags["playlist"])
 @rclick.option("-l", "--limit", default=general["dl-limit"])
 @rclick.option("-p", "--path", default="")
-def queue_add(url, index, playlist, limit, path):
+@rclick.option(
+    "--complex-filetree/--no-complex-filetree",
+    help="Place the downloaded files in the artist/album directory or not",
+    default=flags["complex-filetree"],
+    is_flag=True,
+)
+@rclick.option(
+    "--upload/--no-upload",
+    help="Upload the files to YT Music or not",
+    default=flags["upload"],
+    is_flag=True,
+)
+def queue_add(url, index, playlist, limit, path, complex_filetree, upload):
     queue_management.add_to_queue(
-        url=url, path=path, index=index, playlist=playlist, limit=limit
+        url=url,
+        path=path,
+        index=index,
+        playlist=playlist,
+        limit=limit,
+        complex_filetree=complex_filetree,
+        upload=upload,
     )
 
 
@@ -267,6 +344,14 @@ def clear():
     os.system("cls" if os.name == "nt" else "clear")
 
 
+@main.command()
+def auth():
+    uploader.auth()
+
+
 # this gets run every time we want to do something with the script
 if __name__ == "__main__":
     main()
+
+
+# just a random comment
