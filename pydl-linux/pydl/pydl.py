@@ -242,27 +242,10 @@ def download_logic(
     download_convert.set_status(status)
     # set if we want to use the complex filetree
     download_convert.set_complex_structure(complex_filetree)
+    # set if we want to upload the files to YT Music
+    download_convert.set_upload(upload)
     # run the playlist management script which then downloads the song/songs. the title of the playlist will get saved
     pl_title = manage_playlist.main(input, playlist, tags_in, limit)
-
-    # upload the files if the upload flag is set to true
-    if upload:
-        try:
-            with console.status("[bold green]Uploading songs to YT Music..."):
-                uploader.upload_dir(
-                    path_out
-                    if not complex_filetree
-                    else os.path.join(path_out, pl_title),
-                    complex_filetree,
-                )
-        except Exception:
-            queue_management.set_status_text(
-                f"[bold green]Uploading songs to YT Music..."
-            )
-            uploader.upload_dir(
-                path_out if not complex_filetree else os.path.join(path_out, pl_title),
-                complex_filetree,
-            )
 
     # send a finished notification
     notifier.finished(pl_title)

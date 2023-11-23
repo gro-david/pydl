@@ -20,9 +20,16 @@ def main(url, playlist, tags, limit):
         playlist = ytmusic.get_playlist(url.split("list=")[-1])
         songs = playlist.get("tracks")
         for i in range(min(limit, len(songs))):
-            download_convert.main(
-                url_stem + songs[i].get("videoId"), tags, i + 1, playlist.get("title")
-            )
+            try:
+                download_convert.main(
+                    url_stem + songs[i].get("videoId"),
+                    tags,
+                    i + 1,
+                    playlist.get("title"),
+                )
+            except Exception:
+                i -= 1
+                continue
 
         return download_convert.album_name
 

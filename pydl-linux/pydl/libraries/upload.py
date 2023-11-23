@@ -36,6 +36,11 @@ def upload_dir(dirpath, recursive=True):
             ytmusic.upload_song(filepath=os.path.join(dirpath, file))
 
 
+def upload_song(filepath):
+    ytmusic = YTMusic(browser_path)
+    ytmusic.upload_song(filepath=filepath)
+
+
 if __name__ == "__main__":
     upload_dir(
         "/mnt/docs/6 - David/python-projects/pydl-repo/pydl-linux/test",
