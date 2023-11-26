@@ -13,8 +13,15 @@ browser_path = os.path.join(config_dir, "browser.json")
 
 def auth():
     headers = Prompt.ask(
-        "[bold green]Please enter headers copied from the browser:[/bold green] "
+        "[bold green]Please enter headers copied from the browser (Press Ctrl+D/Ctrl+Z to save):[/bold green] \n"
     )
+    headers = ""
+    try:
+        while True:
+            header = input()
+            headers += "\n" + header
+    except EOFError:
+        pass
     ytmusicapi.setup(filepath=browser_path, headers_raw=headers)
 
 

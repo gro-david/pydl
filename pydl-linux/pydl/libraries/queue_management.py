@@ -6,8 +6,6 @@ from rich.panel import Panel
 from rich.live import Live
 from rich.text import Text
 
-import rich_click as rclick
-
 from pytube import YouTube as YT
 from pytube import Playlist
 

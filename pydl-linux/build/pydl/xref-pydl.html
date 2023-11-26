@@ -157,6 +157,7 @@ imports:
  &#8226;   <a href="#keyword">keyword</a>
  &#8226;   <a href="#libraries">libraries</a>
  &#8226;   <a href="#libraries.download_convert">libraries.download_convert</a>
+ &#8226;   <a href="#libraries.error_handler">libraries.error_handler</a>
  &#8226;   <a href="#libraries.generate_conf">libraries.generate_conf</a>
  &#8226;   <a href="#libraries.manage_playlist">libraries.manage_playlist</a>
  &#8226;   <a href="#libraries.manual_tagging">libraries.manual_tagging</a>
@@ -188,6 +189,7 @@ imports:
  &#8226;   <a href="#re._constants">re._constants</a>
  &#8226;   <a href="#re._parser">re._parser</a>
  &#8226;   <a href="#reprlib">reprlib</a>
+ &#8226;   <a href="#requests">requests</a>
  &#8226;   <a href="#rich.console">rich.console</a>
  &#8226;   <a href="#rich_click">rich_click</a>
  &#8226;   <a href="#sre_compile">sre_compile</a>
@@ -207,6 +209,38 @@ imports:
  &#8226;   <a href="#urllib.robotparser">urllib.robotparser</a>
  &#8226;   <a href="#warnings">warnings</a>
  &#8226;   <a href="#weakref">weakref</a>
+ &#8226;   <a href="#ytmusicapi">ytmusicapi</a>
+ &#8226;   <a href="#ytmusicapi.auth">ytmusicapi.auth</a>
+ &#8226;   <a href="#ytmusicapi.auth.browser">ytmusicapi.auth.browser</a>
+ &#8226;   <a href="#ytmusicapi.auth.headers">ytmusicapi.auth.headers</a>
+ &#8226;   <a href="#ytmusicapi.auth.oauth">ytmusicapi.auth.oauth</a>
+ &#8226;   <a href="#ytmusicapi.constants">ytmusicapi.constants</a>
+ &#8226;   <a href="#ytmusicapi.continuations">ytmusicapi.continuations</a>
+ &#8226;   <a href="#ytmusicapi.helpers">ytmusicapi.helpers</a>
+ &#8226;   <a href="#ytmusicapi.mixins">ytmusicapi.mixins</a>
+ &#8226;   <a href="#ytmusicapi.mixins._utils">ytmusicapi.mixins._utils</a>
+ &#8226;   <a href="#ytmusicapi.mixins.browsing">ytmusicapi.mixins.browsing</a>
+ &#8226;   <a href="#ytmusicapi.mixins.explore">ytmusicapi.mixins.explore</a>
+ &#8226;   <a href="#ytmusicapi.mixins.library">ytmusicapi.mixins.library</a>
+ &#8226;   <a href="#ytmusicapi.mixins.playlists">ytmusicapi.mixins.playlists</a>
+ &#8226;   <a href="#ytmusicapi.mixins.search">ytmusicapi.mixins.search</a>
+ &#8226;   <a href="#ytmusicapi.mixins.uploads">ytmusicapi.mixins.uploads</a>
+ &#8226;   <a href="#ytmusicapi.mixins.watch">ytmusicapi.mixins.watch</a>
+ &#8226;   <a href="#ytmusicapi.navigation">ytmusicapi.navigation</a>
+ &#8226;   <a href="#ytmusicapi.parsers">ytmusicapi.parsers</a>
+ &#8226;   <a href="#ytmusicapi.parsers._utils">ytmusicapi.parsers._utils</a>
+ &#8226;   <a href="#ytmusicapi.parsers.albums">ytmusicapi.parsers.albums</a>
+ &#8226;   <a href="#ytmusicapi.parsers.browsing">ytmusicapi.parsers.browsing</a>
+ &#8226;   <a href="#ytmusicapi.parsers.explore">ytmusicapi.parsers.explore</a>
+ &#8226;   <a href="#ytmusicapi.parsers.i18n">ytmusicapi.parsers.i18n</a>
+ &#8226;   <a href="#ytmusicapi.parsers.library">ytmusicapi.parsers.library</a>
+ &#8226;   <a href="#ytmusicapi.parsers.playlists">ytmusicapi.parsers.playlists</a>
+ &#8226;   <a href="#ytmusicapi.parsers.search">ytmusicapi.parsers.search</a>
+ &#8226;   <a href="#ytmusicapi.parsers.songs">ytmusicapi.parsers.songs</a>
+ &#8226;   <a href="#ytmusicapi.parsers.uploads">ytmusicapi.parsers.uploads</a>
+ &#8226;   <a href="#ytmusicapi.parsers.watch">ytmusicapi.parsers.watch</a>
+ &#8226;   <a href="#ytmusicapi.setup">ytmusicapi.setup</a>
+ &#8226;   <a href="#ytmusicapi.ytmusic">ytmusicapi.ytmusic</a>
 
   </div>
 
@@ -15084,6 +15118,7 @@ imported by:
 imports:
     <a href="#libraries.crop_image">libraries.crop_image</a>
  &#8226;   <a href="#libraries.download_convert">libraries.download_convert</a>
+ &#8226;   <a href="#libraries.error_handler">libraries.error_handler</a>
  &#8226;   <a href="#libraries.find_stream">libraries.find_stream</a>
  &#8226;   <a href="#libraries.generate_conf">libraries.generate_conf</a>
  &#8226;   <a href="#libraries.get_app_path">libraries.get_app_path</a>
@@ -15104,6 +15139,7 @@ imports:
 imported by:
     <a href="#libraries.crop_image">libraries.crop_image</a>
  &#8226;   <a href="#libraries.download_convert">libraries.download_convert</a>
+ &#8226;   <a href="#libraries.error_handler">libraries.error_handler</a>
  &#8226;   <a href="#libraries.find_stream">libraries.find_stream</a>
  &#8226;   <a href="#libraries.generate_conf">libraries.generate_conf</a>
  &#8226;   <a href="#libraries.get_app_path">libraries.get_app_path</a>
@@ -15159,6 +15195,7 @@ imports:
  &#8226;   <a href="#libraries.queue_management">libraries.queue_management</a>
  &#8226;   <a href="#libraries.read_conf">libraries.read_conf</a>
  &#8226;   <a href="#libraries.setmetadata">libraries.setmetadata</a>
+ &#8226;   <a href="#libraries.upload">libraries.upload</a>
  &#8226;   <a href="#os">os</a>
  &#8226;   <a href="#pathlib">pathlib</a>
  &#8226;   <a href="#pydl">pydl</a>
@@ -15172,6 +15209,28 @@ imports:
 imported by:
     <a href="#libraries">libraries</a>
  &#8226;   <a href="#libraries.manage_playlist">libraries.manage_playlist</a>
+ &#8226;   <a href="#pydl">pydl</a>
+ &#8226;   <a href="#pydl.py">pydl.py</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="libraries.error_handler"></a>
+  <a target="code" href="/mnt/docs/6%20-%20David/python-projects/pydl-repo/pydl-linux/pydl/libraries/error_handler.py" type="text/plain"><tt>libraries.error_handler</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#libraries">libraries</a>
+ &#8226;   <a href="#pydl">pydl</a>
+ &#8226;   <a href="#pytube">pytube</a>
+ &#8226;   <a href="#pytube.exceptions">pytube.exceptions</a>
+ &#8226;   <a href="#urllib">urllib</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#libraries">libraries</a>
  &#8226;   <a href="#pydl">pydl</a>
  &#8226;   <a href="#pydl.py">pydl.py</a>
 
@@ -15244,6 +15303,8 @@ imported by:
 imports:
     <a href="#asyncio">asyncio</a>
  &#8226;   <a href="#libraries">libraries</a>
+ &#8226;   <a href="#pytube">pytube</a>
+ &#8226;   <a href="#pytube.exceptions">pytube.exceptions</a>
  &#8226;   <a href="#shazamio">shazamio</a>
 
   </div>
@@ -15353,7 +15414,6 @@ imports:
  &#8226;   <a href="#rich.prompt">rich.prompt</a>
  &#8226;   <a href="#rich.table">rich.table</a>
  &#8226;   <a href="#rich.text">rich.text</a>
- &#8226;   <a href="#rich_click">rich_click</a>
 
   </div>
   <div class="import">
@@ -15537,6 +15597,7 @@ imports:
   <div class="import">
 imported by:
     <a href="#libraries">libraries</a>
+ &#8226;   <a href="#libraries.download_convert">libraries.download_convert</a>
  &#8226;   <a href="#pydl">pydl</a>
  &#8226;   <a href="#pydl.py">pydl.py</a>
 
@@ -28164,6 +28225,7 @@ imported by:
 imports:
     <a href="#libraries">libraries</a>
  &#8226;   <a href="#libraries.download_convert">libraries.download_convert</a>
+ &#8226;   <a href="#libraries.error_handler">libraries.error_handler</a>
  &#8226;   <a href="#libraries.generate_conf">libraries.generate_conf</a>
  &#8226;   <a href="#libraries.manage_playlist">libraries.manage_playlist</a>
  &#8226;   <a href="#libraries.manual_tagging">libraries.manual_tagging</a>
@@ -28183,6 +28245,7 @@ imports:
   <div class="import">
 imported by:
     <a href="#libraries.download_convert">libraries.download_convert</a>
+ &#8226;   <a href="#libraries.error_handler">libraries.error_handler</a>
  &#8226;   <a href="#libraries.manual_tagging">libraries.manual_tagging</a>
  &#8226;   <a href="#libraries.queue_management">libraries.queue_management</a>
 
@@ -35987,6 +36050,8 @@ imports:
   <div class="import">
 imported by:
     <a href="#libraries.download_convert">libraries.download_convert</a>
+ &#8226;   <a href="#libraries.error_handler">libraries.error_handler</a>
+ &#8226;   <a href="#libraries.get_metadata">libraries.get_metadata</a>
  &#8226;   <a href="#libraries.queue_management">libraries.queue_management</a>
  &#8226;   <a href="#pytube.__main__">pytube.__main__</a>
  &#8226;   <a href="#pytube.captions">pytube.captions</a>
@@ -36182,6 +36247,8 @@ imports:
   <div class="import">
 imported by:
     <a href="#libraries.download_convert">libraries.download_convert</a>
+ &#8226;   <a href="#libraries.error_handler">libraries.error_handler</a>
+ &#8226;   <a href="#libraries.get_metadata">libraries.get_metadata</a>
  &#8226;   <a href="#pytube.__main__">pytube.__main__</a>
  &#8226;   <a href="#pytube.cipher">pytube.cipher</a>
  &#8226;   <a href="#pytube.extract">pytube.extract</a>
@@ -37026,7 +37093,8 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#requests">requests</a>
+    <a href="#pydl.py">pydl.py</a>
+ &#8226;   <a href="#requests">requests</a>
  &#8226;   <a href="#requests.__version__">requests.__version__</a>
  &#8226;   <a href="#requests._internal_utils">requests._internal_utils</a>
  &#8226;   <a href="#requests.adapters">requests.adapters</a>
@@ -39530,8 +39598,7 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#libraries.queue_management">libraries.queue_management</a>
- &#8226;   <a href="#libraries.rich_click_shell._cmd">libraries.rich_click_shell._cmd</a>
+    <a href="#libraries.rich_click_shell._cmd">libraries.rich_click_shell._cmd</a>
  &#8226;   <a href="#libraries.rich_click_shell.core">libraries.rich_click_shell.core</a>
  &#8226;   <a href="#libraries.rich_click_shell.decorators">libraries.rich_click_shell.decorators</a>
  &#8226;   <a href="#pydl">pydl</a>
@@ -42596,6 +42663,7 @@ imported by:
 <span class="moduletype">Package</span>  <div class="import">
 imported by:
     <a href="#email._header_value_parser">email._header_value_parser</a>
+ &#8226;   <a href="#libraries.error_handler">libraries.error_handler</a>
  &#8226;   <a href="#pydl.py">pydl.py</a>
  &#8226;   <a href="#pytube.helpers">pytube.helpers</a>
  &#8226;   <a href="#pytube.innertube">pytube.innertube</a>
@@ -44511,6 +44579,7 @@ imports:
   <div class="import">
 imported by:
     <a href="#libraries.upload">libraries.upload</a>
+ &#8226;   <a href="#pydl.py">pydl.py</a>
  &#8226;   <a href="#ytmusicapi.auth">ytmusicapi.auth</a>
  &#8226;   <a href="#ytmusicapi.constants">ytmusicapi.constants</a>
  &#8226;   <a href="#ytmusicapi.continuations">ytmusicapi.continuations</a>
@@ -44535,7 +44604,8 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#ytmusicapi.auth.browser">ytmusicapi.auth.browser</a>
+    <a href="#pydl.py">pydl.py</a>
+ &#8226;   <a href="#ytmusicapi.auth.browser">ytmusicapi.auth.browser</a>
  &#8226;   <a href="#ytmusicapi.auth.headers">ytmusicapi.auth.headers</a>
  &#8226;   <a href="#ytmusicapi.auth.oauth">ytmusicapi.auth.oauth</a>
 
@@ -44557,7 +44627,8 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#ytmusicapi.auth.headers">ytmusicapi.auth.headers</a>
+    <a href="#pydl.py">pydl.py</a>
+ &#8226;   <a href="#ytmusicapi.auth.headers">ytmusicapi.auth.headers</a>
  &#8226;   <a href="#ytmusicapi.setup">ytmusicapi.setup</a>
 
   </div>
@@ -44582,7 +44653,8 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#ytmusicapi.ytmusic">ytmusicapi.ytmusic</a>
+    <a href="#pydl.py">pydl.py</a>
+ &#8226;   <a href="#ytmusicapi.ytmusic">ytmusicapi.ytmusic</a>
 
   </div>
 
@@ -44606,7 +44678,8 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#ytmusicapi.auth.headers">ytmusicapi.auth.headers</a>
+    <a href="#pydl.py">pydl.py</a>
+ &#8226;   <a href="#ytmusicapi.auth.headers">ytmusicapi.auth.headers</a>
  &#8226;   <a href="#ytmusicapi.setup">ytmusicapi.setup</a>
  &#8226;   <a href="#ytmusicapi.ytmusic">ytmusicapi.ytmusic</a>
 
@@ -44624,7 +44697,8 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#ytmusicapi.auth.oauth">ytmusicapi.auth.oauth</a>
+    <a href="#pydl.py">pydl.py</a>
+ &#8226;   <a href="#ytmusicapi.auth.oauth">ytmusicapi.auth.oauth</a>
  &#8226;   <a href="#ytmusicapi.helpers">ytmusicapi.helpers</a>
 
   </div>
@@ -44642,7 +44716,8 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#ytmusicapi.mixins.browsing">ytmusicapi.mixins.browsing</a>
+    <a href="#pydl.py">pydl.py</a>
+ &#8226;   <a href="#ytmusicapi.mixins.browsing">ytmusicapi.mixins.browsing</a>
  &#8226;   <a href="#ytmusicapi.mixins.library">ytmusicapi.mixins.library</a>
  &#8226;   <a href="#ytmusicapi.mixins.playlists">ytmusicapi.mixins.playlists</a>
  &#8226;   <a href="#ytmusicapi.mixins.search">ytmusicapi.mixins.search</a>
@@ -44672,7 +44747,8 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#ytmusicapi.auth.browser">ytmusicapi.auth.browser</a>
+    <a href="#pydl.py">pydl.py</a>
+ &#8226;   <a href="#ytmusicapi.auth.browser">ytmusicapi.auth.browser</a>
  &#8226;   <a href="#ytmusicapi.auth.headers">ytmusicapi.auth.headers</a>
  &#8226;   <a href="#ytmusicapi.auth.oauth">ytmusicapi.auth.oauth</a>
  &#8226;   <a href="#ytmusicapi.mixins.browsing">ytmusicapi.mixins.browsing</a>
@@ -44695,7 +44771,8 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#ytmusicapi.mixins._utils">ytmusicapi.mixins._utils</a>
+    <a href="#pydl.py">pydl.py</a>
+ &#8226;   <a href="#ytmusicapi.mixins._utils">ytmusicapi.mixins._utils</a>
  &#8226;   <a href="#ytmusicapi.mixins.browsing">ytmusicapi.mixins.browsing</a>
  &#8226;   <a href="#ytmusicapi.mixins.explore">ytmusicapi.mixins.explore</a>
  &#8226;   <a href="#ytmusicapi.mixins.library">ytmusicapi.mixins.library</a>
@@ -44720,7 +44797,8 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#ytmusicapi.mixins.browsing">ytmusicapi.mixins.browsing</a>
+    <a href="#pydl.py">pydl.py</a>
+ &#8226;   <a href="#ytmusicapi.mixins.browsing">ytmusicapi.mixins.browsing</a>
  &#8226;   <a href="#ytmusicapi.mixins.library">ytmusicapi.mixins.library</a>
  &#8226;   <a href="#ytmusicapi.mixins.playlists">ytmusicapi.mixins.playlists</a>
  &#8226;   <a href="#ytmusicapi.mixins.uploads">ytmusicapi.mixins.uploads</a>
@@ -44747,7 +44825,8 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#ytmusicapi.ytmusic">ytmusicapi.ytmusic</a>
+    <a href="#pydl.py">pydl.py</a>
+ &#8226;   <a href="#ytmusicapi.ytmusic">ytmusicapi.ytmusic</a>
 
   </div>
 
@@ -44765,7 +44844,8 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#ytmusicapi.ytmusic">ytmusicapi.ytmusic</a>
+    <a href="#pydl.py">pydl.py</a>
+ &#8226;   <a href="#ytmusicapi.ytmusic">ytmusicapi.ytmusic</a>
 
   </div>
 
@@ -44787,7 +44867,8 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#ytmusicapi.ytmusic">ytmusicapi.ytmusic</a>
+    <a href="#pydl.py">pydl.py</a>
+ &#8226;   <a href="#ytmusicapi.ytmusic">ytmusicapi.ytmusic</a>
 
   </div>
 
@@ -44810,7 +44891,8 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#ytmusicapi.ytmusic">ytmusicapi.ytmusic</a>
+    <a href="#pydl.py">pydl.py</a>
+ &#8226;   <a href="#ytmusicapi.ytmusic">ytmusicapi.ytmusic</a>
 
   </div>
 
@@ -44829,7 +44911,8 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#ytmusicapi.ytmusic">ytmusicapi.ytmusic</a>
+    <a href="#pydl.py">pydl.py</a>
+ &#8226;   <a href="#ytmusicapi.ytmusic">ytmusicapi.ytmusic</a>
 
   </div>
 
@@ -44856,7 +44939,8 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#ytmusicapi.ytmusic">ytmusicapi.ytmusic</a>
+    <a href="#pydl.py">pydl.py</a>
+ &#8226;   <a href="#ytmusicapi.ytmusic">ytmusicapi.ytmusic</a>
 
   </div>
 
@@ -44876,7 +44960,8 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#ytmusicapi.ytmusic">ytmusicapi.ytmusic</a>
+    <a href="#pydl.py">pydl.py</a>
+ &#8226;   <a href="#ytmusicapi.ytmusic">ytmusicapi.ytmusic</a>
 
   </div>
 
@@ -44892,7 +44977,8 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#ytmusicapi.continuations">ytmusicapi.continuations</a>
+    <a href="#pydl.py">pydl.py</a>
+ &#8226;   <a href="#ytmusicapi.continuations">ytmusicapi.continuations</a>
  &#8226;   <a href="#ytmusicapi.mixins.playlists">ytmusicapi.mixins.playlists</a>
  &#8226;   <a href="#ytmusicapi.mixins.uploads">ytmusicapi.mixins.uploads</a>
  &#8226;   <a href="#ytmusicapi.parsers._utils">ytmusicapi.parsers._utils</a>
@@ -44912,7 +44998,8 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#ytmusicapi.parsers._utils">ytmusicapi.parsers._utils</a>
+    <a href="#pydl.py">pydl.py</a>
+ &#8226;   <a href="#ytmusicapi.parsers._utils">ytmusicapi.parsers._utils</a>
  &#8226;   <a href="#ytmusicapi.parsers.albums">ytmusicapi.parsers.albums</a>
  &#8226;   <a href="#ytmusicapi.parsers.browsing">ytmusicapi.parsers.browsing</a>
  &#8226;   <a href="#ytmusicapi.parsers.explore">ytmusicapi.parsers.explore</a>
@@ -44940,7 +45027,8 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#ytmusicapi.parsers.albums">ytmusicapi.parsers.albums</a>
+    <a href="#pydl.py">pydl.py</a>
+ &#8226;   <a href="#ytmusicapi.parsers.albums">ytmusicapi.parsers.albums</a>
  &#8226;   <a href="#ytmusicapi.parsers.browsing">ytmusicapi.parsers.browsing</a>
  &#8226;   <a href="#ytmusicapi.parsers.i18n">ytmusicapi.parsers.i18n</a>
  &#8226;   <a href="#ytmusicapi.parsers.library">ytmusicapi.parsers.library</a>
@@ -44967,7 +45055,8 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#ytmusicapi.mixins.browsing">ytmusicapi.mixins.browsing</a>
+    <a href="#pydl.py">pydl.py</a>
+ &#8226;   <a href="#ytmusicapi.mixins.browsing">ytmusicapi.mixins.browsing</a>
  &#8226;   <a href="#ytmusicapi.mixins.uploads">ytmusicapi.mixins.uploads</a>
 
   </div>
@@ -44986,7 +45075,8 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#ytmusicapi.mixins.browsing">ytmusicapi.mixins.browsing</a>
+    <a href="#pydl.py">pydl.py</a>
+ &#8226;   <a href="#ytmusicapi.mixins.browsing">ytmusicapi.mixins.browsing</a>
  &#8226;   <a href="#ytmusicapi.mixins.library">ytmusicapi.mixins.library</a>
  &#8226;   <a href="#ytmusicapi.mixins.playlists">ytmusicapi.mixins.playlists</a>
  &#8226;   <a href="#ytmusicapi.parsers.explore">ytmusicapi.parsers.explore</a>
@@ -45007,7 +45097,8 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#ytmusicapi.mixins.explore">ytmusicapi.mixins.explore</a>
+    <a href="#pydl.py">pydl.py</a>
+ &#8226;   <a href="#ytmusicapi.mixins.explore">ytmusicapi.mixins.explore</a>
 
   </div>
 
@@ -45027,7 +45118,8 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#ytmusicapi.ytmusic">ytmusicapi.ytmusic</a>
+    <a href="#pydl.py">pydl.py</a>
+ &#8226;   <a href="#ytmusicapi.ytmusic">ytmusicapi.ytmusic</a>
 
   </div>
 
@@ -45047,7 +45139,8 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#ytmusicapi.mixins.browsing">ytmusicapi.mixins.browsing</a>
+    <a href="#pydl.py">pydl.py</a>
+ &#8226;   <a href="#ytmusicapi.mixins.browsing">ytmusicapi.mixins.browsing</a>
  &#8226;   <a href="#ytmusicapi.mixins.library">ytmusicapi.mixins.library</a>
  &#8226;   <a href="#ytmusicapi.mixins.uploads">ytmusicapi.mixins.uploads</a>
 
@@ -45068,7 +45161,8 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#ytmusicapi.mixins.browsing">ytmusicapi.mixins.browsing</a>
+    <a href="#pydl.py">pydl.py</a>
+ &#8226;   <a href="#ytmusicapi.mixins.browsing">ytmusicapi.mixins.browsing</a>
  &#8226;   <a href="#ytmusicapi.mixins.playlists">ytmusicapi.mixins.playlists</a>
  &#8226;   <a href="#ytmusicapi.mixins.watch">ytmusicapi.mixins.watch</a>
  &#8226;   <a href="#ytmusicapi.parsers.library">ytmusicapi.parsers.library</a>
@@ -45089,7 +45183,8 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#ytmusicapi.mixins.search">ytmusicapi.mixins.search</a>
+    <a href="#pydl.py">pydl.py</a>
+ &#8226;   <a href="#ytmusicapi.mixins.search">ytmusicapi.mixins.search</a>
 
   </div>
 
@@ -45107,7 +45202,8 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#ytmusicapi.parsers.albums">ytmusicapi.parsers.albums</a>
+    <a href="#pydl.py">pydl.py</a>
+ &#8226;   <a href="#ytmusicapi.parsers.albums">ytmusicapi.parsers.albums</a>
  &#8226;   <a href="#ytmusicapi.parsers.browsing">ytmusicapi.parsers.browsing</a>
  &#8226;   <a href="#ytmusicapi.parsers.library">ytmusicapi.parsers.library</a>
  &#8226;   <a href="#ytmusicapi.parsers.playlists">ytmusicapi.parsers.playlists</a>
@@ -45131,7 +45227,8 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#ytmusicapi.mixins.uploads">ytmusicapi.mixins.uploads</a>
+    <a href="#pydl.py">pydl.py</a>
+ &#8226;   <a href="#ytmusicapi.mixins.uploads">ytmusicapi.mixins.uploads</a>
 
   </div>
 
@@ -45149,7 +45246,8 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#ytmusicapi.mixins.watch">ytmusicapi.mixins.watch</a>
+    <a href="#pydl.py">pydl.py</a>
+ &#8226;   <a href="#ytmusicapi.mixins.watch">ytmusicapi.mixins.watch</a>
 
   </div>
 
@@ -45172,7 +45270,8 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#ytmusicapi">ytmusicapi</a>
+    <a href="#pydl.py">pydl.py</a>
+ &#8226;   <a href="#ytmusicapi">ytmusicapi</a>
 
   </div>
 
@@ -45207,6 +45306,7 @@ imports:
   <div class="import">
 imported by:
     <a href="#libraries.manage_playlist">libraries.manage_playlist</a>
+ &#8226;   <a href="#pydl.py">pydl.py</a>
  &#8226;   <a href="#ytmusicapi">ytmusicapi</a>
 
   </div>

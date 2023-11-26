@@ -7,6 +7,39 @@
   'pyfiglet.fonts',
   'pyfiglet.test',
   'pyfiglet.version',
+  'ytmusicapi',
+  'ytmusicapi.auth',
+  'ytmusicapi.auth.browser',
+  'ytmusicapi.auth.headers',
+  'ytmusicapi.auth.oauth',
+  'ytmusicapi.constants',
+  'ytmusicapi.continuations',
+  'ytmusicapi.helpers',
+  'ytmusicapi.mixins',
+  'ytmusicapi.mixins._utils',
+  'ytmusicapi.mixins.browsing',
+  'ytmusicapi.mixins.explore',
+  'ytmusicapi.mixins.library',
+  'ytmusicapi.mixins.playlists',
+  'ytmusicapi.mixins.search',
+  'ytmusicapi.mixins.uploads',
+  'ytmusicapi.mixins.watch',
+  'ytmusicapi.navigation',
+  'ytmusicapi.parsers',
+  'ytmusicapi.parsers._utils',
+  'ytmusicapi.parsers.albums',
+  'ytmusicapi.parsers.browsing',
+  'ytmusicapi.parsers.explore',
+  'ytmusicapi.parsers.i18n',
+  'ytmusicapi.parsers.library',
+  'ytmusicapi.parsers.playlists',
+  'ytmusicapi.parsers.search',
+  'ytmusicapi.parsers.songs',
+  'ytmusicapi.parsers.uploads',
+  'ytmusicapi.parsers.watch',
+  'ytmusicapi.setup',
+  'ytmusicapi.ytmusic',
+  'requests',
   'codecs'],
  ['/mnt/docs/6 - '
   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/numpy/_pyinstaller',
@@ -2311,6 +2344,362 @@
   ('pyfiglet/version.py',
    '/mnt/docs/6 - '
    'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/pyfiglet/version.py',
+   'DATA'),
+  ('ytmusicapi-1.3.2.dist-info/INSTALLER',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi-1.3.2.dist-info/INSTALLER',
+   'DATA'),
+  ('ytmusicapi-1.3.2.dist-info/LICENSE',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi-1.3.2.dist-info/LICENSE',
+   'DATA'),
+  ('ytmusicapi-1.3.2.dist-info/METADATA',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi-1.3.2.dist-info/METADATA',
+   'DATA'),
+  ('ytmusicapi-1.3.2.dist-info/RECORD',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi-1.3.2.dist-info/RECORD',
+   'DATA'),
+  ('ytmusicapi-1.3.2.dist-info/REQUESTED',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi-1.3.2.dist-info/REQUESTED',
+   'DATA'),
+  ('ytmusicapi-1.3.2.dist-info/WHEEL',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi-1.3.2.dist-info/WHEEL',
+   'DATA'),
+  ('ytmusicapi-1.3.2.dist-info/entry_points.txt',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi-1.3.2.dist-info/entry_points.txt',
+   'DATA'),
+  ('ytmusicapi-1.3.2.dist-info/top_level.txt',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi-1.3.2.dist-info/top_level.txt',
+   'DATA'),
+  ('ytmusicapi/__init__.py',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/__init__.py',
+   'DATA'),
+  ('ytmusicapi/__pycache__/__init__.cpython-311.pyc',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/__pycache__/__init__.cpython-311.pyc',
+   'DATA'),
+  ('ytmusicapi/__pycache__/constants.cpython-311.pyc',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/__pycache__/constants.cpython-311.pyc',
+   'DATA'),
+  ('ytmusicapi/__pycache__/continuations.cpython-311.pyc',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/__pycache__/continuations.cpython-311.pyc',
+   'DATA'),
+  ('ytmusicapi/__pycache__/helpers.cpython-311.pyc',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/__pycache__/helpers.cpython-311.pyc',
+   'DATA'),
+  ('ytmusicapi/__pycache__/navigation.cpython-311.pyc',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/__pycache__/navigation.cpython-311.pyc',
+   'DATA'),
+  ('ytmusicapi/__pycache__/setup.cpython-311.pyc',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/__pycache__/setup.cpython-311.pyc',
+   'DATA'),
+  ('ytmusicapi/__pycache__/ytmusic.cpython-311.pyc',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/__pycache__/ytmusic.cpython-311.pyc',
+   'DATA'),
+  ('ytmusicapi/auth/__init__.py',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/auth/__init__.py',
+   'DATA'),
+  ('ytmusicapi/auth/__pycache__/__init__.cpython-311.pyc',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/auth/__pycache__/__init__.cpython-311.pyc',
+   'DATA'),
+  ('ytmusicapi/auth/__pycache__/browser.cpython-311.pyc',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/auth/__pycache__/browser.cpython-311.pyc',
+   'DATA'),
+  ('ytmusicapi/auth/__pycache__/headers.cpython-311.pyc',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/auth/__pycache__/headers.cpython-311.pyc',
+   'DATA'),
+  ('ytmusicapi/auth/__pycache__/oauth.cpython-311.pyc',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/auth/__pycache__/oauth.cpython-311.pyc',
+   'DATA'),
+  ('ytmusicapi/auth/browser.py',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/auth/browser.py',
+   'DATA'),
+  ('ytmusicapi/auth/headers.py',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/auth/headers.py',
+   'DATA'),
+  ('ytmusicapi/auth/oauth.py',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/auth/oauth.py',
+   'DATA'),
+  ('ytmusicapi/constants.py',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/constants.py',
+   'DATA'),
+  ('ytmusicapi/continuations.py',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/continuations.py',
+   'DATA'),
+  ('ytmusicapi/helpers.py',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/helpers.py',
+   'DATA'),
+  ('ytmusicapi/locales/README.rst',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/locales/README.rst',
+   'DATA'),
+  ('ytmusicapi/locales/ar/LC_MESSAGES/base.mo',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/locales/ar/LC_MESSAGES/base.mo',
+   'DATA'),
+  ('ytmusicapi/locales/de/LC_MESSAGES/base.mo',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/locales/de/LC_MESSAGES/base.mo',
+   'DATA'),
+  ('ytmusicapi/locales/en/LC_MESSAGES/base.mo',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/locales/en/LC_MESSAGES/base.mo',
+   'DATA'),
+  ('ytmusicapi/locales/es/LC_MESSAGES/base.mo',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/locales/es/LC_MESSAGES/base.mo',
+   'DATA'),
+  ('ytmusicapi/locales/fr/LC_MESSAGES/base.mo',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/locales/fr/LC_MESSAGES/base.mo',
+   'DATA'),
+  ('ytmusicapi/locales/hi/LC_MESSAGES/base.mo',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/locales/hi/LC_MESSAGES/base.mo',
+   'DATA'),
+  ('ytmusicapi/locales/it/LC_MESSAGES/base.mo',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/locales/it/LC_MESSAGES/base.mo',
+   'DATA'),
+  ('ytmusicapi/locales/ja/LC_MESSAGES/base.mo',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/locales/ja/LC_MESSAGES/base.mo',
+   'DATA'),
+  ('ytmusicapi/locales/ko/LC_MESSAGES/base.mo',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/locales/ko/LC_MESSAGES/base.mo',
+   'DATA'),
+  ('ytmusicapi/locales/nl/LC_MESSAGES/base.mo',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/locales/nl/LC_MESSAGES/base.mo',
+   'DATA'),
+  ('ytmusicapi/locales/pt/LC_MESSAGES/base.mo',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/locales/pt/LC_MESSAGES/base.mo',
+   'DATA'),
+  ('ytmusicapi/locales/ru/LC_MESSAGES/base.mo',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/locales/ru/LC_MESSAGES/base.mo',
+   'DATA'),
+  ('ytmusicapi/locales/tr/LC_MESSAGES/base.mo',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/locales/tr/LC_MESSAGES/base.mo',
+   'DATA'),
+  ('ytmusicapi/locales/ur/LC_MESSAGES/base.mo',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/locales/ur/LC_MESSAGES/base.mo',
+   'DATA'),
+  ('ytmusicapi/locales/zh_CN/LC_MESSAGES/base.mo',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/locales/zh_CN/LC_MESSAGES/base.mo',
+   'DATA'),
+  ('ytmusicapi/locales/zh_TW/LC_MESSAGES/base.mo',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/locales/zh_TW/LC_MESSAGES/base.mo',
+   'DATA'),
+  ('ytmusicapi/mixins/__init__.py',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/mixins/__init__.py',
+   'DATA'),
+  ('ytmusicapi/mixins/__pycache__/__init__.cpython-311.pyc',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/mixins/__pycache__/__init__.cpython-311.pyc',
+   'DATA'),
+  ('ytmusicapi/mixins/__pycache__/_utils.cpython-311.pyc',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/mixins/__pycache__/_utils.cpython-311.pyc',
+   'DATA'),
+  ('ytmusicapi/mixins/__pycache__/browsing.cpython-311.pyc',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/mixins/__pycache__/browsing.cpython-311.pyc',
+   'DATA'),
+  ('ytmusicapi/mixins/__pycache__/explore.cpython-311.pyc',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/mixins/__pycache__/explore.cpython-311.pyc',
+   'DATA'),
+  ('ytmusicapi/mixins/__pycache__/library.cpython-311.pyc',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/mixins/__pycache__/library.cpython-311.pyc',
+   'DATA'),
+  ('ytmusicapi/mixins/__pycache__/playlists.cpython-311.pyc',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/mixins/__pycache__/playlists.cpython-311.pyc',
+   'DATA'),
+  ('ytmusicapi/mixins/__pycache__/search.cpython-311.pyc',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/mixins/__pycache__/search.cpython-311.pyc',
+   'DATA'),
+  ('ytmusicapi/mixins/__pycache__/uploads.cpython-311.pyc',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/mixins/__pycache__/uploads.cpython-311.pyc',
+   'DATA'),
+  ('ytmusicapi/mixins/__pycache__/watch.cpython-311.pyc',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/mixins/__pycache__/watch.cpython-311.pyc',
+   'DATA'),
+  ('ytmusicapi/mixins/_utils.py',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/mixins/_utils.py',
+   'DATA'),
+  ('ytmusicapi/mixins/browsing.py',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/mixins/browsing.py',
+   'DATA'),
+  ('ytmusicapi/mixins/explore.py',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/mixins/explore.py',
+   'DATA'),
+  ('ytmusicapi/mixins/library.py',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/mixins/library.py',
+   'DATA'),
+  ('ytmusicapi/mixins/playlists.py',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/mixins/playlists.py',
+   'DATA'),
+  ('ytmusicapi/mixins/search.py',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/mixins/search.py',
+   'DATA'),
+  ('ytmusicapi/mixins/uploads.py',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/mixins/uploads.py',
+   'DATA'),
+  ('ytmusicapi/mixins/watch.py',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/mixins/watch.py',
+   'DATA'),
+  ('ytmusicapi/navigation.py',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/navigation.py',
+   'DATA'),
+  ('ytmusicapi/parsers/__init__.py',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/parsers/__init__.py',
+   'DATA'),
+  ('ytmusicapi/parsers/__pycache__/__init__.cpython-311.pyc',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/parsers/__pycache__/__init__.cpython-311.pyc',
+   'DATA'),
+  ('ytmusicapi/parsers/__pycache__/_utils.cpython-311.pyc',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/parsers/__pycache__/_utils.cpython-311.pyc',
+   'DATA'),
+  ('ytmusicapi/parsers/__pycache__/albums.cpython-311.pyc',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/parsers/__pycache__/albums.cpython-311.pyc',
+   'DATA'),
+  ('ytmusicapi/parsers/__pycache__/browsing.cpython-311.pyc',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/parsers/__pycache__/browsing.cpython-311.pyc',
+   'DATA'),
+  ('ytmusicapi/parsers/__pycache__/explore.cpython-311.pyc',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/parsers/__pycache__/explore.cpython-311.pyc',
+   'DATA'),
+  ('ytmusicapi/parsers/__pycache__/i18n.cpython-311.pyc',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/parsers/__pycache__/i18n.cpython-311.pyc',
+   'DATA'),
+  ('ytmusicapi/parsers/__pycache__/library.cpython-311.pyc',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/parsers/__pycache__/library.cpython-311.pyc',
+   'DATA'),
+  ('ytmusicapi/parsers/__pycache__/playlists.cpython-311.pyc',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/parsers/__pycache__/playlists.cpython-311.pyc',
+   'DATA'),
+  ('ytmusicapi/parsers/__pycache__/search.cpython-311.pyc',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/parsers/__pycache__/search.cpython-311.pyc',
+   'DATA'),
+  ('ytmusicapi/parsers/__pycache__/songs.cpython-311.pyc',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/parsers/__pycache__/songs.cpython-311.pyc',
+   'DATA'),
+  ('ytmusicapi/parsers/__pycache__/uploads.cpython-311.pyc',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/parsers/__pycache__/uploads.cpython-311.pyc',
+   'DATA'),
+  ('ytmusicapi/parsers/__pycache__/watch.cpython-311.pyc',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/parsers/__pycache__/watch.cpython-311.pyc',
+   'DATA'),
+  ('ytmusicapi/parsers/_utils.py',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/parsers/_utils.py',
+   'DATA'),
+  ('ytmusicapi/parsers/albums.py',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/parsers/albums.py',
+   'DATA'),
+  ('ytmusicapi/parsers/browsing.py',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/parsers/browsing.py',
+   'DATA'),
+  ('ytmusicapi/parsers/explore.py',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/parsers/explore.py',
+   'DATA'),
+  ('ytmusicapi/parsers/i18n.py',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/parsers/i18n.py',
+   'DATA'),
+  ('ytmusicapi/parsers/library.py',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/parsers/library.py',
+   'DATA'),
+  ('ytmusicapi/parsers/playlists.py',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/parsers/playlists.py',
+   'DATA'),
+  ('ytmusicapi/parsers/search.py',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/parsers/search.py',
+   'DATA'),
+  ('ytmusicapi/parsers/songs.py',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/parsers/songs.py',
+   'DATA'),
+  ('ytmusicapi/parsers/uploads.py',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/parsers/uploads.py',
+   'DATA'),
+  ('ytmusicapi/parsers/watch.py',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/parsers/watch.py',
+   'DATA'),
+  ('ytmusicapi/setup.py',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/setup.py',
+   'DATA'),
+  ('ytmusicapi/ytmusic.py',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/ytmusic.py',
    'DATA')],
  '3.11.6 (main, Nov 14 2023, 09:36:21) [GCC 13.2.1 20230801]',
  [('pyi_rth_inspect',
@@ -2818,6 +3207,389 @@
   ('imp', '/usr/lib/python3.11/imp.py', 'PYMODULE'),
   ('plistlib', '/usr/lib/python3.11/plistlib.py', 'PYMODULE'),
   ('platform', '/usr/lib/python3.11/platform.py', 'PYMODULE'),
+  ('requests',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/requests/__init__.py',
+   'PYMODULE'),
+  ('requests.status_codes',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/requests/status_codes.py',
+   'PYMODULE'),
+  ('requests.structures',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/requests/structures.py',
+   'PYMODULE'),
+  ('requests.compat',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/requests/compat.py',
+   'PYMODULE'),
+  ('http.cookies', '/usr/lib/python3.11/http/cookies.py', 'PYMODULE'),
+  ('http.cookiejar', '/usr/lib/python3.11/http/cookiejar.py', 'PYMODULE'),
+  ('json', '/usr/lib/python3.11/json/__init__.py', 'PYMODULE'),
+  ('json.encoder', '/usr/lib/python3.11/json/encoder.py', 'PYMODULE'),
+  ('json.decoder', '/usr/lib/python3.11/json/decoder.py', 'PYMODULE'),
+  ('json.scanner', '/usr/lib/python3.11/json/scanner.py', 'PYMODULE'),
+  ('requests.models',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/requests/models.py',
+   'PYMODULE'),
+  ('idna',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/idna/__init__.py',
+   'PYMODULE'),
+  ('idna.intranges',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/idna/intranges.py',
+   'PYMODULE'),
+  ('idna.core',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/idna/core.py',
+   'PYMODULE'),
+  ('idna.uts46data',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/idna/uts46data.py',
+   'PYMODULE'),
+  ('idna.idnadata',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/idna/idnadata.py',
+   'PYMODULE'),
+  ('idna.package_data',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/idna/package_data.py',
+   'PYMODULE'),
+  ('requests.hooks',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/requests/hooks.py',
+   'PYMODULE'),
+  ('requests.cookies',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/requests/cookies.py',
+   'PYMODULE'),
+  ('requests.auth',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/requests/auth.py',
+   'PYMODULE'),
+  ('requests._internal_utils',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/requests/_internal_utils.py',
+   'PYMODULE'),
+  ('urllib3.util',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/urllib3/util/__init__.py',
+   'PYMODULE'),
+  ('urllib3.util.wait',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/urllib3/util/wait.py',
+   'PYMODULE'),
+  ('urllib3.util.url',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/urllib3/util/url.py',
+   'PYMODULE'),
+  ('urllib3.util.util',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/urllib3/util/util.py',
+   'PYMODULE'),
+  ('urllib3.util.timeout',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/urllib3/util/timeout.py',
+   'PYMODULE'),
+  ('urllib3.util.ssl_',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/urllib3/util/ssl_.py',
+   'PYMODULE'),
+  ('urllib3.util.ssltransport',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/urllib3/util/ssltransport.py',
+   'PYMODULE'),
+  ('urllib3.util.retry',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/urllib3/util/retry.py',
+   'PYMODULE'),
+  ('urllib3.response',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/urllib3/response.py',
+   'PYMODULE'),
+  ('urllib3.connection',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/urllib3/connection.py',
+   'PYMODULE'),
+  ('urllib3.util.ssl_match_hostname',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/urllib3/util/ssl_match_hostname.py',
+   'PYMODULE'),
+  ('urllib3._version',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/urllib3/_version.py',
+   'PYMODULE'),
+  ('urllib3._collections',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/urllib3/_collections.py',
+   'PYMODULE'),
+  ('urllib3._base_connection',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/urllib3/_base_connection.py',
+   'PYMODULE'),
+  ('urllib3.connectionpool',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/urllib3/connectionpool.py',
+   'PYMODULE'),
+  ('urllib3.util.proxy',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/urllib3/util/proxy.py',
+   'PYMODULE'),
+  ('urllib3._request_methods',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/urllib3/_request_methods.py',
+   'PYMODULE'),
+  ('urllib3.util.response',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/urllib3/util/response.py',
+   'PYMODULE'),
+  ('urllib3.util.request',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/urllib3/util/request.py',
+   'PYMODULE'),
+  ('urllib3.util.connection',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/urllib3/util/connection.py',
+   'PYMODULE'),
+  ('urllib3.filepost',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/urllib3/filepost.py',
+   'PYMODULE'),
+  ('urllib3.fields',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/urllib3/fields.py',
+   'PYMODULE'),
+  ('requests.api',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/requests/api.py',
+   'PYMODULE'),
+  ('requests.sessions',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/requests/sessions.py',
+   'PYMODULE'),
+  ('requests.adapters',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/requests/adapters.py',
+   'PYMODULE'),
+  ('urllib3.contrib.socks',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/urllib3/contrib/socks.py',
+   'PYMODULE'),
+  ('urllib3.poolmanager',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/urllib3/poolmanager.py',
+   'PYMODULE'),
+  ('requests.__version__',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/requests/__version__.py',
+   'PYMODULE'),
+  ('requests.utils',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/requests/utils.py',
+   'PYMODULE'),
+  ('netrc', '/usr/lib/python3.11/netrc.py', 'PYMODULE'),
+  ('requests.certs',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/requests/certs.py',
+   'PYMODULE'),
+  ('certifi',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/certifi/__init__.py',
+   'PYMODULE'),
+  ('certifi.core',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/certifi/core.py',
+   'PYMODULE'),
+  ('requests.packages',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/requests/packages.py',
+   'PYMODULE'),
+  ('urllib3.exceptions',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/urllib3/exceptions.py',
+   'PYMODULE'),
+  ('urllib3.contrib.pyopenssl',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/urllib3/contrib/pyopenssl.py',
+   'PYMODULE'),
+  ('urllib3.contrib',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/urllib3/contrib/__init__.py',
+   'PYMODULE'),
+  ('charset_normalizer',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/charset_normalizer/__init__.py',
+   'PYMODULE'),
+  ('charset_normalizer.version',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/charset_normalizer/version.py',
+   'PYMODULE'),
+  ('charset_normalizer.utils',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/charset_normalizer/utils.py',
+   'PYMODULE'),
+  ('charset_normalizer.constant',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/charset_normalizer/constant.py',
+   'PYMODULE'),
+  ('charset_normalizer.assets',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/charset_normalizer/assets/__init__.py',
+   'PYMODULE'),
+  ('charset_normalizer.models',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/charset_normalizer/models.py',
+   'PYMODULE'),
+  ('charset_normalizer.cd',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/charset_normalizer/cd.py',
+   'PYMODULE'),
+  ('charset_normalizer.legacy',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/charset_normalizer/legacy.py',
+   'PYMODULE'),
+  ('charset_normalizer.api',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/charset_normalizer/api.py',
+   'PYMODULE'),
+  ('requests.exceptions',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/requests/exceptions.py',
+   'PYMODULE'),
+  ('urllib3',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/urllib3/__init__.py',
+   'PYMODULE'),
+  ('ytmusicapi.ytmusic',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/ytmusic.py',
+   'PYMODULE'),
+  ('ytmusicapi.setup',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/setup.py',
+   'PYMODULE'),
+  ('ytmusicapi.parsers.watch',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/parsers/watch.py',
+   'PYMODULE'),
+  ('ytmusicapi.parsers.uploads',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/parsers/uploads.py',
+   'PYMODULE'),
+  ('ytmusicapi.parsers.songs',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/parsers/songs.py',
+   'PYMODULE'),
+  ('ytmusicapi.parsers.search',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/parsers/search.py',
+   'PYMODULE'),
+  ('ytmusicapi.parsers.playlists',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/parsers/playlists.py',
+   'PYMODULE'),
+  ('ytmusicapi.parsers.library',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/parsers/library.py',
+   'PYMODULE'),
+  ('ytmusicapi.parsers.i18n',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/parsers/i18n.py',
+   'PYMODULE'),
+  ('ytmusicapi.parsers.explore',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/parsers/explore.py',
+   'PYMODULE'),
+  ('ytmusicapi.parsers.browsing',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/parsers/browsing.py',
+   'PYMODULE'),
+  ('ytmusicapi.parsers.albums',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/parsers/albums.py',
+   'PYMODULE'),
+  ('ytmusicapi.parsers._utils',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/parsers/_utils.py',
+   'PYMODULE'),
+  ('ytmusicapi.parsers',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/parsers/__init__.py',
+   'PYMODULE'),
+  ('ytmusicapi.navigation',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/navigation.py',
+   'PYMODULE'),
+  ('ytmusicapi.mixins.watch',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/mixins/watch.py',
+   'PYMODULE'),
+  ('ytmusicapi.mixins.uploads',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/mixins/uploads.py',
+   'PYMODULE'),
+  ('ytmusicapi.mixins.search',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/mixins/search.py',
+   'PYMODULE'),
+  ('ytmusicapi.mixins.playlists',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/mixins/playlists.py',
+   'PYMODULE'),
+  ('ytmusicapi.mixins.library',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/mixins/library.py',
+   'PYMODULE'),
+  ('ytmusicapi.mixins.explore',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/mixins/explore.py',
+   'PYMODULE'),
+  ('ytmusicapi.mixins.browsing',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/mixins/browsing.py',
+   'PYMODULE'),
+  ('ytmusicapi.mixins._utils',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/mixins/_utils.py',
+   'PYMODULE'),
+  ('ytmusicapi.mixins',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/mixins/__init__.py',
+   'PYMODULE'),
+  ('ytmusicapi.helpers',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/helpers.py',
+   'PYMODULE'),
+  ('ytmusicapi.continuations',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/continuations.py',
+   'PYMODULE'),
+  ('ytmusicapi.constants',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/constants.py',
+   'PYMODULE'),
+  ('ytmusicapi.auth.oauth',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/auth/oauth.py',
+   'PYMODULE'),
+  ('ytmusicapi.auth.headers',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/auth/headers.py',
+   'PYMODULE'),
+  ('ytmusicapi.auth.browser',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/auth/browser.py',
+   'PYMODULE'),
+  ('ytmusicapi.auth',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/auth/__init__.py',
+   'PYMODULE'),
+  ('ytmusicapi',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/__init__.py',
+   'PYMODULE'),
   ('pyfiglet.version',
    '/mnt/docs/6 - '
    'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/pyfiglet/version.py',
@@ -2835,14 +3607,112 @@
    '/mnt/docs/6 - '
    'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/pyfiglet/__main__.py',
    'PYMODULE'),
+  ('tracemalloc', '/usr/lib/python3.11/tracemalloc.py', 'PYMODULE'),
   ('_py_abc', '/usr/lib/python3.11/_py_abc.py', 'PYMODULE'),
   ('getpass', '/usr/lib/python3.11/getpass.py', 'PYMODULE'),
   ('nturl2path', '/usr/lib/python3.11/nturl2path.py', 'PYMODULE'),
   ('ftplib', '/usr/lib/python3.11/ftplib.py', 'PYMODULE'),
-  ('netrc', '/usr/lib/python3.11/netrc.py', 'PYMODULE'),
-  ('http.cookiejar', '/usr/lib/python3.11/http/cookiejar.py', 'PYMODULE'),
-  ('tracemalloc', '/usr/lib/python3.11/tracemalloc.py', 'PYMODULE'),
   ('stringprep', '/usr/lib/python3.11/stringprep.py', 'PYMODULE'),
+  ('libraries.error_handler',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/pydl/libraries/error_handler.py',
+   'PYMODULE'),
+  ('pydl',
+   '/mnt/docs/6 - David/python-projects/pydl-repo/pydl-linux/pydl/pydl.py',
+   'PYMODULE'),
+  ('pytube.exceptions',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/pytube/exceptions.py',
+   'PYMODULE'),
+  ('pytube',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/pytube/__init__.py',
+   'PYMODULE'),
+  ('pytube.contrib.search',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/pytube/contrib/search.py',
+   'PYMODULE'),
+  ('pytube.contrib',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/pytube/contrib/__init__.py',
+   'PYMODULE'),
+  ('pytube.innertube',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/pytube/innertube.py',
+   'PYMODULE'),
+  ('pytube.contrib.channel',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/pytube/contrib/channel.py',
+   'PYMODULE'),
+  ('pytube.helpers',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/pytube/helpers.py',
+   'PYMODULE'),
+  ('pytube.contrib.playlist',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/pytube/contrib/playlist.py',
+   'PYMODULE'),
+  ('pytube.__main__',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/pytube/__main__.py',
+   'PYMODULE'),
+  ('pytube.monostate',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/pytube/monostate.py',
+   'PYMODULE'),
+  ('pytube.metadata',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/pytube/metadata.py',
+   'PYMODULE'),
+  ('pytube.query',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/pytube/query.py',
+   'PYMODULE'),
+  ('pytube.captions',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/pytube/captions.py',
+   'PYMODULE'),
+  ('xml.etree.ElementTree',
+   '/usr/lib/python3.11/xml/etree/ElementTree.py',
+   'PYMODULE'),
+  ('xml.etree.cElementTree',
+   '/usr/lib/python3.11/xml/etree/cElementTree.py',
+   'PYMODULE'),
+  ('xml.etree.ElementInclude',
+   '/usr/lib/python3.11/xml/etree/ElementInclude.py',
+   'PYMODULE'),
+  ('xml.etree.ElementPath',
+   '/usr/lib/python3.11/xml/etree/ElementPath.py',
+   'PYMODULE'),
+  ('xml.etree', '/usr/lib/python3.11/xml/etree/__init__.py', 'PYMODULE'),
+  ('pytube.streams',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/pytube/streams.py',
+   'PYMODULE'),
+  ('pytube.itags',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/pytube/itags.py',
+   'PYMODULE'),
+  ('pytube.request',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/pytube/request.py',
+   'PYMODULE'),
+  ('pytube.extract',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/pytube/extract.py',
+   'PYMODULE'),
+  ('pytube.parser',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/pytube/parser.py',
+   'PYMODULE'),
+  ('pytube.cipher',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/pytube/cipher.py',
+   'PYMODULE'),
+  ('pytube.version',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/pytube/version.py',
+   'PYMODULE'),
   ('libraries.upload',
    '/mnt/docs/6 - '
    'David/python-projects/pydl-repo/pydl-linux/pydl/libraries/upload.py',
@@ -2876,10 +3746,6 @@
    '/mnt/docs/6 - '
    'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/rich/highlighter.py',
    'PYMODULE'),
-  ('json', '/usr/lib/python3.11/json/__init__.py', 'PYMODULE'),
-  ('json.encoder', '/usr/lib/python3.11/json/encoder.py', 'PYMODULE'),
-  ('json.decoder', '/usr/lib/python3.11/json/decoder.py', 'PYMODULE'),
-  ('json.scanner', '/usr/lib/python3.11/json/scanner.py', 'PYMODULE'),
   ('rich.protocol',
    '/mnt/docs/6 - '
    'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/rich/protocol.py',
@@ -5232,383 +6098,6 @@
    '/mnt/docs/6 - '
    'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/platformdirs/api.py',
    'PYMODULE'),
-  ('ytmusicapi',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/__init__.py',
-   'PYMODULE'),
-  ('ytmusicapi.setup',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/setup.py',
-   'PYMODULE'),
-  ('ytmusicapi.auth.oauth',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/auth/oauth.py',
-   'PYMODULE'),
-  ('ytmusicapi.auth',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/auth/__init__.py',
-   'PYMODULE'),
-  ('ytmusicapi.helpers',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/helpers.py',
-   'PYMODULE'),
-  ('http.cookies', '/usr/lib/python3.11/http/cookies.py', 'PYMODULE'),
-  ('ytmusicapi.constants',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/constants.py',
-   'PYMODULE'),
-  ('requests.structures',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/requests/structures.py',
-   'PYMODULE'),
-  ('requests.compat',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/requests/compat.py',
-   'PYMODULE'),
-  ('charset_normalizer',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/charset_normalizer/__init__.py',
-   'PYMODULE'),
-  ('charset_normalizer.version',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/charset_normalizer/version.py',
-   'PYMODULE'),
-  ('charset_normalizer.utils',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/charset_normalizer/utils.py',
-   'PYMODULE'),
-  ('charset_normalizer.constant',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/charset_normalizer/constant.py',
-   'PYMODULE'),
-  ('charset_normalizer.assets',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/charset_normalizer/assets/__init__.py',
-   'PYMODULE'),
-  ('charset_normalizer.models',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/charset_normalizer/models.py',
-   'PYMODULE'),
-  ('charset_normalizer.cd',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/charset_normalizer/cd.py',
-   'PYMODULE'),
-  ('charset_normalizer.legacy',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/charset_normalizer/legacy.py',
-   'PYMODULE'),
-  ('charset_normalizer.api',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/charset_normalizer/api.py',
-   'PYMODULE'),
-  ('ytmusicapi.auth.browser',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/auth/browser.py',
-   'PYMODULE'),
-  ('requests',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/requests/__init__.py',
-   'PYMODULE'),
-  ('requests.status_codes',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/requests/status_codes.py',
-   'PYMODULE'),
-  ('requests.models',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/requests/models.py',
-   'PYMODULE'),
-  ('idna',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/idna/__init__.py',
-   'PYMODULE'),
-  ('idna.intranges',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/idna/intranges.py',
-   'PYMODULE'),
-  ('idna.core',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/idna/core.py',
-   'PYMODULE'),
-  ('idna.uts46data',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/idna/uts46data.py',
-   'PYMODULE'),
-  ('idna.idnadata',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/idna/idnadata.py',
-   'PYMODULE'),
-  ('idna.package_data',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/idna/package_data.py',
-   'PYMODULE'),
-  ('requests.hooks',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/requests/hooks.py',
-   'PYMODULE'),
-  ('requests.cookies',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/requests/cookies.py',
-   'PYMODULE'),
-  ('requests.auth',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/requests/auth.py',
-   'PYMODULE'),
-  ('requests._internal_utils',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/requests/_internal_utils.py',
-   'PYMODULE'),
-  ('urllib3.util',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/urllib3/util/__init__.py',
-   'PYMODULE'),
-  ('urllib3.util.wait',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/urllib3/util/wait.py',
-   'PYMODULE'),
-  ('urllib3.util.url',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/urllib3/util/url.py',
-   'PYMODULE'),
-  ('urllib3.util.util',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/urllib3/util/util.py',
-   'PYMODULE'),
-  ('urllib3.util.timeout',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/urllib3/util/timeout.py',
-   'PYMODULE'),
-  ('urllib3.util.ssl_',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/urllib3/util/ssl_.py',
-   'PYMODULE'),
-  ('urllib3.util.ssltransport',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/urllib3/util/ssltransport.py',
-   'PYMODULE'),
-  ('urllib3.util.retry',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/urllib3/util/retry.py',
-   'PYMODULE'),
-  ('urllib3.response',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/urllib3/response.py',
-   'PYMODULE'),
-  ('urllib3.connection',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/urllib3/connection.py',
-   'PYMODULE'),
-  ('urllib3.util.ssl_match_hostname',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/urllib3/util/ssl_match_hostname.py',
-   'PYMODULE'),
-  ('urllib3._version',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/urllib3/_version.py',
-   'PYMODULE'),
-  ('urllib3._collections',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/urllib3/_collections.py',
-   'PYMODULE'),
-  ('urllib3._base_connection',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/urllib3/_base_connection.py',
-   'PYMODULE'),
-  ('urllib3.connectionpool',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/urllib3/connectionpool.py',
-   'PYMODULE'),
-  ('urllib3.util.proxy',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/urllib3/util/proxy.py',
-   'PYMODULE'),
-  ('urllib3._request_methods',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/urllib3/_request_methods.py',
-   'PYMODULE'),
-  ('urllib3.util.response',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/urllib3/util/response.py',
-   'PYMODULE'),
-  ('urllib3.util.request',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/urllib3/util/request.py',
-   'PYMODULE'),
-  ('urllib3.util.connection',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/urllib3/util/connection.py',
-   'PYMODULE'),
-  ('urllib3.filepost',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/urllib3/filepost.py',
-   'PYMODULE'),
-  ('urllib3.fields',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/urllib3/fields.py',
-   'PYMODULE'),
-  ('requests.api',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/requests/api.py',
-   'PYMODULE'),
-  ('requests.sessions',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/requests/sessions.py',
-   'PYMODULE'),
-  ('requests.adapters',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/requests/adapters.py',
-   'PYMODULE'),
-  ('urllib3.contrib.socks',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/urllib3/contrib/socks.py',
-   'PYMODULE'),
-  ('urllib3.poolmanager',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/urllib3/poolmanager.py',
-   'PYMODULE'),
-  ('requests.__version__',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/requests/__version__.py',
-   'PYMODULE'),
-  ('requests.utils',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/requests/utils.py',
-   'PYMODULE'),
-  ('requests.certs',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/requests/certs.py',
-   'PYMODULE'),
-  ('certifi',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/certifi/__init__.py',
-   'PYMODULE'),
-  ('certifi.core',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/certifi/core.py',
-   'PYMODULE'),
-  ('requests.packages',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/requests/packages.py',
-   'PYMODULE'),
-  ('urllib3.exceptions',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/urllib3/exceptions.py',
-   'PYMODULE'),
-  ('urllib3.contrib.pyopenssl',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/urllib3/contrib/pyopenssl.py',
-   'PYMODULE'),
-  ('urllib3.contrib',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/urllib3/contrib/__init__.py',
-   'PYMODULE'),
-  ('requests.exceptions',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/requests/exceptions.py',
-   'PYMODULE'),
-  ('urllib3',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/urllib3/__init__.py',
-   'PYMODULE'),
-  ('ytmusicapi.ytmusic',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/ytmusic.py',
-   'PYMODULE'),
-  ('ytmusicapi.mixins.uploads',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/mixins/uploads.py',
-   'PYMODULE'),
-  ('ytmusicapi.mixins',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/mixins/__init__.py',
-   'PYMODULE'),
-  ('ytmusicapi.parsers.uploads',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/parsers/uploads.py',
-   'PYMODULE'),
-  ('ytmusicapi.parsers',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/parsers/__init__.py',
-   'PYMODULE'),
-  ('ytmusicapi.parsers.songs',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/parsers/songs.py',
-   'PYMODULE'),
-  ('ytmusicapi.parsers._utils',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/parsers/_utils.py',
-   'PYMODULE'),
-  ('ytmusicapi.parsers.albums',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/parsers/albums.py',
-   'PYMODULE'),
-  ('ytmusicapi.parsers.library',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/parsers/library.py',
-   'PYMODULE'),
-  ('ytmusicapi.parsers.playlists',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/parsers/playlists.py',
-   'PYMODULE'),
-  ('ytmusicapi.continuations',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/continuations.py',
-   'PYMODULE'),
-  ('ytmusicapi.navigation',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/navigation.py',
-   'PYMODULE'),
-  ('ytmusicapi.mixins._utils',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/mixins/_utils.py',
-   'PYMODULE'),
-  ('ytmusicapi.mixins.playlists',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/mixins/playlists.py',
-   'PYMODULE'),
-  ('ytmusicapi.parsers.browsing',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/parsers/browsing.py',
-   'PYMODULE'),
-  ('ytmusicapi.mixins.library',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/mixins/library.py',
-   'PYMODULE'),
-  ('ytmusicapi.mixins.explore',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/mixins/explore.py',
-   'PYMODULE'),
-  ('ytmusicapi.parsers.explore',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/parsers/explore.py',
-   'PYMODULE'),
-  ('ytmusicapi.mixins.watch',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/mixins/watch.py',
-   'PYMODULE'),
-  ('ytmusicapi.parsers.watch',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/parsers/watch.py',
-   'PYMODULE'),
-  ('ytmusicapi.mixins.search',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/mixins/search.py',
-   'PYMODULE'),
-  ('ytmusicapi.parsers.search',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/parsers/search.py',
-   'PYMODULE'),
-  ('ytmusicapi.mixins.browsing',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/mixins/browsing.py',
-   'PYMODULE'),
-  ('ytmusicapi.parsers.i18n',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/parsers/i18n.py',
-   'PYMODULE'),
-  ('ytmusicapi.auth.headers',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/auth/headers.py',
-   'PYMODULE'),
   ('libraries.rich_click_shell',
    '/mnt/docs/6 - '
    'David/python-projects/pydl-repo/pydl-linux/pydl/libraries/rich_click_shell/__init__.py',
@@ -5694,102 +6183,6 @@
   ('libraries.queue_management',
    '/mnt/docs/6 - '
    'David/python-projects/pydl-repo/pydl-linux/pydl/libraries/queue_management.py',
-   'PYMODULE'),
-  ('pydl',
-   '/mnt/docs/6 - David/python-projects/pydl-repo/pydl-linux/pydl/pydl.py',
-   'PYMODULE'),
-  ('pytube',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/pytube/__init__.py',
-   'PYMODULE'),
-  ('pytube.contrib.search',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/pytube/contrib/search.py',
-   'PYMODULE'),
-  ('pytube.contrib',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/pytube/contrib/__init__.py',
-   'PYMODULE'),
-  ('pytube.innertube',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/pytube/innertube.py',
-   'PYMODULE'),
-  ('pytube.contrib.channel',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/pytube/contrib/channel.py',
-   'PYMODULE'),
-  ('pytube.helpers',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/pytube/helpers.py',
-   'PYMODULE'),
-  ('pytube.exceptions',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/pytube/exceptions.py',
-   'PYMODULE'),
-  ('pytube.contrib.playlist',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/pytube/contrib/playlist.py',
-   'PYMODULE'),
-  ('pytube.__main__',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/pytube/__main__.py',
-   'PYMODULE'),
-  ('pytube.monostate',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/pytube/monostate.py',
-   'PYMODULE'),
-  ('pytube.metadata',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/pytube/metadata.py',
-   'PYMODULE'),
-  ('pytube.query',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/pytube/query.py',
-   'PYMODULE'),
-  ('pytube.captions',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/pytube/captions.py',
-   'PYMODULE'),
-  ('xml.etree.ElementTree',
-   '/usr/lib/python3.11/xml/etree/ElementTree.py',
-   'PYMODULE'),
-  ('xml.etree.cElementTree',
-   '/usr/lib/python3.11/xml/etree/cElementTree.py',
-   'PYMODULE'),
-  ('xml.etree.ElementInclude',
-   '/usr/lib/python3.11/xml/etree/ElementInclude.py',
-   'PYMODULE'),
-  ('xml.etree.ElementPath',
-   '/usr/lib/python3.11/xml/etree/ElementPath.py',
-   'PYMODULE'),
-  ('xml.etree', '/usr/lib/python3.11/xml/etree/__init__.py', 'PYMODULE'),
-  ('pytube.streams',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/pytube/streams.py',
-   'PYMODULE'),
-  ('pytube.itags',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/pytube/itags.py',
-   'PYMODULE'),
-  ('pytube.request',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/pytube/request.py',
-   'PYMODULE'),
-  ('pytube.extract',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/pytube/extract.py',
-   'PYMODULE'),
-  ('pytube.parser',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/pytube/parser.py',
-   'PYMODULE'),
-  ('pytube.cipher',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/pytube/cipher.py',
-   'PYMODULE'),
-  ('pytube.version',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/pytube/version.py',
    'PYMODULE'),
   ('rich.live',
    '/mnt/docs/6 - '
@@ -7224,14 +7617,22 @@
   ('lib-dynload/readline.cpython-311-x86_64-linux-gnu.so',
    '/usr/lib/python3.11/lib-dynload/readline.cpython-311-x86_64-linux-gnu.so',
    'EXTENSION'),
+  ('lib-dynload/_json.cpython-311-x86_64-linux-gnu.so',
+   '/usr/lib/python3.11/lib-dynload/_json.cpython-311-x86_64-linux-gnu.so',
+   'EXTENSION'),
   ('lib-dynload/unicodedata.cpython-311-x86_64-linux-gnu.so',
    '/usr/lib/python3.11/lib-dynload/unicodedata.cpython-311-x86_64-linux-gnu.so',
    'EXTENSION'),
-  ('lib-dynload/_heapq.cpython-311-x86_64-linux-gnu.so',
-   '/usr/lib/python3.11/lib-dynload/_heapq.cpython-311-x86_64-linux-gnu.so',
+  ('charset_normalizer/md__mypyc.cpython-311-x86_64-linux-gnu.so',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/charset_normalizer/md__mypyc.cpython-311-x86_64-linux-gnu.so',
    'EXTENSION'),
   ('lib-dynload/_multibytecodec.cpython-311-x86_64-linux-gnu.so',
    '/usr/lib/python3.11/lib-dynload/_multibytecodec.cpython-311-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('charset_normalizer/md.cpython-311-x86_64-linux-gnu.so',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/charset_normalizer/md.cpython-311-x86_64-linux-gnu.so',
    'EXTENSION'),
   ('lib-dynload/_codecs_jp.cpython-311-x86_64-linux-gnu.so',
    '/usr/lib/python3.11/lib-dynload/_codecs_jp.cpython-311-x86_64-linux-gnu.so',
@@ -7251,8 +7652,11 @@
   ('lib-dynload/_codecs_hk.cpython-311-x86_64-linux-gnu.so',
    '/usr/lib/python3.11/lib-dynload/_codecs_hk.cpython-311-x86_64-linux-gnu.so',
    'EXTENSION'),
-  ('lib-dynload/_json.cpython-311-x86_64-linux-gnu.so',
-   '/usr/lib/python3.11/lib-dynload/_json.cpython-311-x86_64-linux-gnu.so',
+  ('lib-dynload/_heapq.cpython-311-x86_64-linux-gnu.so',
+   '/usr/lib/python3.11/lib-dynload/_heapq.cpython-311-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('lib-dynload/_elementtree.cpython-311-x86_64-linux-gnu.so',
+   '/usr/lib/python3.11/lib-dynload/_elementtree.cpython-311-x86_64-linux-gnu.so',
    'EXTENSION'),
   ('PIL/_imagingft.cpython-311-x86_64-linux-gnu.so',
    '/mnt/docs/6 - '
@@ -7333,19 +7737,8 @@
    '/mnt/docs/6 - '
    'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/PIL/_imaging.cpython-311-x86_64-linux-gnu.so',
    'EXTENSION'),
-  ('charset_normalizer/md__mypyc.cpython-311-x86_64-linux-gnu.so',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/charset_normalizer/md__mypyc.cpython-311-x86_64-linux-gnu.so',
-   'EXTENSION'),
-  ('charset_normalizer/md.cpython-311-x86_64-linux-gnu.so',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/charset_normalizer/md.cpython-311-x86_64-linux-gnu.so',
-   'EXTENSION'),
   ('lib-dynload/_uuid.cpython-311-x86_64-linux-gnu.so',
    '/usr/lib/python3.11/lib-dynload/_uuid.cpython-311-x86_64-linux-gnu.so',
-   'EXTENSION'),
-  ('lib-dynload/_elementtree.cpython-311-x86_64-linux-gnu.so',
-   '/usr/lib/python3.11/lib-dynload/_elementtree.cpython-311-x86_64-linux-gnu.so',
    'EXTENSION'),
   ('pydantic/utils.cpython-311-x86_64-linux-gnu.so',
    '/mnt/docs/6 - '
@@ -7485,19 +7878,11 @@
   ('libexpat.so.1', '/usr/lib/libexpat.so.1', 'BINARY'),
   ('libssl.so.3', '/usr/lib/libssl.so.3', 'BINARY'),
   ('libffi.so.8', '/usr/lib/libffi.so.8', 'BINARY'),
-  ('libncursesw.so.6', '/usr/lib/libncursesw.so.6', 'BINARY'),
   ('libreadline.so.8', '/usr/lib/libreadline.so.8', 'BINARY'),
+  ('libncursesw.so.6', '/usr/lib/libncursesw.so.6', 'BINARY'),
   ('libpng16-78d422d5.so.16.40.0',
    '/mnt/docs/6 - '
    'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/PIL/../Pillow.libs/libpng16-78d422d5.so.16.40.0',
-   'BINARY'),
-  ('libharfbuzz-a8a034ff.so.0.60820.0',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/PIL/../Pillow.libs/libharfbuzz-a8a034ff.so.0.60820.0',
-   'BINARY'),
-  ('libbrotlidec-922c819b.so.1',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/PIL/../Pillow.libs/libbrotlidec-922c819b.so.1',
    'BINARY'),
   ('libfreetype-82733d78.so.6.20.1',
    '/mnt/docs/6 - '
@@ -7507,17 +7892,25 @@
    '/mnt/docs/6 - '
    'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/PIL/../Pillow.libs/libbrotlicommon-3ecfe81c.so.1',
    'BINARY'),
-  ('libwebp-850e2bec.so.7.1.8',
+  ('libharfbuzz-a8a034ff.so.0.60820.0',
    '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/PIL/../Pillow.libs/libwebp-850e2bec.so.7.1.8',
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/PIL/../Pillow.libs/libharfbuzz-a8a034ff.so.0.60820.0',
+   'BINARY'),
+  ('libbrotlidec-922c819b.so.1',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/PIL/../Pillow.libs/libbrotlidec-922c819b.so.1',
+   'BINARY'),
+  ('libwebpdemux-df9b36c7.so.2.0.14',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/PIL/../Pillow.libs/libwebpdemux-df9b36c7.so.2.0.14',
    'BINARY'),
   ('libsharpyuv-20f78091.so.0.0.1',
    '/mnt/docs/6 - '
    'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/PIL/../Pillow.libs/libsharpyuv-20f78091.so.0.0.1',
    'BINARY'),
-  ('libwebpdemux-df9b36c7.so.2.0.14',
+  ('libwebp-850e2bec.so.7.1.8',
    '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/PIL/../Pillow.libs/libwebpdemux-df9b36c7.so.2.0.14',
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/PIL/../Pillow.libs/libwebp-850e2bec.so.7.1.8',
    'BINARY'),
   ('libwebpmux-9fe05867.so.3.0.13',
    '/mnt/docs/6 - '
@@ -7533,21 +7926,13 @@
    '/mnt/docs/6 - '
    'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/numpy/core/../../numpy.libs/libquadmath-96973f99.so.0.0.0',
    'BINARY'),
-  ('libgfortran-040039e1.so.5.0.0',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/numpy/core/../../numpy.libs/libgfortran-040039e1.so.5.0.0',
-   'BINARY'),
   ('libopenblas64_p-r0-5007b62f.3.23.dev.so',
    '/mnt/docs/6 - '
    'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/numpy/core/../../numpy.libs/libopenblas64_p-r0-5007b62f.3.23.dev.so',
    'BINARY'),
-  ('libxcb-f0538cc0.so.1.1.0',
+  ('libgfortran-040039e1.so.5.0.0',
    '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/PIL/../Pillow.libs/libxcb-f0538cc0.so.1.1.0',
-   'BINARY'),
-  ('libtiff-5bd7527b.so.6.0.1',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/PIL/../Pillow.libs/libtiff-5bd7527b.so.6.0.1',
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/numpy/core/../../numpy.libs/libgfortran-040039e1.so.5.0.0',
    'BINARY'),
   ('libopenjp2-20e347f0.so.2.5.0',
    '/mnt/docs/6 - '
@@ -7557,13 +7942,21 @@
    '/mnt/docs/6 - '
    'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/PIL/../Pillow.libs/liblzma-1e44b93d.so.5.4.4',
    'BINARY'),
-  ('libXau-154567c4.so.6.0.0',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/PIL/../Pillow.libs/libXau-154567c4.so.6.0.0',
-   'BINARY'),
   ('libjpeg-58afefff.so.62.4.0',
    '/mnt/docs/6 - '
    'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/PIL/../Pillow.libs/libjpeg-58afefff.so.62.4.0',
+   'BINARY'),
+  ('libtiff-5bd7527b.so.6.0.1',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/PIL/../Pillow.libs/libtiff-5bd7527b.so.6.0.1',
+   'BINARY'),
+  ('libxcb-f0538cc0.so.1.1.0',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/PIL/../Pillow.libs/libxcb-f0538cc0.so.1.1.0',
+   'BINARY'),
+  ('libXau-154567c4.so.6.0.0',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/PIL/../Pillow.libs/libXau-154567c4.so.6.0.0',
    'BINARY'),
   ('libuuid.so.1', '/usr/lib/libuuid.so.1', 'BINARY')],
  [],
@@ -9852,68 +10245,392 @@
    '/mnt/docs/6 - '
    'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/pyfiglet/version.py',
    'DATA'),
-  ('base_library.zip',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/build/pydl/base_library.zip',
-   'DATA'),
-  ('certifi/py.typed',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/certifi/py.typed',
-   'DATA'),
-  ('certifi/cacert.pem',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/certifi/cacert.pem',
-   'DATA'),
-  ('attrs-23.1.0.dist-info/RECORD',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/attrs-23.1.0.dist-info/RECORD',
-   'DATA'),
-  ('ytmusicapi-1.3.2.dist-info/entry_points.txt',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi-1.3.2.dist-info/entry_points.txt',
-   'DATA'),
-  ('attrs-23.1.0.dist-info/INSTALLER',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/attrs-23.1.0.dist-info/INSTALLER',
-   'DATA'),
-  ('ytmusicapi-1.3.2.dist-info/top_level.txt',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi-1.3.2.dist-info/top_level.txt',
-   'DATA'),
   ('ytmusicapi-1.3.2.dist-info/INSTALLER',
    '/mnt/docs/6 - '
    'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi-1.3.2.dist-info/INSTALLER',
-   'DATA'),
-  ('ytmusicapi-1.3.2.dist-info/METADATA',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi-1.3.2.dist-info/METADATA',
-   'DATA'),
-  ('attrs-23.1.0.dist-info/licenses/LICENSE',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/attrs-23.1.0.dist-info/licenses/LICENSE',
-   'DATA'),
-  ('attrs-23.1.0.dist-info/WHEEL',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/attrs-23.1.0.dist-info/WHEEL',
-   'DATA'),
-  ('ytmusicapi-1.3.2.dist-info/REQUESTED',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi-1.3.2.dist-info/REQUESTED',
-   'DATA'),
-  ('ytmusicapi-1.3.2.dist-info/RECORD',
-   '/mnt/docs/6 - '
-   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi-1.3.2.dist-info/RECORD',
    'DATA'),
   ('ytmusicapi-1.3.2.dist-info/LICENSE',
    '/mnt/docs/6 - '
    'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi-1.3.2.dist-info/LICENSE',
    'DATA'),
+  ('ytmusicapi-1.3.2.dist-info/METADATA',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi-1.3.2.dist-info/METADATA',
+   'DATA'),
+  ('ytmusicapi-1.3.2.dist-info/RECORD',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi-1.3.2.dist-info/RECORD',
+   'DATA'),
+  ('ytmusicapi-1.3.2.dist-info/REQUESTED',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi-1.3.2.dist-info/REQUESTED',
+   'DATA'),
   ('ytmusicapi-1.3.2.dist-info/WHEEL',
    '/mnt/docs/6 - '
    'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi-1.3.2.dist-info/WHEEL',
    'DATA'),
+  ('ytmusicapi-1.3.2.dist-info/entry_points.txt',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi-1.3.2.dist-info/entry_points.txt',
+   'DATA'),
+  ('ytmusicapi-1.3.2.dist-info/top_level.txt',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi-1.3.2.dist-info/top_level.txt',
+   'DATA'),
+  ('ytmusicapi/__init__.py',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/__init__.py',
+   'DATA'),
+  ('ytmusicapi/__pycache__/__init__.cpython-311.pyc',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/__pycache__/__init__.cpython-311.pyc',
+   'DATA'),
+  ('ytmusicapi/__pycache__/constants.cpython-311.pyc',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/__pycache__/constants.cpython-311.pyc',
+   'DATA'),
+  ('ytmusicapi/__pycache__/continuations.cpython-311.pyc',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/__pycache__/continuations.cpython-311.pyc',
+   'DATA'),
+  ('ytmusicapi/__pycache__/helpers.cpython-311.pyc',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/__pycache__/helpers.cpython-311.pyc',
+   'DATA'),
+  ('ytmusicapi/__pycache__/navigation.cpython-311.pyc',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/__pycache__/navigation.cpython-311.pyc',
+   'DATA'),
+  ('ytmusicapi/__pycache__/setup.cpython-311.pyc',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/__pycache__/setup.cpython-311.pyc',
+   'DATA'),
+  ('ytmusicapi/__pycache__/ytmusic.cpython-311.pyc',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/__pycache__/ytmusic.cpython-311.pyc',
+   'DATA'),
+  ('ytmusicapi/auth/__init__.py',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/auth/__init__.py',
+   'DATA'),
+  ('ytmusicapi/auth/__pycache__/__init__.cpython-311.pyc',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/auth/__pycache__/__init__.cpython-311.pyc',
+   'DATA'),
+  ('ytmusicapi/auth/__pycache__/browser.cpython-311.pyc',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/auth/__pycache__/browser.cpython-311.pyc',
+   'DATA'),
+  ('ytmusicapi/auth/__pycache__/headers.cpython-311.pyc',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/auth/__pycache__/headers.cpython-311.pyc',
+   'DATA'),
+  ('ytmusicapi/auth/__pycache__/oauth.cpython-311.pyc',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/auth/__pycache__/oauth.cpython-311.pyc',
+   'DATA'),
+  ('ytmusicapi/auth/browser.py',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/auth/browser.py',
+   'DATA'),
+  ('ytmusicapi/auth/headers.py',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/auth/headers.py',
+   'DATA'),
+  ('ytmusicapi/auth/oauth.py',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/auth/oauth.py',
+   'DATA'),
+  ('ytmusicapi/constants.py',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/constants.py',
+   'DATA'),
+  ('ytmusicapi/continuations.py',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/continuations.py',
+   'DATA'),
+  ('ytmusicapi/helpers.py',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/helpers.py',
+   'DATA'),
+  ('ytmusicapi/locales/README.rst',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/locales/README.rst',
+   'DATA'),
+  ('ytmusicapi/locales/ar/LC_MESSAGES/base.mo',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/locales/ar/LC_MESSAGES/base.mo',
+   'DATA'),
+  ('ytmusicapi/locales/de/LC_MESSAGES/base.mo',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/locales/de/LC_MESSAGES/base.mo',
+   'DATA'),
+  ('ytmusicapi/locales/en/LC_MESSAGES/base.mo',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/locales/en/LC_MESSAGES/base.mo',
+   'DATA'),
+  ('ytmusicapi/locales/es/LC_MESSAGES/base.mo',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/locales/es/LC_MESSAGES/base.mo',
+   'DATA'),
+  ('ytmusicapi/locales/fr/LC_MESSAGES/base.mo',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/locales/fr/LC_MESSAGES/base.mo',
+   'DATA'),
+  ('ytmusicapi/locales/hi/LC_MESSAGES/base.mo',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/locales/hi/LC_MESSAGES/base.mo',
+   'DATA'),
+  ('ytmusicapi/locales/it/LC_MESSAGES/base.mo',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/locales/it/LC_MESSAGES/base.mo',
+   'DATA'),
+  ('ytmusicapi/locales/ja/LC_MESSAGES/base.mo',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/locales/ja/LC_MESSAGES/base.mo',
+   'DATA'),
+  ('ytmusicapi/locales/ko/LC_MESSAGES/base.mo',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/locales/ko/LC_MESSAGES/base.mo',
+   'DATA'),
+  ('ytmusicapi/locales/nl/LC_MESSAGES/base.mo',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/locales/nl/LC_MESSAGES/base.mo',
+   'DATA'),
+  ('ytmusicapi/locales/pt/LC_MESSAGES/base.mo',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/locales/pt/LC_MESSAGES/base.mo',
+   'DATA'),
+  ('ytmusicapi/locales/ru/LC_MESSAGES/base.mo',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/locales/ru/LC_MESSAGES/base.mo',
+   'DATA'),
+  ('ytmusicapi/locales/tr/LC_MESSAGES/base.mo',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/locales/tr/LC_MESSAGES/base.mo',
+   'DATA'),
+  ('ytmusicapi/locales/ur/LC_MESSAGES/base.mo',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/locales/ur/LC_MESSAGES/base.mo',
+   'DATA'),
+  ('ytmusicapi/locales/zh_CN/LC_MESSAGES/base.mo',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/locales/zh_CN/LC_MESSAGES/base.mo',
+   'DATA'),
+  ('ytmusicapi/locales/zh_TW/LC_MESSAGES/base.mo',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/locales/zh_TW/LC_MESSAGES/base.mo',
+   'DATA'),
+  ('ytmusicapi/mixins/__init__.py',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/mixins/__init__.py',
+   'DATA'),
+  ('ytmusicapi/mixins/__pycache__/__init__.cpython-311.pyc',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/mixins/__pycache__/__init__.cpython-311.pyc',
+   'DATA'),
+  ('ytmusicapi/mixins/__pycache__/_utils.cpython-311.pyc',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/mixins/__pycache__/_utils.cpython-311.pyc',
+   'DATA'),
+  ('ytmusicapi/mixins/__pycache__/browsing.cpython-311.pyc',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/mixins/__pycache__/browsing.cpython-311.pyc',
+   'DATA'),
+  ('ytmusicapi/mixins/__pycache__/explore.cpython-311.pyc',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/mixins/__pycache__/explore.cpython-311.pyc',
+   'DATA'),
+  ('ytmusicapi/mixins/__pycache__/library.cpython-311.pyc',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/mixins/__pycache__/library.cpython-311.pyc',
+   'DATA'),
+  ('ytmusicapi/mixins/__pycache__/playlists.cpython-311.pyc',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/mixins/__pycache__/playlists.cpython-311.pyc',
+   'DATA'),
+  ('ytmusicapi/mixins/__pycache__/search.cpython-311.pyc',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/mixins/__pycache__/search.cpython-311.pyc',
+   'DATA'),
+  ('ytmusicapi/mixins/__pycache__/uploads.cpython-311.pyc',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/mixins/__pycache__/uploads.cpython-311.pyc',
+   'DATA'),
+  ('ytmusicapi/mixins/__pycache__/watch.cpython-311.pyc',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/mixins/__pycache__/watch.cpython-311.pyc',
+   'DATA'),
+  ('ytmusicapi/mixins/_utils.py',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/mixins/_utils.py',
+   'DATA'),
+  ('ytmusicapi/mixins/browsing.py',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/mixins/browsing.py',
+   'DATA'),
+  ('ytmusicapi/mixins/explore.py',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/mixins/explore.py',
+   'DATA'),
+  ('ytmusicapi/mixins/library.py',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/mixins/library.py',
+   'DATA'),
+  ('ytmusicapi/mixins/playlists.py',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/mixins/playlists.py',
+   'DATA'),
+  ('ytmusicapi/mixins/search.py',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/mixins/search.py',
+   'DATA'),
+  ('ytmusicapi/mixins/uploads.py',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/mixins/uploads.py',
+   'DATA'),
+  ('ytmusicapi/mixins/watch.py',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/mixins/watch.py',
+   'DATA'),
+  ('ytmusicapi/navigation.py',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/navigation.py',
+   'DATA'),
+  ('ytmusicapi/parsers/__init__.py',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/parsers/__init__.py',
+   'DATA'),
+  ('ytmusicapi/parsers/__pycache__/__init__.cpython-311.pyc',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/parsers/__pycache__/__init__.cpython-311.pyc',
+   'DATA'),
+  ('ytmusicapi/parsers/__pycache__/_utils.cpython-311.pyc',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/parsers/__pycache__/_utils.cpython-311.pyc',
+   'DATA'),
+  ('ytmusicapi/parsers/__pycache__/albums.cpython-311.pyc',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/parsers/__pycache__/albums.cpython-311.pyc',
+   'DATA'),
+  ('ytmusicapi/parsers/__pycache__/browsing.cpython-311.pyc',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/parsers/__pycache__/browsing.cpython-311.pyc',
+   'DATA'),
+  ('ytmusicapi/parsers/__pycache__/explore.cpython-311.pyc',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/parsers/__pycache__/explore.cpython-311.pyc',
+   'DATA'),
+  ('ytmusicapi/parsers/__pycache__/i18n.cpython-311.pyc',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/parsers/__pycache__/i18n.cpython-311.pyc',
+   'DATA'),
+  ('ytmusicapi/parsers/__pycache__/library.cpython-311.pyc',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/parsers/__pycache__/library.cpython-311.pyc',
+   'DATA'),
+  ('ytmusicapi/parsers/__pycache__/playlists.cpython-311.pyc',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/parsers/__pycache__/playlists.cpython-311.pyc',
+   'DATA'),
+  ('ytmusicapi/parsers/__pycache__/search.cpython-311.pyc',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/parsers/__pycache__/search.cpython-311.pyc',
+   'DATA'),
+  ('ytmusicapi/parsers/__pycache__/songs.cpython-311.pyc',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/parsers/__pycache__/songs.cpython-311.pyc',
+   'DATA'),
+  ('ytmusicapi/parsers/__pycache__/uploads.cpython-311.pyc',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/parsers/__pycache__/uploads.cpython-311.pyc',
+   'DATA'),
+  ('ytmusicapi/parsers/__pycache__/watch.cpython-311.pyc',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/parsers/__pycache__/watch.cpython-311.pyc',
+   'DATA'),
+  ('ytmusicapi/parsers/_utils.py',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/parsers/_utils.py',
+   'DATA'),
+  ('ytmusicapi/parsers/albums.py',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/parsers/albums.py',
+   'DATA'),
+  ('ytmusicapi/parsers/browsing.py',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/parsers/browsing.py',
+   'DATA'),
+  ('ytmusicapi/parsers/explore.py',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/parsers/explore.py',
+   'DATA'),
+  ('ytmusicapi/parsers/i18n.py',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/parsers/i18n.py',
+   'DATA'),
+  ('ytmusicapi/parsers/library.py',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/parsers/library.py',
+   'DATA'),
+  ('ytmusicapi/parsers/playlists.py',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/parsers/playlists.py',
+   'DATA'),
+  ('ytmusicapi/parsers/search.py',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/parsers/search.py',
+   'DATA'),
+  ('ytmusicapi/parsers/songs.py',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/parsers/songs.py',
+   'DATA'),
+  ('ytmusicapi/parsers/uploads.py',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/parsers/uploads.py',
+   'DATA'),
+  ('ytmusicapi/parsers/watch.py',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/parsers/watch.py',
+   'DATA'),
+  ('ytmusicapi/setup.py',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/setup.py',
+   'DATA'),
+  ('ytmusicapi/ytmusic.py',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/ytmusicapi/ytmusic.py',
+   'DATA'),
+  ('base_library.zip',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/build/pydl/base_library.zip',
+   'DATA'),
+  ('certifi/cacert.pem',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/certifi/cacert.pem',
+   'DATA'),
+  ('certifi/py.typed',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/certifi/py.typed',
+   'DATA'),
+  ('attrs-23.1.0.dist-info/INSTALLER',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/attrs-23.1.0.dist-info/INSTALLER',
+   'DATA'),
+  ('attrs-23.1.0.dist-info/WHEEL',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/attrs-23.1.0.dist-info/WHEEL',
+   'DATA'),
+  ('attrs-23.1.0.dist-info/RECORD',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/attrs-23.1.0.dist-info/RECORD',
+   'DATA'),
   ('attrs-23.1.0.dist-info/METADATA',
    '/mnt/docs/6 - '
    'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/attrs-23.1.0.dist-info/METADATA',
+   'DATA'),
+  ('attrs-23.1.0.dist-info/licenses/LICENSE',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/lib/python3.11/site-packages/attrs-23.1.0.dist-info/licenses/LICENSE',
    'DATA')],
  [])

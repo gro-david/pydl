@@ -9,6 +9,7 @@ from rich.console import Console
 # create a console object to use for styling
 # this needs to be above the custom library imports, so taht they can reference this console object
 console = Console()
+shell = None
 
 # the module for the header
 from pyfiglet import Figlet
@@ -24,6 +25,7 @@ from libraries import manual_tagging
 from libraries import queue_management
 from libraries import rich_click_shell
 from libraries import upload as uploader
+from libraries import error_handler
 
 # the config file is read and the values are stored in the conf dictionary
 try:
@@ -82,6 +84,8 @@ rclick.rich_click.SHOW_ARGUMENTS = True
 @rclick.group(invoke_without_command=True)
 @rclick.pass_context
 def main(ctx):
+    global shell
+    error_handler.test_wifi_connection()
     if ctx.invoked_subcommand is None:
         shell = rich_click_shell.make_click_shell(
             ctx,
@@ -185,10 +189,7 @@ try:
         )
 
 except KeyError:
-    console.print(
-        "[bold red]Invalid config file![/bold red] Please generate a new config file!"
-    )
-    generate_config()
+    error_handler.config_error()
 # endregion
 
 
@@ -286,7 +287,7 @@ def queue_add(url, index, playlist, limit, path, complex_filetree, upload):
 @main.command(
     help="Queue only usable in the shell! Use 'pydl', without any arguments to enter the shell!"
 )
-def queue_list():
+def queue_ls():
     queue_management.get_queue()
 
 
@@ -294,7 +295,7 @@ def queue_list():
     help="Queue only usable in the shell! Use 'pydl', without any arguments to enter the shell!"
 )
 @rclick.argument("input")
-def queue_remove(input):
+def queue_rm(input):
     if input.isnumeric():
         index = int(input)
         queue_management.remove_from_queue(index)
@@ -329,12 +330,15 @@ def clear():
 
 @main.command()
 def auth():
+    global shell
+    if shell != None:
+        console.print(
+            "[bold red]You can't run this command in the shell![/bold red] Please run this command outside of the pydl shell!"
+        )
+        raise rclick.Abort()
     uploader.auth()
 
 
 # this gets run every time we want to do something with the script
 if __name__ == "__main__":
     main()
-
-
-# just a random comment

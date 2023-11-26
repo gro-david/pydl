@@ -1079,6 +1079,10 @@
    '/mnt/docs/6 - '
    'David/python-projects/pydl-repo/pydl-linux/pydl/libraries/download_convert.py',
    'PYMODULE'),
+  ('libraries.error_handler',
+   '/mnt/docs/6 - '
+   'David/python-projects/pydl-repo/pydl-linux/pydl/libraries/error_handler.py',
+   'PYMODULE'),
   ('libraries.find_stream',
    '/mnt/docs/6 - '
    'David/python-projects/pydl-repo/pydl-linux/pydl/libraries/find_stream.py',
