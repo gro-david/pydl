@@ -6,8 +6,10 @@
   'PYMODULE': True,
   'PYSOURCE': True,
   'PYZ': False,
-  'SPLASH': True},
- [('PYZ-00.pyz',
+  'SPLASH': True,
+  'SYMLINK': False},
+ [('pyi-contents-directory _internal', '', 'OPTION'),
+  ('PYZ-00.pyz',
    'D:\\6 - '
    'David\\python-projects\\pydl-repo\\pydl-win\\build\\pydl\\PYZ-00.pyz',
    'PYZ'),
@@ -54,9 +56,6 @@
   ('pydl',
    'D:\\6 - David\\python-projects\\pydl-repo\\pydl-win\\pydl\\pydl.py',
    'PYSOURCE'),
-  ('VCRUNTIME140.dll',
-   'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\VCRUNTIME140.dll',
-   'BINARY'),
   ('python311.dll',
    'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\python311.dll',
    'BINARY'),
@@ -66,6 +65,9 @@
    'BINARY'),
   ('select.pyd',
    'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\select.pyd',
+   'EXTENSION'),
+  ('_ssl.pyd',
+   'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_ssl.pyd',
    'EXTENSION'),
   ('_hashlib.pyd',
    'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_hashlib.pyd',
@@ -79,8 +81,8 @@
   ('pyexpat.pyd',
    'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\pyexpat.pyd',
    'EXTENSION'),
-  ('_ssl.pyd',
-   'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_ssl.pyd',
+  ('unicodedata.pyd',
+   'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\unicodedata.pyd',
    'EXTENSION'),
   ('_decimal.pyd',
    'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_decimal.pyd',
@@ -97,8 +99,13 @@
   ('_queue.pyd',
    'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_queue.pyd',
    'EXTENSION'),
-  ('unicodedata.pyd',
-   'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\unicodedata.pyd',
+  ('charset_normalizer\\md__mypyc.cp311-win_amd64.pyd',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\charset_normalizer\\md__mypyc.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('charset_normalizer\\md.cp311-win_amd64.pyd',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\charset_normalizer\\md.cp311-win_amd64.pyd',
    'EXTENSION'),
   ('_elementtree.pyd',
    'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_elementtree.pyd',
@@ -308,14 +315,6 @@
    'D:\\6 - '
    'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\frozenlist\\_frozenlist.cp311-win_amd64.pyd',
    'EXTENSION'),
-  ('charset_normalizer\\md__mypyc.cp311-win_amd64.pyd',
-   'D:\\6 - '
-   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\charset_normalizer\\md__mypyc.cp311-win_amd64.pyd',
-   'EXTENSION'),
-  ('charset_normalizer\\md.cp311-win_amd64.pyd',
-   'D:\\6 - '
-   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\charset_normalizer\\md.cp311-win_amd64.pyd',
-   'EXTENSION'),
   ('aiohttp\\_helpers.cp311-win_amd64.pyd',
    'D:\\6 - '
    'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\aiohttp\\_helpers.cp311-win_amd64.pyd',
@@ -324,46 +323,53 @@
    'D:\\6 - '
    'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\aiohttp\\_websocket.cp311-win_amd64.pyd',
    'EXTENSION'),
-  ('libcrypto-1_1.dll',
-   'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\libcrypto-1_1.dll',
+  ('VCRUNTIME140.dll',
+   'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\VCRUNTIME140.dll',
    'BINARY'),
   ('libssl-1_1.dll',
    'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\libssl-1_1.dll',
    'BINARY'),
+  ('libcrypto-1_1.dll',
+   'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\libcrypto-1_1.dll',
+   'BINARY'),
   ('libffi-8.dll',
    'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\libffi-8.dll',
    'BINARY'),
+  ('numpy\\.libs\\libopenblas64__v0.3.23-246-g3d31191b-gcc_10_3_0.dll',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\numpy\\.libs\\libopenblas64__v0.3.23-246-g3d31191b-gcc_10_3_0.dll',
+   'BINARY'),
   ('pyfiglet-1.0.2.dist-info\\INSTALLER',
-   'd:\\6 - '
-   'david\\python-projects\\pydl-repo\\pydl-win\\lib\\site-packages\\pyfiglet-1.0.2.dist-info\\INSTALLER',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet-1.0.2.dist-info\\INSTALLER',
    'DATA'),
   ('pyfiglet-1.0.2.dist-info\\LICENSE',
-   'd:\\6 - '
-   'david\\python-projects\\pydl-repo\\pydl-win\\lib\\site-packages\\pyfiglet-1.0.2.dist-info\\LICENSE',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet-1.0.2.dist-info\\LICENSE',
    'DATA'),
   ('pyfiglet-1.0.2.dist-info\\METADATA',
-   'd:\\6 - '
-   'david\\python-projects\\pydl-repo\\pydl-win\\lib\\site-packages\\pyfiglet-1.0.2.dist-info\\METADATA',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet-1.0.2.dist-info\\METADATA',
    'DATA'),
   ('pyfiglet-1.0.2.dist-info\\RECORD',
-   'd:\\6 - '
-   'david\\python-projects\\pydl-repo\\pydl-win\\lib\\site-packages\\pyfiglet-1.0.2.dist-info\\RECORD',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet-1.0.2.dist-info\\RECORD',
    'DATA'),
   ('pyfiglet-1.0.2.dist-info\\REQUESTED',
-   'd:\\6 - '
-   'david\\python-projects\\pydl-repo\\pydl-win\\lib\\site-packages\\pyfiglet-1.0.2.dist-info\\REQUESTED',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet-1.0.2.dist-info\\REQUESTED',
    'DATA'),
   ('pyfiglet-1.0.2.dist-info\\WHEEL',
-   'd:\\6 - '
-   'david\\python-projects\\pydl-repo\\pydl-win\\lib\\site-packages\\pyfiglet-1.0.2.dist-info\\WHEEL',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet-1.0.2.dist-info\\WHEEL',
    'DATA'),
   ('pyfiglet-1.0.2.dist-info\\entry_points.txt',
-   'd:\\6 - '
-   'david\\python-projects\\pydl-repo\\pydl-win\\lib\\site-packages\\pyfiglet-1.0.2.dist-info\\entry_points.txt',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet-1.0.2.dist-info\\entry_points.txt',
    'DATA'),
   ('pyfiglet-1.0.2.dist-info\\top_level.txt',
-   'd:\\6 - '
-   'david\\python-projects\\pydl-repo\\pydl-win\\lib\\site-packages\\pyfiglet-1.0.2.dist-info\\top_level.txt',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet-1.0.2.dist-info\\top_level.txt',
    'DATA'),
   ('pyfiglet\\__init__.py',
    'D:\\6 - '
@@ -372,22 +378,6 @@
   ('pyfiglet\\__main__.py',
    'D:\\6 - '
    'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\__main__.py',
-   'DATA'),
-  ('pyfiglet\\__pycache__\\__init__.cpython-311.pyc',
-   'D:\\6 - '
-   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\__pycache__\\__init__.cpython-311.pyc',
-   'DATA'),
-  ('pyfiglet\\__pycache__\\__main__.cpython-311.pyc',
-   'D:\\6 - '
-   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\__pycache__\\__main__.cpython-311.pyc',
-   'DATA'),
-  ('pyfiglet\\__pycache__\\test.cpython-311.pyc',
-   'D:\\6 - '
-   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\__pycache__\\test.cpython-311.pyc',
-   'DATA'),
-  ('pyfiglet\\__pycache__\\version.cpython-311.pyc',
-   'D:\\6 - '
-   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\__pycache__\\version.cpython-311.pyc',
    'DATA'),
   ('pyfiglet\\fonts\\1943____.flf',
    'D:\\6 - '
@@ -448,10 +438,6 @@
   ('pyfiglet\\fonts\\__init__.py',
    'D:\\6 - '
    'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\__init__.py',
-   'DATA'),
-  ('pyfiglet\\fonts\\__pycache__\\__init__.cpython-311.pyc',
-   'D:\\6 - '
-   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\fonts\\__pycache__\\__init__.cpython-311.pyc',
    'DATA'),
   ('pyfiglet\\fonts\\a_zooloo.flf',
    'D:\\6 - '
@@ -2617,30 +2603,267 @@
    'D:\\6 - '
    'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\version.py',
    'DATA'),
+  ('ytmusicapi-1.3.2.dist-info\\INSTALLER',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi-1.3.2.dist-info\\INSTALLER',
+   'DATA'),
+  ('ytmusicapi-1.3.2.dist-info\\LICENSE',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi-1.3.2.dist-info\\LICENSE',
+   'DATA'),
+  ('ytmusicapi-1.3.2.dist-info\\METADATA',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi-1.3.2.dist-info\\METADATA',
+   'DATA'),
+  ('ytmusicapi-1.3.2.dist-info\\RECORD',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi-1.3.2.dist-info\\RECORD',
+   'DATA'),
+  ('ytmusicapi-1.3.2.dist-info\\REQUESTED',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi-1.3.2.dist-info\\REQUESTED',
+   'DATA'),
+  ('ytmusicapi-1.3.2.dist-info\\WHEEL',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi-1.3.2.dist-info\\WHEEL',
+   'DATA'),
+  ('ytmusicapi-1.3.2.dist-info\\entry_points.txt',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi-1.3.2.dist-info\\entry_points.txt',
+   'DATA'),
+  ('ytmusicapi-1.3.2.dist-info\\top_level.txt',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi-1.3.2.dist-info\\top_level.txt',
+   'DATA'),
+  ('ytmusicapi\\__init__.py',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi\\__init__.py',
+   'DATA'),
+  ('ytmusicapi\\auth\\__init__.py',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi\\auth\\__init__.py',
+   'DATA'),
+  ('ytmusicapi\\auth\\browser.py',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi\\auth\\browser.py',
+   'DATA'),
+  ('ytmusicapi\\auth\\headers.py',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi\\auth\\headers.py',
+   'DATA'),
+  ('ytmusicapi\\auth\\oauth.py',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi\\auth\\oauth.py',
+   'DATA'),
+  ('ytmusicapi\\constants.py',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi\\constants.py',
+   'DATA'),
+  ('ytmusicapi\\continuations.py',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi\\continuations.py',
+   'DATA'),
+  ('ytmusicapi\\helpers.py',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi\\helpers.py',
+   'DATA'),
+  ('ytmusicapi\\locales\\README.rst',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi\\locales\\README.rst',
+   'DATA'),
+  ('ytmusicapi\\locales\\ar\\LC_MESSAGES\\base.mo',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi\\locales\\ar\\LC_MESSAGES\\base.mo',
+   'DATA'),
+  ('ytmusicapi\\locales\\de\\LC_MESSAGES\\base.mo',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi\\locales\\de\\LC_MESSAGES\\base.mo',
+   'DATA'),
+  ('ytmusicapi\\locales\\en\\LC_MESSAGES\\base.mo',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi\\locales\\en\\LC_MESSAGES\\base.mo',
+   'DATA'),
+  ('ytmusicapi\\locales\\es\\LC_MESSAGES\\base.mo',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi\\locales\\es\\LC_MESSAGES\\base.mo',
+   'DATA'),
+  ('ytmusicapi\\locales\\fr\\LC_MESSAGES\\base.mo',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi\\locales\\fr\\LC_MESSAGES\\base.mo',
+   'DATA'),
+  ('ytmusicapi\\locales\\hi\\LC_MESSAGES\\base.mo',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi\\locales\\hi\\LC_MESSAGES\\base.mo',
+   'DATA'),
+  ('ytmusicapi\\locales\\it\\LC_MESSAGES\\base.mo',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi\\locales\\it\\LC_MESSAGES\\base.mo',
+   'DATA'),
+  ('ytmusicapi\\locales\\ja\\LC_MESSAGES\\base.mo',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi\\locales\\ja\\LC_MESSAGES\\base.mo',
+   'DATA'),
+  ('ytmusicapi\\locales\\ko\\LC_MESSAGES\\base.mo',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi\\locales\\ko\\LC_MESSAGES\\base.mo',
+   'DATA'),
+  ('ytmusicapi\\locales\\nl\\LC_MESSAGES\\base.mo',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi\\locales\\nl\\LC_MESSAGES\\base.mo',
+   'DATA'),
+  ('ytmusicapi\\locales\\pt\\LC_MESSAGES\\base.mo',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi\\locales\\pt\\LC_MESSAGES\\base.mo',
+   'DATA'),
+  ('ytmusicapi\\locales\\ru\\LC_MESSAGES\\base.mo',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi\\locales\\ru\\LC_MESSAGES\\base.mo',
+   'DATA'),
+  ('ytmusicapi\\locales\\tr\\LC_MESSAGES\\base.mo',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi\\locales\\tr\\LC_MESSAGES\\base.mo',
+   'DATA'),
+  ('ytmusicapi\\locales\\ur\\LC_MESSAGES\\base.mo',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi\\locales\\ur\\LC_MESSAGES\\base.mo',
+   'DATA'),
+  ('ytmusicapi\\locales\\zh_CN\\LC_MESSAGES\\base.mo',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi\\locales\\zh_CN\\LC_MESSAGES\\base.mo',
+   'DATA'),
+  ('ytmusicapi\\locales\\zh_TW\\LC_MESSAGES\\base.mo',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi\\locales\\zh_TW\\LC_MESSAGES\\base.mo',
+   'DATA'),
+  ('ytmusicapi\\mixins\\__init__.py',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi\\mixins\\__init__.py',
+   'DATA'),
+  ('ytmusicapi\\mixins\\_utils.py',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi\\mixins\\_utils.py',
+   'DATA'),
+  ('ytmusicapi\\mixins\\browsing.py',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi\\mixins\\browsing.py',
+   'DATA'),
+  ('ytmusicapi\\mixins\\explore.py',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi\\mixins\\explore.py',
+   'DATA'),
+  ('ytmusicapi\\mixins\\library.py',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi\\mixins\\library.py',
+   'DATA'),
+  ('ytmusicapi\\mixins\\playlists.py',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi\\mixins\\playlists.py',
+   'DATA'),
+  ('ytmusicapi\\mixins\\search.py',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi\\mixins\\search.py',
+   'DATA'),
+  ('ytmusicapi\\mixins\\uploads.py',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi\\mixins\\uploads.py',
+   'DATA'),
+  ('ytmusicapi\\mixins\\watch.py',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi\\mixins\\watch.py',
+   'DATA'),
+  ('ytmusicapi\\navigation.py',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi\\navigation.py',
+   'DATA'),
+  ('ytmusicapi\\parsers\\__init__.py',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi\\parsers\\__init__.py',
+   'DATA'),
+  ('ytmusicapi\\parsers\\_utils.py',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi\\parsers\\_utils.py',
+   'DATA'),
+  ('ytmusicapi\\parsers\\albums.py',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi\\parsers\\albums.py',
+   'DATA'),
+  ('ytmusicapi\\parsers\\browsing.py',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi\\parsers\\browsing.py',
+   'DATA'),
+  ('ytmusicapi\\parsers\\explore.py',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi\\parsers\\explore.py',
+   'DATA'),
+  ('ytmusicapi\\parsers\\i18n.py',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi\\parsers\\i18n.py',
+   'DATA'),
+  ('ytmusicapi\\parsers\\library.py',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi\\parsers\\library.py',
+   'DATA'),
+  ('ytmusicapi\\parsers\\playlists.py',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi\\parsers\\playlists.py',
+   'DATA'),
+  ('ytmusicapi\\parsers\\search.py',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi\\parsers\\search.py',
+   'DATA'),
+  ('ytmusicapi\\parsers\\songs.py',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi\\parsers\\songs.py',
+   'DATA'),
+  ('ytmusicapi\\parsers\\uploads.py',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi\\parsers\\uploads.py',
+   'DATA'),
+  ('ytmusicapi\\parsers\\watch.py',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi\\parsers\\watch.py',
+   'DATA'),
+  ('ytmusicapi\\setup.py',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi\\setup.py',
+   'DATA'),
+  ('ytmusicapi\\ytmusic.py',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi\\ytmusic.py',
+   'DATA'),
   ('base_library.zip',
    'D:\\6 - '
    'David\\python-projects\\pydl-repo\\pydl-win\\build\\pydl\\base_library.zip',
    'DATA'),
-  ('attrs-23.1.0.dist-info\\INSTALLER',
-   'd:\\6 - '
-   'david\\python-projects\\pydl-repo\\pydl-win\\lib\\site-packages\\attrs-23.1.0.dist-info\\INSTALLER',
+  ('certifi\\py.typed',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\certifi\\py.typed',
    'DATA'),
-  ('attrs-23.1.0.dist-info\\WHEEL',
-   'd:\\6 - '
-   'david\\python-projects\\pydl-repo\\pydl-win\\lib\\site-packages\\attrs-23.1.0.dist-info\\WHEEL',
+  ('certifi\\cacert.pem',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\certifi\\cacert.pem',
    'DATA'),
   ('attrs-23.1.0.dist-info\\licenses\\LICENSE',
-   'd:\\6 - '
-   'david\\python-projects\\pydl-repo\\pydl-win\\lib\\site-packages\\attrs-23.1.0.dist-info\\licenses\\LICENSE',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\attrs-23.1.0.dist-info\\licenses\\LICENSE',
    'DATA'),
   ('attrs-23.1.0.dist-info\\METADATA',
-   'd:\\6 - '
-   'david\\python-projects\\pydl-repo\\pydl-win\\lib\\site-packages\\attrs-23.1.0.dist-info\\METADATA',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\attrs-23.1.0.dist-info\\METADATA',
+   'DATA'),
+  ('attrs-23.1.0.dist-info\\INSTALLER',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\attrs-23.1.0.dist-info\\INSTALLER',
+   'DATA'),
+  ('attrs-23.1.0.dist-info\\WHEEL',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\attrs-23.1.0.dist-info\\WHEEL',
    'DATA'),
   ('attrs-23.1.0.dist-info\\RECORD',
-   'd:\\6 - '
-   'david\\python-projects\\pydl-repo\\pydl-win\\lib\\site-packages\\attrs-23.1.0.dist-info\\RECORD',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\attrs-23.1.0.dist-info\\RECORD',
    'DATA')],
+ 'python311.dll',
  False,
  False,
  False,

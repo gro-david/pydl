@@ -332,6 +332,10 @@
   ('_pydecimal',
    'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\_pydecimal.py',
    'PYMODULE'),
+  ('_pyi_rth_utils',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\PyInstaller\\fake-modules\\_pyi_rth_utils\\__init__.py',
+   'PYMODULE'),
   ('_strptime',
    'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\_strptime.py',
    'PYMODULE'),
@@ -719,6 +723,14 @@
   ('calendar',
    'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\calendar.py',
    'PYMODULE'),
+  ('certifi',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\certifi\\__init__.py',
+   'PYMODULE'),
+  ('certifi.core',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\certifi\\core.py',
+   'PYMODULE'),
   ('charset_normalizer',
    'D:\\6 - '
    'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\charset_normalizer\\__init__.py',
@@ -1067,6 +1079,9 @@
   ('ffmpeg.utils',
    'D:\\6 - '
    'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ffmpeg\\utils.py',
+   'PYMODULE'),
+  ('fnmatch',
+   'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\fnmatch.py',
    'PYMODULE'),
   ('fractions',
    'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\fractions.py',
@@ -2524,6 +2539,9 @@
   ('packaging.version',
    'D:\\6 - '
    'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\packaging\\version.py',
+   'PYMODULE'),
+  ('pathlib',
+   'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\pathlib.py',
    'PYMODULE'),
   ('pdb',
    'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\pdb.py',
@@ -4166,6 +4184,74 @@
   ('random',
    'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\random.py',
    'PYMODULE'),
+  ('requests',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\requests\\__init__.py',
+   'PYMODULE'),
+  ('requests.__version__',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\requests\\__version__.py',
+   'PYMODULE'),
+  ('requests._internal_utils',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\requests\\_internal_utils.py',
+   'PYMODULE'),
+  ('requests.adapters',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\requests\\adapters.py',
+   'PYMODULE'),
+  ('requests.api',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\requests\\api.py',
+   'PYMODULE'),
+  ('requests.auth',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\requests\\auth.py',
+   'PYMODULE'),
+  ('requests.certs',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\requests\\certs.py',
+   'PYMODULE'),
+  ('requests.compat',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\requests\\compat.py',
+   'PYMODULE'),
+  ('requests.cookies',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\requests\\cookies.py',
+   'PYMODULE'),
+  ('requests.exceptions',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\requests\\exceptions.py',
+   'PYMODULE'),
+  ('requests.hooks',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\requests\\hooks.py',
+   'PYMODULE'),
+  ('requests.models',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\requests\\models.py',
+   'PYMODULE'),
+  ('requests.packages',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\requests\\packages.py',
+   'PYMODULE'),
+  ('requests.sessions',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\requests\\sessions.py',
+   'PYMODULE'),
+  ('requests.status_codes',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\requests\\status_codes.py',
+   'PYMODULE'),
+  ('requests.structures',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\requests\\structures.py',
+   'PYMODULE'),
+  ('requests.utils',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\requests\\utils.py',
+   'PYMODULE'),
   ('rich',
    'D:\\6 - '
    'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\rich\\__init__.py',
@@ -4640,6 +4726,12 @@
   ('threading',
    'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\threading.py',
    'PYMODULE'),
+  ('token',
+   'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\token.py',
+   'PYMODULE'),
+  ('tokenize',
+   'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\tokenize.py',
+   'PYMODULE'),
   ('tracemalloc',
    'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\tracemalloc.py',
    'PYMODULE'),
@@ -4685,6 +4777,133 @@
    'PYMODULE'),
   ('unittest.util',
    'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\unittest\\util.py',
+   'PYMODULE'),
+  ('urllib',
+   'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\urllib\\__init__.py',
+   'PYMODULE'),
+  ('urllib.error',
+   'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\urllib\\error.py',
+   'PYMODULE'),
+  ('urllib.parse',
+   'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\urllib\\parse.py',
+   'PYMODULE'),
+  ('urllib.request',
+   'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\urllib\\request.py',
+   'PYMODULE'),
+  ('urllib.response',
+   'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\urllib\\response.py',
+   'PYMODULE'),
+  ('urllib3',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\urllib3\\__init__.py',
+   'PYMODULE'),
+  ('urllib3._base_connection',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\urllib3\\_base_connection.py',
+   'PYMODULE'),
+  ('urllib3._collections',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\urllib3\\_collections.py',
+   'PYMODULE'),
+  ('urllib3._request_methods',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\urllib3\\_request_methods.py',
+   'PYMODULE'),
+  ('urllib3._version',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\urllib3\\_version.py',
+   'PYMODULE'),
+  ('urllib3.connection',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\urllib3\\connection.py',
+   'PYMODULE'),
+  ('urllib3.connectionpool',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\urllib3\\connectionpool.py',
+   'PYMODULE'),
+  ('urllib3.contrib',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\urllib3\\contrib\\__init__.py',
+   'PYMODULE'),
+  ('urllib3.contrib.pyopenssl',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\urllib3\\contrib\\pyopenssl.py',
+   'PYMODULE'),
+  ('urllib3.contrib.socks',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\urllib3\\contrib\\socks.py',
+   'PYMODULE'),
+  ('urllib3.exceptions',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\urllib3\\exceptions.py',
+   'PYMODULE'),
+  ('urllib3.fields',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\urllib3\\fields.py',
+   'PYMODULE'),
+  ('urllib3.filepost',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\urllib3\\filepost.py',
+   'PYMODULE'),
+  ('urllib3.poolmanager',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\urllib3\\poolmanager.py',
+   'PYMODULE'),
+  ('urllib3.response',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\urllib3\\response.py',
+   'PYMODULE'),
+  ('urllib3.util',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\urllib3\\util\\__init__.py',
+   'PYMODULE'),
+  ('urllib3.util.connection',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\urllib3\\util\\connection.py',
+   'PYMODULE'),
+  ('urllib3.util.proxy',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\urllib3\\util\\proxy.py',
+   'PYMODULE'),
+  ('urllib3.util.request',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\urllib3\\util\\request.py',
+   'PYMODULE'),
+  ('urllib3.util.response',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\urllib3\\util\\response.py',
+   'PYMODULE'),
+  ('urllib3.util.retry',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\urllib3\\util\\retry.py',
+   'PYMODULE'),
+  ('urllib3.util.ssl_',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\urllib3\\util\\ssl_.py',
+   'PYMODULE'),
+  ('urllib3.util.ssl_match_hostname',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\urllib3\\util\\ssl_match_hostname.py',
+   'PYMODULE'),
+  ('urllib3.util.ssltransport',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\urllib3\\util\\ssltransport.py',
+   'PYMODULE'),
+  ('urllib3.util.timeout',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\urllib3\\util\\timeout.py',
+   'PYMODULE'),
+  ('urllib3.util.url',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\urllib3\\util\\url.py',
+   'PYMODULE'),
+  ('urllib3.util.util',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\urllib3\\util\\util.py',
+   'PYMODULE'),
+  ('urllib3.util.wait',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\urllib3\\util\\wait.py',
    'PYMODULE'),
   ('uuid',
    'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\uuid.py',
@@ -4762,6 +4981,134 @@
   ('yarl._url',
    'D:\\6 - '
    'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\yarl\\_url.py',
+   'PYMODULE'),
+  ('ytmusicapi',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi\\__init__.py',
+   'PYMODULE'),
+  ('ytmusicapi.auth',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi\\auth\\__init__.py',
+   'PYMODULE'),
+  ('ytmusicapi.auth.browser',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi\\auth\\browser.py',
+   'PYMODULE'),
+  ('ytmusicapi.auth.headers',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi\\auth\\headers.py',
+   'PYMODULE'),
+  ('ytmusicapi.auth.oauth',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi\\auth\\oauth.py',
+   'PYMODULE'),
+  ('ytmusicapi.constants',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi\\constants.py',
+   'PYMODULE'),
+  ('ytmusicapi.continuations',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi\\continuations.py',
+   'PYMODULE'),
+  ('ytmusicapi.helpers',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi\\helpers.py',
+   'PYMODULE'),
+  ('ytmusicapi.mixins',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi\\mixins\\__init__.py',
+   'PYMODULE'),
+  ('ytmusicapi.mixins._utils',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi\\mixins\\_utils.py',
+   'PYMODULE'),
+  ('ytmusicapi.mixins.browsing',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi\\mixins\\browsing.py',
+   'PYMODULE'),
+  ('ytmusicapi.mixins.explore',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi\\mixins\\explore.py',
+   'PYMODULE'),
+  ('ytmusicapi.mixins.library',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi\\mixins\\library.py',
+   'PYMODULE'),
+  ('ytmusicapi.mixins.playlists',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi\\mixins\\playlists.py',
+   'PYMODULE'),
+  ('ytmusicapi.mixins.search',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi\\mixins\\search.py',
+   'PYMODULE'),
+  ('ytmusicapi.mixins.uploads',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi\\mixins\\uploads.py',
+   'PYMODULE'),
+  ('ytmusicapi.mixins.watch',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi\\mixins\\watch.py',
+   'PYMODULE'),
+  ('ytmusicapi.navigation',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi\\navigation.py',
+   'PYMODULE'),
+  ('ytmusicapi.parsers',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi\\parsers\\__init__.py',
+   'PYMODULE'),
+  ('ytmusicapi.parsers._utils',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi\\parsers\\_utils.py',
+   'PYMODULE'),
+  ('ytmusicapi.parsers.albums',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi\\parsers\\albums.py',
+   'PYMODULE'),
+  ('ytmusicapi.parsers.browsing',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi\\parsers\\browsing.py',
+   'PYMODULE'),
+  ('ytmusicapi.parsers.explore',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi\\parsers\\explore.py',
+   'PYMODULE'),
+  ('ytmusicapi.parsers.i18n',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi\\parsers\\i18n.py',
+   'PYMODULE'),
+  ('ytmusicapi.parsers.library',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi\\parsers\\library.py',
+   'PYMODULE'),
+  ('ytmusicapi.parsers.playlists',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi\\parsers\\playlists.py',
+   'PYMODULE'),
+  ('ytmusicapi.parsers.search',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi\\parsers\\search.py',
+   'PYMODULE'),
+  ('ytmusicapi.parsers.songs',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi\\parsers\\songs.py',
+   'PYMODULE'),
+  ('ytmusicapi.parsers.uploads',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi\\parsers\\uploads.py',
+   'PYMODULE'),
+  ('ytmusicapi.parsers.watch',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi\\parsers\\watch.py',
+   'PYMODULE'),
+  ('ytmusicapi.setup',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi\\setup.py',
+   'PYMODULE'),
+  ('ytmusicapi.ytmusic',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ytmusicapi\\ytmusic.py',
    'PYMODULE'),
   ('zipfile',
    'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\zipfile.py',

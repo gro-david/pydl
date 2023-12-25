@@ -8,7 +8,7 @@ from rich.prompt import Confirm
 
 # pytube
 import pytube as pyt
-from pytube import YouTube as YT
+from pytube import YouTube as YTlar
 from pytube import Channel as CH
 from pytube.exceptions import PytubeError
 
