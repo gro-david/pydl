@@ -2,7 +2,6 @@ from libraries import download_convert
 from libraries import error_handler
 from pytube import exceptions as pytube_exceptions
 from ytmusicapi.ytmusic import YTMusic
-from threading import Thread
 import platformdirs
 import os
 import time
