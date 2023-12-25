@@ -1,7 +1,6 @@
 # type: ignore
 from ffmpeg import FFmpeg
 import os
-from pathlib import Path
 from time import sleep
 
 # rich
@@ -56,7 +55,7 @@ def download(url):
 
 def convert(song, output_dir, title):
     # set the new filename with the mp3 extension
-    filename = Path(song).stem + ".mp3"
+    filename = song.split(".webm")[0] + ".mp3"
     filename = os.path.join(output_dir, filename)
 
     # if we would not check this ffmpeg would hast ot itself. That would mess up the status

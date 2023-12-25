@@ -3088,8 +3088,8 @@
    'D:\\6 - '
    'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyfiglet\\__main__.py',
    'PYMODULE'),
-  ('stringprep',
-   'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\stringprep.py',
+  ('tracemalloc',
+   'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\tracemalloc.py',
    'PYMODULE'),
   ('_py_abc',
    'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\_py_abc.py',
@@ -3109,8 +3109,8 @@
   ('http.cookiejar',
    'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\http\\cookiejar.py',
    'PYMODULE'),
-  ('tracemalloc',
-   'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\tracemalloc.py',
+  ('stringprep',
+   'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\stringprep.py',
    'PYMODULE'),
   ('libraries.error_handler',
    'D:\\6 - '
@@ -9675,24 +9675,24 @@
    'D:\\6 - '
    'David\\python-projects\\pydl-repo\\pydl-win\\build\\pydl\\base_library.zip',
    'DATA'),
-  ('attrs-23.1.0.dist-info\\METADATA',
+  ('attrs-23.1.0.dist-info\\INSTALLER',
    'd:\\6 - '
-   'david\\python-projects\\pydl-repo\\pydl-win\\lib\\site-packages\\attrs-23.1.0.dist-info\\METADATA',
+   'david\\python-projects\\pydl-repo\\pydl-win\\lib\\site-packages\\attrs-23.1.0.dist-info\\INSTALLER',
    'DATA'),
   ('attrs-23.1.0.dist-info\\WHEEL',
    'd:\\6 - '
    'david\\python-projects\\pydl-repo\\pydl-win\\lib\\site-packages\\attrs-23.1.0.dist-info\\WHEEL',
    'DATA'),
-  ('attrs-23.1.0.dist-info\\RECORD',
-   'd:\\6 - '
-   'david\\python-projects\\pydl-repo\\pydl-win\\lib\\site-packages\\attrs-23.1.0.dist-info\\RECORD',
-   'DATA'),
   ('attrs-23.1.0.dist-info\\licenses\\LICENSE',
    'd:\\6 - '
    'david\\python-projects\\pydl-repo\\pydl-win\\lib\\site-packages\\attrs-23.1.0.dist-info\\licenses\\LICENSE',
    'DATA'),
-  ('attrs-23.1.0.dist-info\\INSTALLER',
+  ('attrs-23.1.0.dist-info\\METADATA',
    'd:\\6 - '
-   'david\\python-projects\\pydl-repo\\pydl-win\\lib\\site-packages\\attrs-23.1.0.dist-info\\INSTALLER',
+   'david\\python-projects\\pydl-repo\\pydl-win\\lib\\site-packages\\attrs-23.1.0.dist-info\\METADATA',
+   'DATA'),
+  ('attrs-23.1.0.dist-info\\RECORD',
+   'd:\\6 - '
+   'david\\python-projects\\pydl-repo\\pydl-win\\lib\\site-packages\\attrs-23.1.0.dist-info\\RECORD',
    'DATA')],
  [])
