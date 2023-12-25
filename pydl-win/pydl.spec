@@ -6,14 +6,16 @@ binaries = []
 hiddenimports = []
 tmp_ret = collect_all('pyfiglet')
 datas += tmp_ret[0]; binaries += tmp_ret[1]; hiddenimports += tmp_ret[2]
+tmp_ret = collect_all('ytmusicapi')
+datas += tmp_ret[0]; binaries += tmp_ret[1]; hiddenimports += tmp_ret[2]
 
 
 block_cipher = None
 
 
 a = Analysis(
-    ['pydl\\pydl.py'],
-    pathex=['D:\\6 - David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages'],
+    ['pydl/pydl.py'],
+    pathex=['/mnt/docs/6 - David/python-projects/pydl/dist/lib64/python3.11/site-packages'],
     binaries=binaries,
     datas=datas,
     hiddenimports=hiddenimports,

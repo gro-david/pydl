@@ -2,7 +2,6 @@
 import os
 import sys
 import rich_click as rclick
-from ffmpeg import FFmpegError
 
 # Rich modules for console styling
 from rich.console import Console
@@ -10,13 +9,14 @@ from rich.console import Console
 # create a console object to use for styling
 # this needs to be above the custom library imports, so taht they can reference this console object
 console = Console()
+shell = None
 
 # the module for the header
 from pyfiglet import Figlet
 
 # Custom modules
-from libraries import download_convert
 from libraries import manage_playlist
+from libraries import download_convert
 from libraries import read_conf
 from libraries import generate_conf
 from libraries import write_conf
@@ -24,6 +24,8 @@ from libraries import notifier
 from libraries import manual_tagging
 from libraries import queue_management
 from libraries import rich_click_shell
+from libraries import upload as uploader
+from libraries import error_handler
 
 # the config file is read and the values are stored in the conf dictionary
 try:
@@ -34,7 +36,7 @@ except FileNotFoundError:
     )
     write_conf.main(generate_conf.main())
     sys.exit()
-    
+
 # different sections are seperated to make it easier to work withs
 flags = conf["Flags"]
 general = conf["General"]
@@ -82,6 +84,8 @@ rclick.rich_click.SHOW_ARGUMENTS = True
 @rclick.group(invoke_without_command=True)
 @rclick.pass_context
 def main(ctx):
+    global shell
+    error_handler.test_wifi_connection()
     if ctx.invoked_subcommand is None:
         shell = rich_click_shell.make_click_shell(
             ctx,
@@ -147,13 +151,45 @@ try:
         help="Use the thumbnail as the cover or not",
         default=flags["tn-as-cover"],
     )
-    def download(input, path, playlist, tag, experimental, manual_tag, limit, tn):
-        download_logic(input, path, playlist, tag, experimental, manual_tag, limit, tn)
+    @rclick.option(
+        "--upload/--no-upload",
+        help="Upload the files to YT Music or not",
+        default=flags["upload"],
+        is_flag=True,
+    )
+    @rclick.option(
+        "--complex-filetree/--no-complex-filetree",
+        help="Place the downloaded files in the artist/album directory or not",
+        default=flags["complex-filetree"],
+        is_flag=True,
+    )
+    def download(
+        url,
+        path,
+        playlist,
+        tag,
+        experimental,
+        manual_tag,
+        limit,
+        tn,
+        upload,
+        complex_filetree,
+    ):
+        download_logic(
+            input=url,
+            path=path,
+            playlist=playlist,
+            tag=tag,
+            experimental=experimental,
+            manual_tag=manual_tag,
+            limit=limit,
+            tn=tn,
+            upload=upload,
+            complex_filetree=complex_filetree,
+        )
 
 except KeyError:
-    console.print(
-        "[bold red]Invalid config file![/bold red] Please generate a new config file!"
-    )
+    error_handler.config_error()
 # endregion
 
 
@@ -168,6 +204,8 @@ def download_logic(
     limit=general["dl-limit"],
     tn=flags["tn-as-cover"],
     status=True,
+    upload=flags["upload"],
+    complex_filetree=flags["complex-filetree"],
 ):
     # we want the relative path, path out is the output path after modifications
     path_out = os.path.join(os.getcwd(), path)
@@ -203,6 +241,10 @@ def download_logic(
         download_convert.set_tagging("off")
     # set if we want a status message
     download_convert.set_status(status)
+    # set if we want to use the complex filetree
+    download_convert.set_complex_structure(complex_filetree)
+    # set if we want to upload the files to YT Music
+    download_convert.set_upload(upload)
     # run the playlist management script which then downloads the song/songs. the title of the playlist will get saved
     pl_title = manage_playlist.main(input, playlist, tags_in, limit)
 
@@ -218,16 +260,34 @@ def download_logic(
 @rclick.option("--playlist/--no-playlist", is_flag=True, default=flags["playlist"])
 @rclick.option("-l", "--limit", default=general["dl-limit"])
 @rclick.option("-p", "--path", default="")
-def queue_add(url, index, playlist, limit, path):
+@rclick.option(
+    "--complex-filetree/--no-complex-filetree",
+    help="Place the downloaded files in the artist/album directory or not",
+    default=flags["complex-filetree"],
+    is_flag=True,
+)
+@rclick.option(
+    "--upload/--no-upload",
+    help="Upload the files to YT Music or not",
+    default=flags["upload"],
+    is_flag=True,
+)
+def queue_add(url, index, playlist, limit, path, complex_filetree, upload):
     queue_management.add_to_queue(
-        url=url, path=path, index=index, playlist=playlist, limit=limit
+        url=url,
+        path=path,
+        index=index,
+        playlist=playlist,
+        limit=limit,
+        complex_filetree=complex_filetree,
+        upload=upload,
     )
 
 
 @main.command(
     help="Queue only usable in the shell! Use 'pydl', without any arguments to enter the shell!"
 )
-def queue_list():
+def queue_ls():
     queue_management.get_queue()
 
 
@@ -235,7 +295,7 @@ def queue_list():
     help="Queue only usable in the shell! Use 'pydl', without any arguments to enter the shell!"
 )
 @rclick.argument("input")
-def queue_remove(input):
+def queue_rm(input):
     if input.isnumeric():
         index = int(input)
         queue_management.remove_from_queue(index)
@@ -268,9 +328,17 @@ def clear():
     os.system("cls" if os.name == "nt" else "clear")
 
 
+@main.command()
+def auth():
+    global shell
+    if shell != None:
+        console.print(
+            "[bold red]You can't run this command in the shell![/bold red] Please run this command outside of the pydl shell!"
+        )
+        raise rclick.Abort()
+    uploader.auth()
+
+
 # this gets run every time we want to do something with the script
 if __name__ == "__main__":
-    try:
-        main()
-    except FFmpegError:
-        console.print("[bold red]There was an ffmpeg error! Please ensure that ffmpeg is installed![/bold red]")
+    main()

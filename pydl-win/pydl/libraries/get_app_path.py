@@ -17,5 +17,5 @@ def main():
     if getattr(sys, "frozen", False):
         application_path = os.path.dirname(sys.executable)
     elif __file__:
-        application_path = os.path.join(__file__, os.path.join(os.pardir, os.pardir))
+        application_path = os.path.dirname(os.path.join(__file__, os.pardir))
     return application_path

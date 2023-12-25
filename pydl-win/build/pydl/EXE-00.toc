@@ -62,11 +62,11 @@
   ('pydl',
    'D:\\6 - David\\python-projects\\pydl-repo\\pydl-win\\pydl\\pydl.py',
    'PYSOURCE'),
-  ('python311.dll',
-   'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\python311.dll',
-   'BINARY'),
   ('VCRUNTIME140.dll',
    'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('python311.dll',
+   'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\python311.dll',
    'BINARY'),
   ('libopenblas64__v0.3.23-246-g3d31191b-gcc_10_3_0.dll',
    'D:\\6 - '
@@ -108,8 +108,8 @@
   ('unicodedata.pyd',
    'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\unicodedata.pyd',
    'EXTENSION'),
-  ('_uuid.pyd',
-   'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_uuid.pyd',
+  ('_elementtree.pyd',
+   'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_elementtree.pyd',
    'EXTENSION'),
   ('PIL\\_imagingft.cp311-win_amd64.pyd',
    'D:\\6 - '
@@ -193,8 +193,8 @@
    'D:\\6 - '
    'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\PIL\\_imaging.cp311-win_amd64.pyd',
    'EXTENSION'),
-  ('_elementtree.pyd',
-   'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_elementtree.pyd',
+  ('_uuid.pyd',
+   'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_uuid.pyd',
    'EXTENSION'),
   ('pydantic\\utils.cp311-win_amd64.pyd',
    'D:\\6 - '
@@ -2629,9 +2629,9 @@
    'D:\\6 - '
    'David\\python-projects\\pydl-repo\\pydl-win\\build\\pydl\\base_library.zip',
    'DATA'),
-  ('attrs-23.1.0.dist-info\\licenses\\LICENSE',
+  ('attrs-23.1.0.dist-info\\METADATA',
    'd:\\6 - '
-   'david\\python-projects\\pydl-repo\\pydl-win\\lib\\site-packages\\attrs-23.1.0.dist-info\\licenses\\LICENSE',
+   'david\\python-projects\\pydl-repo\\pydl-win\\lib\\site-packages\\attrs-23.1.0.dist-info\\METADATA',
    'DATA'),
   ('attrs-23.1.0.dist-info\\WHEEL',
    'd:\\6 - '
@@ -2641,18 +2641,18 @@
    'd:\\6 - '
    'david\\python-projects\\pydl-repo\\pydl-win\\lib\\site-packages\\attrs-23.1.0.dist-info\\RECORD',
    'DATA'),
+  ('attrs-23.1.0.dist-info\\licenses\\LICENSE',
+   'd:\\6 - '
+   'david\\python-projects\\pydl-repo\\pydl-win\\lib\\site-packages\\attrs-23.1.0.dist-info\\licenses\\LICENSE',
+   'DATA'),
   ('attrs-23.1.0.dist-info\\INSTALLER',
    'd:\\6 - '
    'david\\python-projects\\pydl-repo\\pydl-win\\lib\\site-packages\\attrs-23.1.0.dist-info\\INSTALLER',
-   'DATA'),
-  ('attrs-23.1.0.dist-info\\METADATA',
-   'd:\\6 - '
-   'david\\python-projects\\pydl-repo\\pydl-win\\lib\\site-packages\\attrs-23.1.0.dist-info\\METADATA',
    'DATA')],
  [],
  False,
  False,
- 1694793478,
+ 1703496925,
  [('run.exe',
    'D:\\6 - '
    'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\PyInstaller\\bootloader\\Windows-64bit-intel\\run.exe',

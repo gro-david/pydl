@@ -1,6 +1,7 @@
 (['D:\\6 - David\\python-projects\\pydl-repo\\pydl-win\\pydl\\pydl.py'],
  ['D:\\6 - David\\python-projects\\pydl-repo\\pydl-win\\pydl',
-  'D:\\6 - David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages'],
+  'D:\\mnt\\docs\\6 - '
+  'David\\python-projects\\pydl\\dist\\lib64\\python3.11\\site-packages'],
  ['pyfiglet',
   'pyfiglet.__main__',
   'pyfiglet.fonts',
@@ -3090,8 +3091,8 @@
   ('stringprep',
    'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\stringprep.py',
    'PYMODULE'),
-  ('tracemalloc',
-   'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\tracemalloc.py',
+  ('_py_abc',
+   'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\_py_abc.py',
    'PYMODULE'),
   ('getpass',
    'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\getpass.py',
@@ -3108,94 +3109,126 @@
   ('http.cookiejar',
    'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\http\\cookiejar.py',
    'PYMODULE'),
-  ('_py_abc',
-   'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\_py_abc.py',
+  ('tracemalloc',
+   'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\tracemalloc.py',
    'PYMODULE'),
-  ('libraries.rich_click_shell',
+  ('libraries.error_handler',
    'D:\\6 - '
-   'David\\python-projects\\pydl-repo\\pydl-win\\pydl\\libraries\\rich_click_shell\\__init__.py',
+   'David\\python-projects\\pydl-repo\\pydl-win\\pydl\\libraries\\error_handler.py',
    'PYMODULE'),
-  ('libraries.rich_click_shell.decorators',
+  ('pydl',
+   'D:\\6 - David\\python-projects\\pydl-repo\\pydl-win\\pydl\\pydl.py',
+   'PYMODULE'),
+  ('pytube.exceptions',
    'D:\\6 - '
-   'David\\python-projects\\pydl-repo\\pydl-win\\pydl\\libraries\\rich_click_shell\\decorators.py',
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pytube\\exceptions.py',
    'PYMODULE'),
-  ('libraries.rich_click_shell.core',
+  ('pytube',
    'D:\\6 - '
-   'David\\python-projects\\pydl-repo\\pydl-win\\pydl\\libraries\\rich_click_shell\\core.py',
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pytube\\__init__.py',
    'PYMODULE'),
-  ('libraries.rich_click_shell._compat',
+  ('pytube.contrib.search',
    'D:\\6 - '
-   'David\\python-projects\\pydl-repo\\pydl-win\\pydl\\libraries\\rich_click_shell\\_compat.py',
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pytube\\contrib\\search.py',
    'PYMODULE'),
-  ('click.shell_completion',
+  ('pytube.contrib',
    'D:\\6 - '
-   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\click\\shell_completion.py',
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pytube\\contrib\\__init__.py',
    'PYMODULE'),
-  ('click.utils',
+  ('pytube.innertube',
    'D:\\6 - '
-   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\click\\utils.py',
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pytube\\innertube.py',
    'PYMODULE'),
-  ('click.exceptions',
+  ('json',
+   'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\json\\__init__.py',
+   'PYMODULE'),
+  ('json.encoder',
+   'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\json\\encoder.py',
+   'PYMODULE'),
+  ('json.decoder',
+   'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\json\\decoder.py',
+   'PYMODULE'),
+  ('json.scanner',
+   'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\json\\scanner.py',
+   'PYMODULE'),
+  ('pytube.contrib.channel',
    'D:\\6 - '
-   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\click\\exceptions.py',
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pytube\\contrib\\channel.py',
    'PYMODULE'),
-  ('click.globals',
+  ('pytube.helpers',
    'D:\\6 - '
-   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\click\\globals.py',
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pytube\\helpers.py',
    'PYMODULE'),
-  ('click._compat',
+  ('pytube.contrib.playlist',
    'D:\\6 - '
-   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\click\\_compat.py',
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pytube\\contrib\\playlist.py',
    'PYMODULE'),
-  ('click._winconsole',
+  ('pytube.__main__',
    'D:\\6 - '
-   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\click\\_winconsole.py',
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pytube\\__main__.py',
    'PYMODULE'),
-  ('click.parser',
+  ('pytube.monostate',
    'D:\\6 - '
-   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\click\\parser.py',
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pytube\\monostate.py',
    'PYMODULE'),
-  ('difflib',
-   'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\difflib.py',
-   'PYMODULE'),
-  ('click.core',
+  ('pytube.metadata',
    'D:\\6 - '
-   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\click\\core.py',
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pytube\\metadata.py',
    'PYMODULE'),
-  ('click.decorators',
+  ('pytube.query',
    'D:\\6 - '
-   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\click\\decorators.py',
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pytube\\query.py',
    'PYMODULE'),
-  ('click.termui',
+  ('pytube.captions',
    'D:\\6 - '
-   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\click\\termui.py',
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pytube\\captions.py',
    'PYMODULE'),
-  ('click._termui_impl',
+  ('xml.etree.ElementTree',
+   'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\xml\\etree\\ElementTree.py',
+   'PYMODULE'),
+  ('xml.etree.cElementTree',
+   'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\xml\\etree\\cElementTree.py',
+   'PYMODULE'),
+  ('xml.etree.ElementInclude',
+   'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\xml\\etree\\ElementInclude.py',
+   'PYMODULE'),
+  ('xml.etree.ElementPath',
+   'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\xml\\etree\\ElementPath.py',
+   'PYMODULE'),
+  ('xml.etree',
+   'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\xml\\etree\\__init__.py',
+   'PYMODULE'),
+  ('pytube.streams',
    'D:\\6 - '
-   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\click\\_termui_impl.py',
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pytube\\streams.py',
    'PYMODULE'),
-  ('click.formatting',
+  ('pytube.itags',
    'D:\\6 - '
-   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\click\\formatting.py',
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pytube\\itags.py',
    'PYMODULE'),
-  ('click._textwrap',
+  ('pytube.request',
    'D:\\6 - '
-   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\click\\_textwrap.py',
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pytube\\request.py',
    'PYMODULE'),
-  ('click.types',
+  ('pytube.extract',
    'D:\\6 - '
-   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\click\\types.py',
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pytube\\extract.py',
    'PYMODULE'),
-  ('uuid',
-   'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\uuid.py',
-   'PYMODULE'),
-  ('click',
+  ('pytube.parser',
    'D:\\6 - '
-   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\click\\__init__.py',
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pytube\\parser.py',
    'PYMODULE'),
-  ('libraries.rich_click_shell._cmd',
+  ('pytube.cipher',
    'D:\\6 - '
-   'David\\python-projects\\pydl-repo\\pydl-win\\pydl\\libraries\\rich_click_shell\\_cmd.py',
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pytube\\cipher.py',
+   'PYMODULE'),
+  ('pytube.version',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pytube\\version.py',
+   'PYMODULE'),
+  ('libraries.upload',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\pydl\\libraries\\upload.py',
    'PYMODULE'),
   ('rich.prompt',
    'D:\\6 - '
@@ -3227,18 +3260,6 @@
   ('rich.highlighter',
    'D:\\6 - '
    'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\rich\\highlighter.py',
-   'PYMODULE'),
-  ('json',
-   'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\json\\__init__.py',
-   'PYMODULE'),
-  ('json.encoder',
-   'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\json\\encoder.py',
-   'PYMODULE'),
-  ('json.decoder',
-   'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\json\\decoder.py',
-   'PYMODULE'),
-  ('json.scanner',
-   'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\json\\scanner.py',
    'PYMODULE'),
   ('rich.protocol',
    'D:\\6 - '
@@ -4866,6 +4887,9 @@
   ('doctest',
    'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\doctest.py',
    'PYMODULE'),
+  ('difflib',
+   'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\difflib.py',
+   'PYMODULE'),
   ('unittest.case',
    'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\unittest\\case.py',
    'PYMODULE'),
@@ -5625,107 +5649,120 @@
    'D:\\6 - '
    'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\rich\\themes.py',
    'PYMODULE'),
+  ('platformdirs',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\platformdirs\\__init__.py',
+   'PYMODULE'),
+  ('platformdirs.android',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\platformdirs\\android.py',
+   'PYMODULE'),
+  ('platformdirs.unix',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\platformdirs\\unix.py',
+   'PYMODULE'),
+  ('platformdirs.macos',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\platformdirs\\macos.py',
+   'PYMODULE'),
+  ('platformdirs.windows',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\platformdirs\\windows.py',
+   'PYMODULE'),
+  ('platformdirs.version',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\platformdirs\\version.py',
+   'PYMODULE'),
+  ('platformdirs.api',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\platformdirs\\api.py',
+   'PYMODULE'),
+  ('libraries.rich_click_shell',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\pydl\\libraries\\rich_click_shell\\__init__.py',
+   'PYMODULE'),
+  ('libraries.rich_click_shell.decorators',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\pydl\\libraries\\rich_click_shell\\decorators.py',
+   'PYMODULE'),
+  ('libraries.rich_click_shell.core',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\pydl\\libraries\\rich_click_shell\\core.py',
+   'PYMODULE'),
+  ('libraries.rich_click_shell._compat',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\pydl\\libraries\\rich_click_shell\\_compat.py',
+   'PYMODULE'),
+  ('click.shell_completion',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\click\\shell_completion.py',
+   'PYMODULE'),
+  ('click.utils',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\click\\utils.py',
+   'PYMODULE'),
+  ('click.exceptions',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\click\\exceptions.py',
+   'PYMODULE'),
+  ('click.globals',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\click\\globals.py',
+   'PYMODULE'),
+  ('click._compat',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\click\\_compat.py',
+   'PYMODULE'),
+  ('click._winconsole',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\click\\_winconsole.py',
+   'PYMODULE'),
+  ('click.parser',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\click\\parser.py',
+   'PYMODULE'),
+  ('click.core',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\click\\core.py',
+   'PYMODULE'),
+  ('click.decorators',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\click\\decorators.py',
+   'PYMODULE'),
+  ('click.termui',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\click\\termui.py',
+   'PYMODULE'),
+  ('click._termui_impl',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\click\\_termui_impl.py',
+   'PYMODULE'),
+  ('click.formatting',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\click\\formatting.py',
+   'PYMODULE'),
+  ('click._textwrap',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\click\\_textwrap.py',
+   'PYMODULE'),
+  ('click.types',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\click\\types.py',
+   'PYMODULE'),
+  ('uuid',
+   'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\uuid.py',
+   'PYMODULE'),
+  ('click',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\click\\__init__.py',
+   'PYMODULE'),
+  ('libraries.rich_click_shell._cmd',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\pydl\\libraries\\rich_click_shell\\_cmd.py',
+   'PYMODULE'),
   ('libraries.queue_management',
    'D:\\6 - '
    'David\\python-projects\\pydl-repo\\pydl-win\\pydl\\libraries\\queue_management.py',
-   'PYMODULE'),
-  ('pydl',
-   'D:\\6 - David\\python-projects\\pydl-repo\\pydl-win\\pydl\\pydl.py',
-   'PYMODULE'),
-  ('pytube',
-   'D:\\6 - '
-   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pytube\\__init__.py',
-   'PYMODULE'),
-  ('pytube.contrib.search',
-   'D:\\6 - '
-   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pytube\\contrib\\search.py',
-   'PYMODULE'),
-  ('pytube.contrib',
-   'D:\\6 - '
-   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pytube\\contrib\\__init__.py',
-   'PYMODULE'),
-  ('pytube.innertube',
-   'D:\\6 - '
-   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pytube\\innertube.py',
-   'PYMODULE'),
-  ('pytube.contrib.channel',
-   'D:\\6 - '
-   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pytube\\contrib\\channel.py',
-   'PYMODULE'),
-  ('pytube.helpers',
-   'D:\\6 - '
-   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pytube\\helpers.py',
-   'PYMODULE'),
-  ('pytube.exceptions',
-   'D:\\6 - '
-   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pytube\\exceptions.py',
-   'PYMODULE'),
-  ('pytube.contrib.playlist',
-   'D:\\6 - '
-   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pytube\\contrib\\playlist.py',
-   'PYMODULE'),
-  ('pytube.__main__',
-   'D:\\6 - '
-   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pytube\\__main__.py',
-   'PYMODULE'),
-  ('pytube.monostate',
-   'D:\\6 - '
-   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pytube\\monostate.py',
-   'PYMODULE'),
-  ('pytube.metadata',
-   'D:\\6 - '
-   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pytube\\metadata.py',
-   'PYMODULE'),
-  ('pytube.query',
-   'D:\\6 - '
-   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pytube\\query.py',
-   'PYMODULE'),
-  ('pytube.captions',
-   'D:\\6 - '
-   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pytube\\captions.py',
-   'PYMODULE'),
-  ('xml.etree.ElementTree',
-   'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\xml\\etree\\ElementTree.py',
-   'PYMODULE'),
-  ('xml.etree.cElementTree',
-   'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\xml\\etree\\cElementTree.py',
-   'PYMODULE'),
-  ('xml.etree.ElementInclude',
-   'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\xml\\etree\\ElementInclude.py',
-   'PYMODULE'),
-  ('xml.etree.ElementPath',
-   'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\xml\\etree\\ElementPath.py',
-   'PYMODULE'),
-  ('xml.etree',
-   'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\xml\\etree\\__init__.py',
-   'PYMODULE'),
-  ('pytube.streams',
-   'D:\\6 - '
-   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pytube\\streams.py',
-   'PYMODULE'),
-  ('pytube.itags',
-   'D:\\6 - '
-   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pytube\\itags.py',
-   'PYMODULE'),
-  ('pytube.request',
-   'D:\\6 - '
-   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pytube\\request.py',
-   'PYMODULE'),
-  ('pytube.extract',
-   'D:\\6 - '
-   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pytube\\extract.py',
-   'PYMODULE'),
-  ('pytube.parser',
-   'D:\\6 - '
-   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pytube\\parser.py',
-   'PYMODULE'),
-  ('pytube.cipher',
-   'D:\\6 - '
-   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pytube\\cipher.py',
-   'PYMODULE'),
-  ('pytube.version',
-   'D:\\6 - '
-   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pytube\\version.py',
    'PYMODULE'),
   ('rich.live',
    'D:\\6 - '
@@ -5758,34 +5795,6 @@
   ('libraries.get_app_path',
    'D:\\6 - '
    'David\\python-projects\\pydl-repo\\pydl-win\\pydl\\libraries\\get_app_path.py',
-   'PYMODULE'),
-  ('platformdirs',
-   'D:\\6 - '
-   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\platformdirs\\__init__.py',
-   'PYMODULE'),
-  ('platformdirs.android',
-   'D:\\6 - '
-   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\platformdirs\\android.py',
-   'PYMODULE'),
-  ('platformdirs.unix',
-   'D:\\6 - '
-   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\platformdirs\\unix.py',
-   'PYMODULE'),
-  ('platformdirs.macos',
-   'D:\\6 - '
-   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\platformdirs\\macos.py',
-   'PYMODULE'),
-  ('platformdirs.windows',
-   'D:\\6 - '
-   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\platformdirs\\windows.py',
-   'PYMODULE'),
-  ('platformdirs.version',
-   'D:\\6 - '
-   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\platformdirs\\version.py',
-   'PYMODULE'),
-  ('platformdirs.api',
-   'D:\\6 - '
-   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\platformdirs\\api.py',
    'PYMODULE'),
   ('notifypy',
    'D:\\6 - '
@@ -5910,10 +5919,6 @@
   ('libraries.read_conf',
    'D:\\6 - '
    'David\\python-projects\\pydl-repo\\pydl-win\\pydl\\libraries\\read_conf.py',
-   'PYMODULE'),
-  ('libraries.manage_playlist',
-   'D:\\6 - '
-   'David\\python-projects\\pydl-repo\\pydl-win\\pydl\\libraries\\manage_playlist.py',
    'PYMODULE'),
   ('libraries.download_convert',
    'D:\\6 - '
@@ -6668,6 +6673,70 @@
    'D:\\6 - '
    'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\mutagen\\asf\\_util.py',
    'PYMODULE'),
+  ('ffmpeg',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ffmpeg\\__init__.py',
+   'PYMODULE'),
+  ('ffmpeg.progress',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ffmpeg\\progress.py',
+   'PYMODULE'),
+  ('ffmpeg.statistics',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ffmpeg\\statistics.py',
+   'PYMODULE'),
+  ('ffmpeg.utils',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ffmpeg\\utils.py',
+   'PYMODULE'),
+  ('ffmpeg.protocol',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ffmpeg\\protocol.py',
+   'PYMODULE'),
+  ('ffmpeg.ffmpeg',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ffmpeg\\ffmpeg.py',
+   'PYMODULE'),
+  ('ffmpeg.options',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ffmpeg\\options.py',
+   'PYMODULE'),
+  ('ffmpeg.file',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ffmpeg\\file.py',
+   'PYMODULE'),
+  ('pyee',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyee\\__init__.py',
+   'PYMODULE'),
+  ('pyee.trio',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyee\\trio.py',
+   'PYMODULE'),
+  ('pyee.executor',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyee\\executor.py',
+   'PYMODULE'),
+  ('pyee.twisted',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyee\\twisted.py',
+   'PYMODULE'),
+  ('pyee.asyncio',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyee\\asyncio.py',
+   'PYMODULE'),
+  ('pyee.base',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyee\\base.py',
+   'PYMODULE'),
+  ('ffmpeg.types',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ffmpeg\\types.py',
+   'PYMODULE'),
+  ('libraries.manage_playlist',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\pydl\\libraries\\manage_playlist.py',
+   'PYMODULE'),
   ('libraries', '-', 'PYMODULE'),
   ('pyfiglet',
    'D:\\6 - '
@@ -7021,66 +7090,6 @@
    'D:\\6 - '
    'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\rich\\_null_file.py',
    'PYMODULE'),
-  ('ffmpeg',
-   'D:\\6 - '
-   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ffmpeg\\__init__.py',
-   'PYMODULE'),
-  ('ffmpeg.progress',
-   'D:\\6 - '
-   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ffmpeg\\progress.py',
-   'PYMODULE'),
-  ('ffmpeg.statistics',
-   'D:\\6 - '
-   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ffmpeg\\statistics.py',
-   'PYMODULE'),
-  ('ffmpeg.utils',
-   'D:\\6 - '
-   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ffmpeg\\utils.py',
-   'PYMODULE'),
-  ('ffmpeg.protocol',
-   'D:\\6 - '
-   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ffmpeg\\protocol.py',
-   'PYMODULE'),
-  ('ffmpeg.ffmpeg',
-   'D:\\6 - '
-   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ffmpeg\\ffmpeg.py',
-   'PYMODULE'),
-  ('ffmpeg.options',
-   'D:\\6 - '
-   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ffmpeg\\options.py',
-   'PYMODULE'),
-  ('ffmpeg.file',
-   'D:\\6 - '
-   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ffmpeg\\file.py',
-   'PYMODULE'),
-  ('pyee',
-   'D:\\6 - '
-   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyee\\__init__.py',
-   'PYMODULE'),
-  ('pyee.trio',
-   'D:\\6 - '
-   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyee\\trio.py',
-   'PYMODULE'),
-  ('pyee.executor',
-   'D:\\6 - '
-   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyee\\executor.py',
-   'PYMODULE'),
-  ('pyee.twisted',
-   'D:\\6 - '
-   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyee\\twisted.py',
-   'PYMODULE'),
-  ('pyee.asyncio',
-   'D:\\6 - '
-   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyee\\asyncio.py',
-   'PYMODULE'),
-  ('pyee.base',
-   'D:\\6 - '
-   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\pyee\\base.py',
-   'PYMODULE'),
-  ('ffmpeg.types',
-   'D:\\6 - '
-   'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\ffmpeg\\types.py',
-   'PYMODULE'),
   ('rich_click',
    'D:\\6 - '
    'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\rich_click\\__init__.py',
@@ -7097,11 +7106,11 @@
    'D:\\6 - '
    'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\rich_click\\rich_click.py',
    'PYMODULE')],
- [('python311.dll',
-   'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\python311.dll',
-   'BINARY'),
-  ('VCRUNTIME140.dll',
+ [('VCRUNTIME140.dll',
    'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('python311.dll',
+   'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\python311.dll',
    'BINARY'),
   ('libopenblas64__v0.3.23-246-g3d31191b-gcc_10_3_0.dll',
    'D:\\6 - '
@@ -7143,8 +7152,8 @@
   ('unicodedata.pyd',
    'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\unicodedata.pyd',
    'EXTENSION'),
-  ('_uuid.pyd',
-   'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_uuid.pyd',
+  ('_elementtree.pyd',
+   'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_elementtree.pyd',
    'EXTENSION'),
   ('PIL\\_imagingft.cp311-win_amd64.pyd',
    'D:\\6 - '
@@ -7228,8 +7237,8 @@
    'D:\\6 - '
    'David\\python-projects\\pydl-repo\\pydl-win\\Lib\\site-packages\\PIL\\_imaging.cp311-win_amd64.pyd',
    'EXTENSION'),
-  ('_elementtree.pyd',
-   'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_elementtree.pyd',
+  ('_uuid.pyd',
+   'C:\\Users\\MaciSajt\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_uuid.pyd',
    'EXTENSION'),
   ('pydantic\\utils.cp311-win_amd64.pyd',
    'D:\\6 - '
@@ -9666,9 +9675,9 @@
    'D:\\6 - '
    'David\\python-projects\\pydl-repo\\pydl-win\\build\\pydl\\base_library.zip',
    'DATA'),
-  ('attrs-23.1.0.dist-info\\licenses\\LICENSE',
+  ('attrs-23.1.0.dist-info\\METADATA',
    'd:\\6 - '
-   'david\\python-projects\\pydl-repo\\pydl-win\\lib\\site-packages\\attrs-23.1.0.dist-info\\licenses\\LICENSE',
+   'david\\python-projects\\pydl-repo\\pydl-win\\lib\\site-packages\\attrs-23.1.0.dist-info\\METADATA',
    'DATA'),
   ('attrs-23.1.0.dist-info\\WHEEL',
    'd:\\6 - '
@@ -9678,12 +9687,12 @@
    'd:\\6 - '
    'david\\python-projects\\pydl-repo\\pydl-win\\lib\\site-packages\\attrs-23.1.0.dist-info\\RECORD',
    'DATA'),
+  ('attrs-23.1.0.dist-info\\licenses\\LICENSE',
+   'd:\\6 - '
+   'david\\python-projects\\pydl-repo\\pydl-win\\lib\\site-packages\\attrs-23.1.0.dist-info\\licenses\\LICENSE',
+   'DATA'),
   ('attrs-23.1.0.dist-info\\INSTALLER',
    'd:\\6 - '
    'david\\python-projects\\pydl-repo\\pydl-win\\lib\\site-packages\\attrs-23.1.0.dist-info\\INSTALLER',
-   'DATA'),
-  ('attrs-23.1.0.dist-info\\METADATA',
-   'd:\\6 - '
-   'david\\python-projects\\pydl-repo\\pydl-win\\lib\\site-packages\\attrs-23.1.0.dist-info\\METADATA',
    'DATA')],
  [])

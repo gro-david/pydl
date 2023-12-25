@@ -1240,6 +1240,10 @@
    'D:\\6 - '
    'David\\python-projects\\pydl-repo\\pydl-win\\pydl\\libraries\\download_convert.py',
    'PYMODULE'),
+  ('libraries.error_handler',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\pydl\\libraries\\error_handler.py',
+   'PYMODULE'),
   ('libraries.find_stream',
    'D:\\6 - '
    'David\\python-projects\\pydl-repo\\pydl-win\\pydl\\libraries\\find_stream.py',
@@ -1303,6 +1307,10 @@
   ('libraries.setmetadata',
    'D:\\6 - '
    'David\\python-projects\\pydl-repo\\pydl-win\\pydl\\libraries\\setmetadata.py',
+   'PYMODULE'),
+  ('libraries.upload',
+   'D:\\6 - '
+   'David\\python-projects\\pydl-repo\\pydl-win\\pydl\\libraries\\upload.py',
    'PYMODULE'),
   ('libraries.write_conf',
    'D:\\6 - '
