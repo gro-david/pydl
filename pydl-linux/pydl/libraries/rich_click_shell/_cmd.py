@@ -8,8 +8,6 @@ import inspect
 import os
 from cmd import Cmd
 
-import rich_click as click
-
 from libraries.rich_click_shell._compat import readline, get_input
 
 # modifications
@@ -18,6 +16,7 @@ from rich.console import Console
 
 console = Console()
 
+import rich_click as click
 
 class ClickCmd(Cmd, object):
     """

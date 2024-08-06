@@ -19,9 +19,7 @@ browser_path = os.path.join(config_dir, "browser.json")
 def auth():
     pydl.console.print(
         f"""
-        Authenticate using a session token. Required for uploading. This might not work correctly on Windows since Ctrl+Z/Ctrl+D might not have the correct effect in the terminal. 
-        If it does not work correctly press Ctrl+C to abort, go to https://ytmusicapi.readthedocs.io/en/stable/setup/browser.html and follow the manual instructions. The browser file is located at {browser_path}.
-                    
+        Authenticate using a session token. Required for uploading.
 
         -  Open a new tab
 
@@ -46,7 +44,7 @@ def auth():
         """
     )    
     headers = Prompt.ask(
-        "[bold green]Please enter headers copied from the browser (Press Ctrl+D/Ctrl+Z to save):[/bold green] \n"
+        "[bold green]Please enter headers copied from the browser (Press Ctrl+D/Ctrl+Z [Enter] to save):[/bold green] \n"
     )
     headers = ""
     try:
@@ -81,17 +79,15 @@ def upload_song(filepath):
 
 
 try:
-    ytmusic = YTMusic(browser_path) if read_conf.main()["Flags"]["upload"] else YTMusic()
+    ytmusic = YTMusic(browser_path) if pydl.flags["upload"] else YTMusic()
 except KeyError:
     pydl.console.print("[bold red]Invalid config file![bold red] Please generate a new one...")
     conf = generate_conf.main()
     write_conf.main(conf)
     sys.exit()
 except FileNotFoundError:
-    pydl.console.print("[bold red]The config file was not found![bold red] Please generate a new one...")
-    conf = generate_conf.main()
-    write_conf.main(conf)
-    sys.exit()
+    pydl.console.print("[bold red]Authentication file not found![bold red] Please generate a new one...")
+    auth()
 except json.decoder.JSONDecodeError:
     auth()
 

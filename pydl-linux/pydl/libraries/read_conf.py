@@ -1,9 +1,10 @@
+import os
 from libraries import get_app_path
 
 
 def main():
     # full path to the config file. works because the config file is in the same directory as the running file
-    full_path = get_app_path.config()
+    full_path = os.path.abspath(get_app_path.config())
 
     # open the config file and prepare for translation
     conf_file = open(full_path, "r")

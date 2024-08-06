@@ -1,31 +1,68 @@
 # type: ignore
 import os
 import sys
+import platformdirs
 import rich_click as rclick
 
 # Rich modules for console styling
 from rich.console import Console
 
+
 # create a console object to use for styling
-# this needs to be above the custom library imports, so taht they can reference this console object
+# this needs to be above the custom library imports, so that they can reference this console object
 console = Console()
 shell = None
+
+from libraries import read_conf
 
 # the module for the header
 from pyfiglet import Figlet
 
-# Custom modules
-from libraries import manage_playlist
-from libraries import download_convert
-from libraries import read_conf
-from libraries import generate_conf
-from libraries import write_conf
-from libraries import notifier
-from libraries import manual_tagging
-from libraries import queue_management
-from libraries import rich_click_shell
-from libraries import upload as uploader
-from libraries import error_handler
+
+# the empty tags dictionary will be filled with the metadata of the song if manual tagging is enabled
+tags_in = {
+    "artist": None,
+    "album": None,
+    "title": None,
+    "genre": None,
+    "song_nr": None,
+}
+
+# region configuring rich-click
+# configuring the command sorting
+rclick.rich_click.COMMAND_GROUPS = {
+    "*": [
+        {
+            "name": "Universal Commands",
+            "commands": ["download", "generate-config", "auth"],
+        },
+        {
+            "name": "Shell Commands",
+            "commands": [
+                "queue-add",
+                "queue-rm",
+                "queue-start",
+                "queue-clear",
+                "queue-ls",
+            ],
+        },
+        {
+            "name": "System Command Emulation",
+            "commands": [
+                "cd",
+                "pwd",
+                "clear",
+            ],
+        },
+    ]
+}
+rclick.rich_click.STYLE_USAGE = "bold red"
+rclick.rich_click.SHOW_ARGUMENTS = True
+# for useage with rich attributes like [red]
+rclick.rich_click.USE_RICH_MARKUP = True
+# show the arguments in the help menu
+rclick.rich_click.SHOW_ARGUMENTS = True
+# endregion
 
 # the config file is read and the values are stored in the conf dictionary
 try:
@@ -41,50 +78,25 @@ except FileNotFoundError:
 flags = conf["Flags"]
 general = conf["General"]
 
-# the empty tags dictionary will be filled with the metadata of the song if manual tagging is enabled
-tags_in = {
-    "artist": None,
-    "album": None,
-    "title": None,
-    "genre": None,
-    "song_nr": None,
-}
-
-# region configuring rich-click
-# configuring the command sorting
-rclick.rich_click.COMMAND_GROUPS = {
-    "pydl.py": [
-        {
-            "name": "Universal Commands",
-            "commands": ["download", "generate-config"],
-        },
-        {
-            "name": "Shell Commands",
-            "commands": [
-                "queue-add",
-                "queue-remove",
-                "queue-start",
-                "queue-clear",
-                "queue-list",
-                "clear",
-            ],
-        },
-    ]
-}
-rclick.rich_click.STYLE_USAGE = "bold red"
-rclick.rich_click.SHOW_ARGUMENTS = True
-# for useage with rich attributes like [red]
-rclick.rich_click.USE_RICH_MARKUP = True
-# show the arguments in the help menu
-rclick.rich_click.SHOW_ARGUMENTS = True
-# endregion
+# Custom modules
+from libraries import manage_playlist
+from libraries import download_convert
+from libraries import generate_conf
+from libraries import write_conf
+from libraries import notifier
+from libraries import manual_tagging
+from libraries import queue_management
+from libraries import rich_click_shell
+from libraries import upload as uploader
+from libraries import error_handler
 
 
 # when running the script one function needs to be specified which gets run, when making a group of the commands you can have multiple commands in one script
 @rclick.group(invoke_without_command=True)
 @rclick.pass_context
 def main(ctx):
-    global shell
+    global shell, context
+    context = ctx
     error_handler.test_wifi_connection()
     if ctx.invoked_subcommand is None:
         shell = rich_click_shell.make_click_shell(
@@ -98,10 +110,13 @@ def main(ctx):
 
 
 # this command comes from the main group to run it you need to type the following: "python main.py command_one"
-@main.command()
+@main.command(
+    help="This will run you through an interactive process to update your config file. If using the shell please exit it and restart the program for your changes to become active."
+)
 def generate_config():
     conf = generate_conf.main()
     write_conf.main(conf)
+    update_config()
 
 
 # region Download Command
@@ -110,7 +125,7 @@ def generate_config():
 # if the config file is wrong the script would throw an error. To avoid this we deliver our own error message and exit the script
 try:
 
-    @main.command()
+    @main.command(help="Download a song or playlist.")
     @rclick.argument("url")
     @rclick.option(
         "-p",
@@ -365,11 +380,23 @@ def auth():
 
 
 @main.command(
-        help='This is the path where the files will be saved. Useful when in the shell and you have no access to the builtin pwd command.'
+    help="This is the path where the files will be saved. Useful when in the shell and you have no access to the builtin pwd command."
 )
 def pwd():
     print(os.getcwd())
 
+
+@main.command(help="Change the current working directory. Useful in the shell.")
+@rclick.argument("path", type=rclick.Path(exists=True))
+def cd(path):
+    try:
+        os.chdir(path)
+    except Exception as e:
+        console.print(f"[bold red]Error:[/bold red] {e}")
+
+
 # this gets run every time we want to do something with the script
 if __name__ == "__main__":
+    if os.getcwd() == "C:\\Program Files\\pydl":
+        os.chdir(platformdirs.user_music_dir())
     main()
