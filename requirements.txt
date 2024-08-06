@@ -1,4 +1,4 @@
-pytube
+pytubefix
 rich
 click
 rich-click
@@ -10,3 +10,4 @@ notify-py
 pillow
 python-ffmpeg
 platformdirs
+ytmusicapi

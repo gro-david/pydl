@@ -6,8 +6,8 @@ from rich.panel import Panel
 from rich.live import Live
 from rich.text import Text
 
-from pytube import YouTube as YT
-from pytube import Playlist
+from pytubefix import YouTube as YT
+from pytubefix import Playlist
 
 
 import pydl

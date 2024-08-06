@@ -1,4 +1,4 @@
-from pytube import exceptions as pytube_exceptions
+from pytubefix import exceptions as pytube_exceptions
 import pydl
 import urllib
 

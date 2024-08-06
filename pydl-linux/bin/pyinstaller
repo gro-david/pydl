@@ -1,6 +1,4 @@
-#!/bin/sh
-'''exec' "/mnt/docs/6 - David/python-projects/pydl-repo/pydl-linux/bin/python" "$0" "$@"
-' '''
+#!/mnt/data/python-projects/pydl/pydl-linux/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys

@@ -328,7 +328,32 @@ def clear():
     os.system("cls" if os.name == "nt" else "clear")
 
 
-@main.command()
+@main.command(
+    help="""Authenticate using a session token. Required for uploading.
+            
+
+ -  Open a new tab
+
+ -  Open the developer tools (Ctrl-Shift-I) and select the “Network” tab
+
+ -  Go to https://music.youtube.com and ensure you are logged in
+
+ -  Find an authenticated POST request. The simplest way is to filter by /browse using the search bar of the developer tools. If you don’t see the request, try scrolling down a bit or clicking on the library button in the top bar.
+
+Firefox (recommended)
+
+ -  Verify that the request looks like this: Status 200, Method POST, Domain music.youtube.com, File browse?...
+
+ -  Copy the request headers (right click > copy > copy request headers)
+
+Chromium (Chrome/Edge)
+
+ -  Verify that the request looks like this: Status 200, Name browse?...
+
+ -  Click on the Name of any matching request. In the “Headers” tab, scroll to the section “Request headers” and copy everything starting from “accept: */*” to the end of the section
+
+"""
+)
 def auth():
     global shell
     if shell != None:
@@ -338,6 +363,12 @@ def auth():
         raise rclick.Abort()
     uploader.auth()
 
+
+@main.command(
+        help='This is the path where the files will be saved. Useful when in the shell and you have no access to the builtin pwd command.'
+)
+def pwd():
+    print(os.getcwd())
 
 # this gets run every time we want to do something with the script
 if __name__ == "__main__":

@@ -1,9 +1,9 @@
 import asyncio
 from shazamio import Shazam
 
-from pytube import YouTube as YT
-from pytube import Channel as CH
-from pytube.exceptions import PytubeError
+from pytubefix import YouTube as YT
+from pytubefix import Channel as CH
+from pytubefix.exceptions import PytubeFixError
 
 
 async def recognize(song):
@@ -11,7 +11,7 @@ async def recognize(song):
     shazam = Shazam()
 
     # recognize the song and all of the infos
-    out = await shazam.recognize_song(song)
+    out = await shazam.recognize(song)
 
     # find the results we are looking for and return them
     genre = out["track"]["genres"]["primary"]
@@ -44,7 +44,7 @@ def get_title(url):
         try:
             title = YT(url).title
             error = False
-        except PytubeError:
+        except PytubeFixError:
             pass
 
     return title

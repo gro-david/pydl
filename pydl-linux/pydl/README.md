@@ -1,5 +1,5 @@
 # pydl - YouTube Downloader Project
-## by Dávid Gro.
+## by Dávid Groniewsky
 \
 ### Description
 \
@@ -85,4 +85,4 @@ Windows:
     - `generate-config`: Generates the pydl.conf file \
     - `pydl` (no arguments): Opens the pydl shell
 
-###### DISCLAIMER: This project is for demonstration purposes only.
+

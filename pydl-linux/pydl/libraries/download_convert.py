@@ -7,10 +7,10 @@ from time import sleep
 from rich.prompt import Confirm
 
 # pytube
-import pytube as pyt
-from pytube import YouTube as YTlar
-from pytube import Channel as CH
-from pytube.exceptions import PytubeError
+import pytubefix as pyt
+from pytubefix import YouTube as YT
+from pytubefix import Channel as CH
+from pytubefix.exceptions import PytubeFixError
 
 # Custom modules
 from libraries import setmetadata
@@ -24,6 +24,8 @@ from libraries import read_conf
 from libraries import upload as uploader
 
 from pydl import console
+
+import ntpath
 
 tn_as_cover = None
 
@@ -55,8 +57,9 @@ def download(url):
 
 def convert(song, output_dir, title):
     # set the new filename with the mp3 extension
-    filename = song.split(".webm")[0] + ".mp3"
-    filename = os.path.join(output_dir, filename)
+    os
+    filename = ntpath.basename(song).removesuffix(".webm") + ".mp3"
+    filename = os.path.join(output_dir,filename)
 
     # if we would not check this ffmpeg would hast ot itself. That would mess up the status
     if os.path.isfile(filename):
@@ -139,7 +142,7 @@ def set_path(path):
 
 
 def main(url, tags_in, song_nr, playlist_title):
-    global album_name
+    global album_name, output_dir
     tags_out = {
         "artist": None,
         "album": None,
@@ -147,6 +150,7 @@ def main(url, tags_in, song_nr, playlist_title):
         "genre": None,
         "song_nr": None,
     }
+
 
     # we only need the inputs when we are tagging manually
     if tagging == "manual":

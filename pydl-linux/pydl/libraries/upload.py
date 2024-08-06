@@ -1,3 +1,4 @@
+import json
 from ytmusicapi import YTMusic
 import ytmusicapi
 import platformdirs
@@ -13,20 +14,37 @@ config_dir = platformdirs.user_config_dir(
 )
 browser_path = os.path.join(config_dir, "browser.json")
 
-try:
-    ytmusic = YTMusic(browser_path) if read_conf.main()["Flags"]["upload"] else YTMusic()
-except KeyError:
-    pydl.console.print("[bold red]Invalid config file![bold red] Please generate a new one...")
-    conf = generate_conf.main()
-    write_conf.main(conf)
-    sys.exit()
-except FileNotFoundError:
-    pydl.console.print("[bold red]The config file was not found![bold red] Please generate a new one...")
-    conf = generate_conf.main()
-    write_conf.main(conf)
-    sys.exit()
+
 
 def auth():
+    pydl.console.print(
+        f"""
+        Authenticate using a session token. Required for uploading. This might not work correctly on Windows since Ctrl+Z/Ctrl+D might not have the correct effect in the terminal. 
+        If it does not work correctly press Ctrl+C to abort, go to https://ytmusicapi.readthedocs.io/en/stable/setup/browser.html and follow the manual instructions. The browser file is located at {browser_path}.
+                    
+
+        -  Open a new tab
+
+        -  Open the developer tools (Ctrl-Shift-I) and select the “Network” tab
+
+        -  Go to https://music.youtube.com and ensure you are logged in
+
+        -  Find an authenticated POST request. The simplest way is to filter by /browse using the search bar of the developer tools. If you don’t see the request, try scrolling down a bit or clicking on the library button in the top bar.
+
+        Firefox (recommended)
+
+        -  Verify that the request looks like this: Status 200, Method POST, Domain music.youtube.com, File browse?...
+
+        -  Copy the request headers (right click > copy > copy request headers)
+
+        Chromium (Chrome/Edge)
+
+        -  Verify that the request looks like this: Status 200, Name browse?...
+
+        -  Click on the Name of any matching request. In the “Headers” tab, scroll to the section “Request headers” and copy everything starting from “accept: */*” to the end of the section
+
+        """
+    )    
     headers = Prompt.ask(
         "[bold green]Please enter headers copied from the browser (Press Ctrl+D/Ctrl+Z to save):[/bold green] \n"
     )
@@ -60,6 +78,22 @@ def upload_dir(dirpath, recursive=True):
 
 def upload_song(filepath):
     ytmusic.upload_song(filepath=filepath)
+
+
+try:
+    ytmusic = YTMusic(browser_path) if read_conf.main()["Flags"]["upload"] else YTMusic()
+except KeyError:
+    pydl.console.print("[bold red]Invalid config file![bold red] Please generate a new one...")
+    conf = generate_conf.main()
+    write_conf.main(conf)
+    sys.exit()
+except FileNotFoundError:
+    pydl.console.print("[bold red]The config file was not found![bold red] Please generate a new one...")
+    conf = generate_conf.main()
+    write_conf.main(conf)
+    sys.exit()
+except json.decoder.JSONDecodeError:
+    auth()
 
 
 if __name__ == "__main__":
