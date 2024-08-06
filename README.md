@@ -1,6 +1,6 @@
 # pydl - YouTube Downloader Project
 ## by Dávid Groniewsky
-\
+
 ### Description
 \
 This is version 2 of my python YouTube Downloader. I didn't make v1 available because the code looked awful, the quality was low, and the download speed was slow.
@@ -66,23 +66,12 @@ Future functions: \
 ### Installation Instructions:
 
 Linux:
-    - Download the latest Linux release from the releases page \
-    - Extract the archive \
-    - Open a terminal in the extracted folder \
-    - Run the following command: `sudo ./linux-install.sh` \
+    - Download the install.sh file and execute it\
     - You can now use the pydl command in your terminal \
 \
 Windows:
-    - Download the latest Windows release from the releases page \
-    - Extract the archive \
-    - Open the command prompt as administrator \
-    - Navigate to the extracted archive \ 
-    - run the `./win-install.bat` command \
+    - Download and run pydl-setup.exe \
     - You can now use the pydl command in your terminal \
 
- Docs: \
-    - `download`: Downloads a song or a playlist \
-    - `generate-config`: Generates the pydl.conf file \
-    - `pydl` (no arguments): Opens the pydl shell
 
 
